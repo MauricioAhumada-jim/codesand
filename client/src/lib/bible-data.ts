@@ -1,0 +1,168 @@
+export interface BibleBook {
+  id: string;
+  name: string;
+  chapters: number;
+}
+
+export interface BibleCategory {
+  [category: string]: BibleBook[];
+}
+
+export interface BibleStructure {
+  [testament: string]: BibleCategory;
+}
+
+export interface Bookmark {
+  id: number;
+  book: string;
+  chapter: number;
+  verse?: number;
+  verseText?: string;
+  bookName: string;
+  timestamp: string;
+}
+
+export interface VerseData {
+  text: string;
+  audioUrl?: string;
+}
+
+export type VerseContent = string | VerseData;
+
+export interface BibleContentChapter {
+  [chapter: number]: VerseContent[];
+}
+
+export interface BibleContentStructure {
+  [bookId: string]: BibleContentChapter;
+}
+
+export const bibleStructure: BibleStructure = {
+  'Antiguo Testamento': {
+    'Pentateuco': [
+      { id: 'genesis', name: 'Génesis', chapters: 50 },
+      { id: 'exodo', name: 'Éxodo', chapters: 40 },
+      { id: 'levitico', name: 'Levítico', chapters: 27 },
+      { id: 'numeros', name: 'Números', chapters: 36 },
+      { id: 'deuteronomio', name: 'Deuteronomio', chapters: 34 }
+    ],
+    'Históricos': [
+      { id: 'josue', name: 'Josué', chapters: 24 },
+      { id: 'jueces', name: 'Jueces', chapters: 21 },
+      { id: 'rut', name: 'Rut', chapters: 4 },
+      { id: '1samuel', name: '1 Samuel', chapters: 31 },
+      { id: '2samuel', name: '2 Samuel', chapters: 24 }
+    ],
+    'Poéticos': [
+      { id: 'job', name: 'Job', chapters: 42 },
+      { id: 'salmos', name: 'Salmos', chapters: 150 },
+      { id: 'proverbios', name: 'Proverbios', chapters: 31 },
+      { id: 'eclesiastes', name: 'Eclesiastés', chapters: 12 },
+      { id: 'cantares', name: 'Cantares', chapters: 8 }
+    ],
+    'Profetas Mayores': [
+      { id: 'isaias', name: 'Isaías', chapters: 66 },
+      { id: 'jeremias', name: 'Jeremías', chapters: 52 },
+      { id: 'lamentaciones', name: 'Lamentaciones', chapters: 5 },
+      { id: 'ezequiel', name: 'Ezequiel', chapters: 48 },
+      { id: 'daniel', name: 'Daniel', chapters: 12 }
+    ]
+  },
+  'Nuevo Testamento': {
+    'Evangelios': [
+      { id: 'mateo', name: 'Mateo', chapters: 28 },
+      { id: 'marcos', name: 'Marcos', chapters: 16 },
+      { id: 'lucas', name: 'Lucas', chapters: 24 },
+      { id: 'juan', name: 'Juan', chapters: 21 }
+    ],
+    'Históricos': [
+      { id: 'hechos', name: 'Hechos', chapters: 28 }
+    ],
+    'Cartas Paulinas': [
+      { id: 'romanos', name: 'Romanos', chapters: 16 },
+      { id: '1corintios', name: '1 Corintios', chapters: 16 },
+      { id: '2corintios', name: '2 Corintios', chapters: 13 },
+      { id: 'galatas', name: 'Gálatas', chapters: 6 },
+      { id: 'efesios', name: 'Efesios', chapters: 6 },
+      { id: 'filipenses', name: 'Filipenses', chapters: 4 },
+      { id: 'colosenses', name: 'Colosenses', chapters: 4 }
+    ],
+    'Cartas Generales': [
+      { id: 'hebreos', name: 'Hebreos', chapters: 13 },
+      { id: 'santiago', name: 'Santiago', chapters: 5 },
+      { id: '1pedro', name: '1 Pedro', chapters: 5 },
+      { id: '2pedro', name: '2 Pedro', chapters: 3 },
+      { id: '1juan', name: '1 Juan', chapters: 5 },
+      { id: 'apocalipsis', name: 'Apocalipsis', chapters: 22 }
+    ]
+  }
+};
+
+export const bibleContent: BibleContentStructure = {
+  genesis: {
+    1: [
+      { text: "En el principio creó Dios los cielos y la tierra.", audioUrl: "" },
+      { text: "Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas.", audioUrl: "" },
+      { text: "Y dijo Dios: Sea la luz; y fue la luz.", audioUrl: "" },
+      { text: "Y vio Dios que la luz era buena; y separó Dios la luz de las tinieblas.", audioUrl: "" },
+      { text: "Y llamó Dios a la luz Día, y a las tinieblas llamó Noche. Y fue la tarde y la mañana un día.", audioUrl: "" },
+      { text: "Luego dijo Dios: Haya expansión en medio de las aguas, y separe las aguas de las aguas.", audioUrl: "" },
+      { text: "E hizo Dios la expansión, y separó las aguas que estaban debajo de la expansión, de las aguas que estaban sobre la expansión. Y fue así.", audioUrl: "" },
+      { text: "Y llamó Dios a la expansión Cielos. Y fue la tarde y la mañana el día segundo.", audioUrl: "" }
+    ]
+  }
+};
+
+export function getVerseText(verse: VerseContent): string {
+  if (typeof verse === 'string') {
+    return verse;
+  }
+  return verse.text;
+}
+
+export function getVerseAudioUrl(verse: VerseContent): string | undefined {
+  if (typeof verse === 'string') {
+    return undefined;
+  }
+  return verse.audioUrl || undefined;
+}
+
+export function getBibleBook(bookId: string): BibleBook | null {
+  for (const testament in bibleStructure) {
+    for (const category in bibleStructure[testament]) {
+      const book = bibleStructure[testament][category].find(b => b.id === bookId);
+      if (book) return book;
+    }
+  }
+  return null;
+}
+
+export function getAllBooksInOrder(): BibleBook[] {
+  const books: BibleBook[] = [];
+  for (const testament of ['Antiguo Testamento', 'Nuevo Testamento']) {
+    if (bibleStructure[testament]) {
+      for (const category in bibleStructure[testament]) {
+        books.push(...bibleStructure[testament][category]);
+      }
+    }
+  }
+  return books;
+}
+
+export function getNextBook(currentBookId: string): BibleBook | null {
+  const books = getAllBooksInOrder();
+  const currentIndex = books.findIndex(b => b.id === currentBookId);
+  if (currentIndex >= 0 && currentIndex < books.length - 1) {
+    return books[currentIndex + 1];
+  }
+  return null;
+}
+
+export function getPreviousBook(currentBookId: string): BibleBook | null {
+  const books = getAllBooksInOrder();
+  const currentIndex = books.findIndex(b => b.id === currentBookId);
+  if (currentIndex > 0) {
+    return books[currentIndex - 1];
+  }
+  return null;
+}
