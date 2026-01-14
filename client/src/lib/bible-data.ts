@@ -110,6 +110,32 @@ export const bibleContent: BibleContentStructure = {
       { text: "E hizo Dios la expansión, y separó las aguas que estaban debajo de la expansión, de las aguas que estaban sobre la expansión. Y fue así.", audioUrl: "" },
       { text: "Y llamó Dios a la expansión Cielos. Y fue la tarde y la mañana el día segundo.", audioUrl: "" }
     ]
+  },
+  exodo: {
+    1: [
+      { text: "Estos son los nombres de los hijos de Israel que entraron en Egipto con Jacob; cada uno entró con su familia:", audioUrl: "" },
+      { text: "Rubén, Simeón, Leví y Judá;", audioUrl: "" },
+      { text: "Isacar, Zabulón y Benjamín;", audioUrl: "" },
+      { text: "Dan, Neftalí, Gad y Aser.", audioUrl: "" },
+      { text: "Todas las personas que descendieron de Jacob eran setenta. Y José estaba en Egipto.", audioUrl: "" },
+      { text: "Y murió José, y todos sus hermanos, y toda aquella generación.", audioUrl: "" },
+      { text: "Y los hijos de Israel fructificaron y se multiplicaron, y fueron aumentados y fortalecidos en extremo, y se llenó de ellos la tierra.", audioUrl: "" },
+      { text: "Levantose entre tanto un nuevo rey sobre Egipto, que no conocía a José; y dijo a su pueblo:", audioUrl: "" },
+      { text: "He aquí, el pueblo de los hijos de Israel es mayor y más fuerte que nosotros.", audioUrl: "" },
+      { text: "Ahora, pues, seamos sabios para con él, para que no se multiplique, y acontezca que viniendo guerra, él también se una a nuestros enemigos y pelee contra nosotros, y se vaya de la tierra.", audioUrl: "" },
+      { text: "Entonces pusieron sobre ellos comisarios de tributos que los molestasen con sus cargas; y edificaron a Faraón las ciudades de almacenaje, Pitón y Ramesés.", audioUrl: "" },
+      { text: "Pero cuanto más los oprimían, tanto más se multiplicaban y crecían, de manera que los egipcios temían a los hijos de Israel.", audioUrl: "" },
+      { text: "Y los egipcios hicieron servir a los hijos de Israel con dureza,", audioUrl: "" },
+      { text: "y amargaron su vida con dura servidumbre, en hacer barro y ladrillo, y en toda labor del campo y en todo su servicio, al cual los obligaban con rigor.", audioUrl: "" },
+      { text: "Y habló el rey de Egipto a las parteras de las hebreas, una de las cuales se llamaba Sifra, y otra Fúa, y les dijo:", audioUrl: "" },
+      { text: "Cuando asistáis a las hebreas en sus partos, y veáis el sexo, si es hijo, matadlo; y si es hija, entonces viva.", audioUrl: "" },
+      { text: "Pero las parteras temieron a Dios, y no hicieron como les mandó el rey de Egipto, sino que preservaron la vida a los niños.", audioUrl: "" },
+      { text: "Y el rey de Egipto hizo llamar a las parteras y les dijo: ¿Por qué habéis hecho esto, que habéis preservado la vida a los niños?", audioUrl: "" },
+      { text: "Y las parteras respondieron a Faraón: Porque las mujeres hebreas no son como las egipcias; pues son robustas, y dan a luz antes que la partera venga a ellas.", audioUrl: "" },
+      { text: "Y Dios hizo bien a las parteras; y el pueblo se multiplicó y se fortaleció en gran manera.", audioUrl: "" },
+      { text: "Y por haber las parteras temido a Dios, él prosperó sus familias.", audioUrl: "" },
+      { text: "Entonces Faraón mandó a todo su pueblo, diciendo: Echad al río a todo hijo que naciere, y a toda hija preservad la vida.", audioUrl: "" }
+    ]
   }
 };
 
