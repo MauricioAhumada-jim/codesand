@@ -101,8 +101,8 @@ export const bibleStructure: BibleStructure = {
 export const bibleContent: BibleContentStructure = {
   genesis: {
     1: [
-      { text: "En el principio creó Dios los cielos y la tierra.", audioUrl: "" },
-      { text: "Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas.", audioUrl: "" },
+      { text: "En el principio creó Dios los cielos y la tierra.", audioUrl: "https://drive.google.com/file/d/1zhK-KLSq2lE74cNHX8sOPBq_6FND5dPu/view?usp=sharing" },
+      { text: "Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas.", audioUrl: "https://drive.google.com/file/d/1zhK-KLSq2lE74cNHX8sOPBq_6FND5dPu/view?usp=sharing" },
       { text: "Y dijo Dios: Sea la luz; y fue la luz.", audioUrl: "" },
       { text: "Y vio Dios que la luz era buena; y separó Dios la luz de las tinieblas.", audioUrl: "" },
       { text: "Y llamó Dios a la luz Día, y a las tinieblas llamó Noche. Y fue la tarde y la mañana un día.", audioUrl: "" },
