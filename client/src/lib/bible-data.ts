@@ -174,8 +174,6 @@ export const bibleContent: BibleContentStructure = {
       { text: "Por eso abandona el hombre a su padre y a su madre, se une a su mujer y se hacen una sola carne.", audioUrl: "" },
       { text: "Estaban ambos desnudos, el hombre y su mujer, pero no se avergonzaban.", audioUrl: "" }
     ],
-    genesis: {
-    // ... capítulos 1 y 2
     3: [
       { text: "La serpiente era el más astuto de todos los animales del campo que el Señor Dios había hecho. Y dijo a la mujer: «¿Conque Dios os ha dicho: "No comáis de ningún árbol del jardín"?»", audioUrl: "" },
       { text: "La mujer respondió a la serpiente: «Podemos comer del fruto de los árboles del jardín;", audioUrl: "" },
