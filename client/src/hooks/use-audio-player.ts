@@ -1,5 +1,5 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { bibleContent, getVerseAudioUrl, getNextBook, type VerseContent } from '@/lib/bible-data';
+import { getVerseAudioUrl, getNextBook, getBibleBook, type VerseContent } from '@/lib/bible-data';
 
 interface AudioPlayerState {
   isPlaying: boolean;
@@ -15,9 +15,9 @@ interface UseAudioPlayerProps {
   onBookChange?: (bookId: string, chapter: number) => void;
 }
 
-export function useAudioPlayer({ 
-  bookId, 
-  chapter, 
+export function useAudioPlayer({
+  bookId,
+  chapter,
   verses,
   onVerseChange,
   onBookChange
@@ -27,7 +27,7 @@ export function useAudioPlayer({
     currentVerseIndex: null,
     isChapterMode: false
   });
-  
+
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const currentBookRef = useRef(bookId);
   const currentChapterRef = useRef(chapter);
@@ -85,11 +85,11 @@ export function useAudioPlayer({
       setState(prevState => {
         if (prevState.isChapterMode && prevState.currentVerseIndex !== null) {
           const nextVerseIndex = prevState.currentVerseIndex + 1;
-          
+
           if (nextVerseIndex < verses.length) {
             const nextVerse = verses[nextVerseIndex];
             const nextAudioUrl = getVerseAudioUrl(nextVerse);
-            
+
             if (nextAudioUrl && audioRef.current) {
               audioRef.current.src = nextAudioUrl;
               audioRef.current.play().catch(console.error);
@@ -101,25 +101,22 @@ export function useAudioPlayer({
               };
             }
           }
-          
+
           const nextChapter = currentChapterRef.current + 1;
-          const nextChapterContent = bibleContent[currentBookRef.current]?.[nextChapter];
-          
-          if (nextChapterContent && nextChapterContent.length > 0) {
+          const currentBook = getBibleBook(currentBookRef.current);
+
+          if (currentBook && nextChapter <= currentBook.chapters) {
             onBookChange?.(currentBookRef.current, nextChapter);
             return prevState;
           }
-          
+
           const nextBook = getNextBook(currentBookRef.current);
           if (nextBook) {
-            const nextBookContent = bibleContent[nextBook.id]?.[1];
-            if (nextBookContent && nextBookContent.length > 0) {
-              onBookChange?.(nextBook.id, 1);
-              return prevState;
-            }
+            onBookChange?.(nextBook.id, 1);
+            return prevState;
           }
         }
-        
+
         if (audioRef.current) {
           audioRef.current.pause();
           audioRef.current.currentTime = 0;
@@ -140,7 +137,7 @@ export function useAudioPlayer({
           if (nextVerseIndex < verses.length) {
             const nextVerse = verses[nextVerseIndex];
             const nextAudioUrl = getVerseAudioUrl(nextVerse);
-            
+
             if (nextAudioUrl && audioRef.current) {
               audioRef.current.src = nextAudioUrl;
               audioRef.current.play().catch(console.error);
@@ -153,7 +150,7 @@ export function useAudioPlayer({
             }
           }
         }
-        
+
         if (audioRef.current) {
           audioRef.current.pause();
           audioRef.current.currentTime = 0;

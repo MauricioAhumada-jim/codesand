@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'wouter';
 import { useBibleTheme } from '@/hooks/use-bible-theme';
 import { useAudioPlayer } from '@/hooks/use-audio-player';
-import { bibleContent, getBibleBook, getNextBook, getPreviousBook, getVerseText, type Bookmark as BookmarkType, type VerseContent } from '@/lib/bible-data';
+import { fetchBookContent, getBibleBook, getNextBook, getPreviousBook, getVerseText, type Bookmark as BookmarkType, type VerseContent, type BibleContentChapter } from '@/lib/bible-data';
 import { BibleHeader } from './BibleHeader';
 import { BibleSidebar } from './BibleSidebar';
 import { ChapterCarousel } from './ChapterCarousel';
@@ -12,7 +12,7 @@ import { ChapterNavigation } from './ChapterNavigation';
 
 export function BibleReader() {
   const { darkMode, toggleDarkMode } = useBibleTheme();
-  const [sidebarOpen, setSidebarOpen] = useState(() => 
+  const [sidebarOpen, setSidebarOpen] = useState(() =>
     typeof window !== 'undefined' ? window.innerWidth >= 1024 : false
   );
   const [searchTerm, setSearchTerm] = useState('');
@@ -36,12 +36,29 @@ export function BibleReader() {
   const [lastClickedVerse, setLastClickedVerse] = useState<number>(0);
 
   const currentBook = getBibleBook(selectedBook);
-  const currentContent = bibleContent[selectedBook]?.[selectedChapter] || [];
-  
-  const isContentArray = Array.isArray(currentContent);
-  const verseContent: VerseContent[] = isContentArray ? currentContent : 
-    [{ text: `[Aquí se mostrará el contenido de ${currentBook?.name} capítulo ${selectedChapter}.]`, audioUrl: '' }];
-  
+  const [bookContent, setBookContent] = useState<BibleContentChapter | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    let active = true;
+    setIsLoading(true);
+    setBookContent(null);
+
+    fetchBookContent(selectedBook).then(content => {
+      if (active) {
+        setBookContent(content);
+        setIsLoading(false);
+      }
+    });
+    return () => { active = false; };
+  }, [selectedBook]);
+
+  const currentContent = bookContent?.[selectedChapter] || [];
+
+  const isContentArray = Array.isArray(currentContent) && currentContent.length > 0;
+  const verseContent: VerseContent[] = isContentArray ? currentContent :
+    [{ text: isLoading ? "Cargando..." : `[Aquí se mostrará el contenido de ${currentBook?.name} capítulo ${selectedChapter}.]`, audioUrl: '' }];
+
   const displayContent = verseContent.map(v => getVerseText(v));
 
   const audioPlayer = useAudioPlayer({
@@ -73,13 +90,13 @@ export function BibleReader() {
   const addVerseBookmark = (verseIndex: number) => {
     const verseNumber = verseIndex + 1;
     const verseText = displayContent[verseIndex];
-    
+
     const existingBookmark = bookmarks.find(
-      b => b.book === selectedBook && 
-           b.chapter === selectedChapter && 
-           b.verse === verseNumber
+      b => b.book === selectedBook &&
+        b.chapter === selectedChapter &&
+        b.verse === verseNumber
     );
-    
+
     if (existingBookmark) {
       setBookmarks(bookmarks.filter(b => b.id !== existingBookmark.id));
     } else {
@@ -221,13 +238,13 @@ export function BibleReader() {
 
         <main className="flex-1 p-4 sm:p-6 md:p-8 max-w-4xl mx-auto w-full">
           <div className="mb-6 relative">
-            <h2 
+            <h2
               className="text-2xl sm:text-3xl font-bold text-amber-500 mb-4"
               data-testid="text-chapter-title"
             >
               {currentBook?.name} - Capítulo {selectedChapter}
             </h2>
-            
+
             <ChapterCarousel
               darkMode={darkMode}
               totalChapters={currentBook?.chapters || 1}
@@ -243,7 +260,7 @@ export function BibleReader() {
             selectedChapter={selectedChapter}
             bookmarks={bookmarks}
             onAddVerseBookmark={addVerseBookmark}
-            onShareVerse={() => {}}
+            onShareVerse={() => { }}
             onVerseClick={(verseIndex) => setLastClickedVerse(verseIndex)}
             onPlayVerse={audioPlayer.playSingleVerse}
             playingVerseIndex={audioPlayer.currentVerseIndex}
