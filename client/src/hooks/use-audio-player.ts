@@ -190,6 +190,18 @@ export function useAudioPlayer({
     }
   }, [state.isPlaying, state.currentVerseIndex]);
 
+  const prevParamsRef = useRef({ bookId, chapter });
+
+  useEffect(() => {
+    const prev = prevParamsRef.current;
+    if (bookId !== prev.bookId || chapter !== prev.chapter) {
+      if (state.isPlaying && state.isChapterMode) {
+        playVerseAtIndex(0, true);
+      }
+      prevParamsRef.current = { bookId, chapter };
+    }
+  }, [bookId, chapter, state.isPlaying, state.isChapterMode, playVerseAtIndex]);
+
   useEffect(() => {
     return () => {
       if (audioRef.current) {

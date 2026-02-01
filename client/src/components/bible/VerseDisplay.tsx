@@ -51,15 +51,15 @@ export function VerseDisplay({
   const isVerseBookmarked = (verseIndex: number) => {
     const verseNumber = verseIndex + 1;
     return bookmarks.some(
-      b => b.book === currentBook?.id && 
-           b.chapter === selectedChapter && 
-           b.verse === verseNumber
+      b => b.book === currentBook?.id &&
+        b.chapter === selectedChapter &&
+        b.verse === verseNumber
     );
   };
 
   const handleVerseClick = (verseIndex: number, event: MouseEvent<HTMLParagraphElement>) => {
     onVerseClick?.(verseIndex);
-    
+
     if (verseMenuOpen === verseIndex) {
       setVerseMenuOpen(null);
       setVerseShareMenuOpen(false);
@@ -69,7 +69,7 @@ export function VerseDisplay({
       const viewportHeight = window.innerHeight;
       const elementCenter = rect.top + (rect.height / 2);
       const shouldOpenBelow = elementCenter < viewportHeight / 2;
-      
+
       setVerseMenuPosition(prev => ({ ...prev, [verseIndex]: shouldOpenBelow }));
       setVerseMenuOpen(verseIndex);
       setVerseShareMenuOpen(false);
@@ -129,16 +129,21 @@ export function VerseDisplay({
 
   return (
     <div className={`${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg p-4 sm:p-6 md:p-8 shadow-lg`}>
-      <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none" style={{ 
+      <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none" style={{
         fontFamily: 'Georgia, serif',
         lineHeight: '1.8',
       }}>
         {verses.map((verse, idx) => (
           <div key={idx} className="relative">
-            <p 
-              className={`verse-text mb-3 sm:mb-4 transition-all cursor-pointer relative ${
-                verseMenuOpen === idx ? (darkMode ? 'bg-gray-700' : 'bg-amber-50') : hoveredVerse === idx ? (darkMode ? 'bg-gray-700' : 'bg-amber-50') : ''
-              } rounded px-2 py-1 text-base md:text-lg ${darkMode ? 'text-gray-100' : 'text-gray-800'}`}
+            <p
+              className={`verse-text mb-3 sm:mb-4 transition-all cursor-pointer relative ${isPlaying && playingVerseIndex === idx
+                  ? (darkMode ? 'bg-amber-900/40 border-l-4 border-amber-500 pl-2' : 'bg-amber-100 border-l-4 border-amber-500 pl-2')
+                  : verseMenuOpen === idx
+                    ? (darkMode ? 'bg-gray-700' : 'bg-amber-50')
+                    : hoveredVerse === idx
+                      ? (darkMode ? 'bg-gray-700' : 'bg-amber-50')
+                      : ''
+                } rounded px-2 py-1 text-base md:text-lg ${darkMode ? 'text-gray-100' : 'text-gray-800'}`}
               onMouseEnter={() => setHoveredVerse(idx)}
               onMouseLeave={() => setHoveredVerse(null)}
               onClick={(e) => handleVerseClick(idx, e)}
@@ -147,21 +152,19 @@ export function VerseDisplay({
               <span className="font-bold text-amber-500 mr-2 select-none">{idx + 1}</span>
               {verse}
             </p>
-            
+
             {verseMenuOpen === idx && (
-              <div className={`verse-menu absolute left-1/2 -translate-x-1/2 ${
-                verseMenuPosition[idx] ? 'top-full mt-2' : '-top-14'
-              } ${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-full shadow-2xl border ${darkMode ? 'border-gray-700' : 'border-amber-200'} p-2 z-20 flex gap-1`}>
+              <div className={`verse-menu absolute left-1/2 -translate-x-1/2 ${verseMenuPosition[idx] ? 'top-full mt-2' : '-top-14'
+                } ${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-full shadow-2xl border ${darkMode ? 'border-gray-700' : 'border-amber-200'} p-2 z-20 flex gap-1`}>
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
                     onAddVerseBookmark(idx);
                   }}
-                  className={`p-3 rounded-full ${
-                    isVerseBookmarked(idx) 
-                      ? 'bg-amber-500 hover:bg-amber-600' 
+                  className={`p-3 rounded-full ${isVerseBookmarked(idx)
+                      ? 'bg-amber-500 hover:bg-amber-600'
                       : darkMode ? 'hover:bg-gray-700' : 'hover:bg-amber-50'
-                  } transition-colors`}
+                    } transition-colors`}
                   title="Guardar versículo"
                   data-testid={`button-bookmark-verse-${idx + 1}`}
                 >
@@ -171,7 +174,7 @@ export function VerseDisplay({
                     <BookmarkPlus size={20} className="text-amber-500" />
                   )}
                 </button>
-                
+
                 <div className="relative">
                   <button
                     onClick={(e) => {
@@ -184,12 +187,11 @@ export function VerseDisplay({
                   >
                     <Share2 size={20} className="text-amber-500" />
                   </button>
-                  
+
                   {verseShareMenuOpen && (
-                    <div 
-                      className={`absolute ${
-                        verseMenuPosition[idx] ? 'top-full mt-2' : 'bottom-full mb-2'
-                      } left-1/2 -translate-x-1/2 ${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg shadow-xl border ${darkMode ? 'border-gray-700' : 'border-amber-200'} p-3 w-48`}
+                    <div
+                      className={`absolute ${verseMenuPosition[idx] ? 'top-full mt-2' : 'bottom-full mb-2'
+                        } left-1/2 -translate-x-1/2 ${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg shadow-xl border ${darkMode ? 'border-gray-700' : 'border-amber-200'} p-3 w-48`}
                       onClick={(e) => e.stopPropagation()}
                     >
                       <p className="text-xs text-amber-500 font-semibold mb-2">
@@ -238,7 +240,7 @@ export function VerseDisplay({
                     </div>
                   )}
                 </div>
-                
+
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
@@ -254,10 +256,9 @@ export function VerseDisplay({
                     <Play size={20} className="text-amber-500" />
                   )}
                 </button>
-                
-                <div className={`absolute left-1/2 -translate-x-1/2 ${
-                  verseMenuPosition[idx] ? 'top-0 -translate-y-full rotate-180' : 'top-full'
-                } w-0 h-0 border-l-8 border-r-8 border-t-8 ${darkMode ? 'border-t-gray-800' : 'border-t-white'} border-l-transparent border-r-transparent`}></div>
+
+                <div className={`absolute left-1/2 -translate-x-1/2 ${verseMenuPosition[idx] ? 'top-0 -translate-y-full rotate-180' : 'top-full'
+                  } w-0 h-0 border-l-8 border-r-8 border-t-8 ${darkMode ? 'border-t-gray-800' : 'border-t-white'} border-l-transparent border-r-transparent`}></div>
               </div>
             )}
           </div>
