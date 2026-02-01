@@ -159,11 +159,10 @@ export function getVerseText(verse: VerseContent): string {
   return verse.text;
 }
 
-export function getVerseAudioUrl(verse: VerseContent): string | undefined {
-  if (typeof verse === 'string') {
-    return undefined;
-  }
-  return verse.audioUrl || undefined;
+const FIREBASE_STORAGE_BUCKET = 'bible-69359.firebasestorage.app';
+
+export function getVerseAudioUrl(bookId: string, chapter: number, verseNumber: number): string {
+  return `https://firebasestorage.googleapis.com/v0/b/${FIREBASE_STORAGE_BUCKET}/o/${bookId}_${chapter}_${verseNumber}.mp3?alt=media`;
 }
 
 export function getBibleBook(bookId: string): BibleBook | null {

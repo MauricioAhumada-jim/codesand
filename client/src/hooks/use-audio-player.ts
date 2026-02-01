@@ -48,8 +48,8 @@ export function useAudioPlayer({
   }, []);
 
   const playVerseAtIndex = useCallback((verseIndex: number, isChapterMode: boolean) => {
-    const verse = verses[verseIndex];
-    const audioUrl = getVerseAudioUrl(verse);
+    const verseNumber = verseIndex + 1;
+    const audioUrl = getVerseAudioUrl(bookId, chapter, verseNumber);
 
     if (!audioUrl) {
       if (isChapterMode && verseIndex + 1 < verses.length) {
@@ -72,7 +72,7 @@ export function useAudioPlayer({
     });
 
     onVerseChange?.(verseIndex);
-  }, [verses, onVerseChange, stopPlayback]);
+  }, [verses, onVerseChange, stopPlayback, bookId, chapter]);
 
   useEffect(() => {
     if (!audioRef.current) {
@@ -87,8 +87,8 @@ export function useAudioPlayer({
           const nextVerseIndex = prevState.currentVerseIndex + 1;
 
           if (nextVerseIndex < verses.length) {
-            const nextVerse = verses[nextVerseIndex];
-            const nextAudioUrl = getVerseAudioUrl(nextVerse);
+            const nextVerseNumber = nextVerseIndex + 1;
+            const nextAudioUrl = getVerseAudioUrl(currentBookRef.current, currentChapterRef.current, nextVerseNumber);
 
             if (nextAudioUrl && audioRef.current) {
               audioRef.current.src = nextAudioUrl;
@@ -135,8 +135,8 @@ export function useAudioPlayer({
         if (prevState.isChapterMode && prevState.currentVerseIndex !== null) {
           const nextVerseIndex = prevState.currentVerseIndex + 1;
           if (nextVerseIndex < verses.length) {
-            const nextVerse = verses[nextVerseIndex];
-            const nextAudioUrl = getVerseAudioUrl(nextVerse);
+            const nextVerseNumber = nextVerseIndex + 1;
+            const nextAudioUrl = getVerseAudioUrl(currentBookRef.current, currentChapterRef.current, nextVerseNumber);
 
             if (nextAudioUrl && audioRef.current) {
               audioRef.current.src = nextAudioUrl;
