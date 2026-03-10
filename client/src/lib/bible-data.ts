@@ -12,6 +12,24 @@ export interface BibleStructure {
   [testament: string]: BibleCategory;
 }
 
+export interface Mood {
+  id: string;
+  name: string;
+  colorCode: string;
+  bgLight: string;
+  bgDark: string;
+  borderLight: string;
+  borderDark: string;
+}
+
+export const MOOD_COLORS: Mood[] = [
+  { id: 'joy', name: 'Alegría / Gratitud', colorCode: '#eab308', bgLight: 'bg-yellow-100', bgDark: 'bg-yellow-900/40', borderLight: 'border-yellow-500', borderDark: 'border-yellow-500' },
+  { id: 'sadness', name: 'Tristeza / Consuelo', colorCode: '#3b82f6', bgLight: 'bg-blue-100', bgDark: 'bg-blue-900/40', borderLight: 'border-blue-500', borderDark: 'border-blue-500' },
+  { id: 'love', name: 'Amor / Compasión', colorCode: '#ef4444', bgLight: 'bg-red-100', bgDark: 'bg-red-900/40', borderLight: 'border-red-500', borderDark: 'border-red-500' },
+  { id: 'peace', name: 'Paz / Esperanza', colorCode: '#22c55e', bgLight: 'bg-green-100', bgDark: 'bg-green-900/40', borderLight: 'border-green-500', borderDark: 'border-green-500' },
+  { id: 'repentance', name: 'Arrepentimiento / Perdón', colorCode: '#a855f7', bgLight: 'bg-purple-100', bgDark: 'bg-purple-900/40', borderLight: 'border-purple-500', borderDark: 'border-purple-500' }
+];
+
 export interface Bookmark {
   id: number;
   book: string;
@@ -20,6 +38,8 @@ export interface Bookmark {
   verseText?: string;
   bookName: string;
   timestamp: string;
+  colorCode?: string;
+  moodId?: string;
 }
 
 export interface VerseData {

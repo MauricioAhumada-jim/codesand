@@ -2,6 +2,7 @@ import { useState, useEffect, type MouseEvent } from 'react';
 import { Bookmark, BookmarkPlus, Share2, Play, Pause, Facebook, MessageCircle, Link2, Check } from 'lucide-react';
 import { SiX } from 'react-icons/si';
 import type { BibleBook, Bookmark as BookmarkType } from '@/lib/bible-data';
+import { MOOD_COLORS } from '@/lib/bible-data';
 
 interface VerseDisplayProps {
   darkMode: boolean;
@@ -9,7 +10,7 @@ interface VerseDisplayProps {
   currentBook: BibleBook | null;
   selectedChapter: number;
   bookmarks: BookmarkType[];
-  onAddVerseBookmark: (verseIndex: number) => void;
+  onAddVerseBookmark: (verseIndex: number, colorCode?: string, moodId?: string) => void;
   onShareVerse: (verseIndex: number) => void;
   onVerseClick?: (verseIndex: number) => void;
   onPlayVerse?: (verseIndex: number) => void;
@@ -32,6 +33,7 @@ export function VerseDisplay({
   const [hoveredVerse, setHoveredVerse] = useState<number | null>(null);
   const [verseMenuOpen, setVerseMenuOpen] = useState<number | null>(null);
   const [verseShareMenuOpen, setVerseShareMenuOpen] = useState(false);
+  const [bookmarkMenuOpen, setBookmarkMenuOpen] = useState(false);
   const [verseMenuPosition, setVerseMenuPosition] = useState<{ [key: number]: boolean }>({});
   const [copySuccess, setCopySuccess] = useState(false);
 
@@ -41,6 +43,7 @@ export function VerseDisplay({
       if (verseMenuOpen !== null && !target.closest('.verse-menu') && !target.closest('.verse-text')) {
         setVerseMenuOpen(null);
         setVerseShareMenuOpen(false);
+        setBookmarkMenuOpen(false);
       }
     };
 
@@ -48,21 +51,13 @@ export function VerseDisplay({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [verseMenuOpen]);
 
-  const isVerseBookmarked = (verseIndex: number) => {
-    const verseNumber = verseIndex + 1;
-    return bookmarks.some(
-      b => b.book === currentBook?.id &&
-        b.chapter === selectedChapter &&
-        b.verse === verseNumber
-    );
-  };
-
   const handleVerseClick = (verseIndex: number, event: MouseEvent<HTMLParagraphElement>) => {
     onVerseClick?.(verseIndex);
 
     if (verseMenuOpen === verseIndex) {
       setVerseMenuOpen(null);
       setVerseShareMenuOpen(false);
+      setBookmarkMenuOpen(false);
     } else {
       const element = event.currentTarget;
       const rect = element.getBoundingClientRect();
@@ -73,7 +68,32 @@ export function VerseDisplay({
       setVerseMenuPosition(prev => ({ ...prev, [verseIndex]: shouldOpenBelow }));
       setVerseMenuOpen(verseIndex);
       setVerseShareMenuOpen(false);
+      setBookmarkMenuOpen(false);
     }
+  };
+
+  const getVerseBookmark = (verseIndex: number) => {
+    const verseNumber = verseIndex + 1;
+    return bookmarks.find(
+      b => b.book === currentBook?.id &&
+        b.chapter === selectedChapter &&
+        b.verse === verseNumber
+    );
+  };
+
+  const getVerseBackgroundClass = (idx: number) => {
+    if (isPlaying && playingVerseIndex === idx) {
+      return darkMode ? 'bg-amber-900/40 border-l-4 border-amber-500 pl-2' : 'bg-amber-100 border-l-4 border-amber-500 pl-2';
+    }
+    if (verseMenuOpen === idx || hoveredVerse === idx) {
+      return darkMode ? 'bg-gray-700' : 'bg-amber-50';
+    }
+    const bookmark = getVerseBookmark(idx);
+    const mood = bookmark?.moodId ? MOOD_COLORS.find(m => m.id === bookmark?.moodId) : null;
+    if (mood) {
+      return darkMode ? mood.bgDark + ' border-l-2 pl-2 ' + mood.borderDark : mood.bgLight + ' border-l-2 pl-2 ' + mood.borderLight;
+    }
+    return '';
   };
 
   const playVerseAudio = (verseIndex: number) => {
@@ -136,14 +156,7 @@ export function VerseDisplay({
         {verses.map((verse, idx) => (
           <div key={idx} className="relative">
             <p
-              className={`verse-text mb-3 sm:mb-4 transition-all cursor-pointer relative ${isPlaying && playingVerseIndex === idx
-                  ? (darkMode ? 'bg-amber-900/40 border-l-4 border-amber-500 pl-2' : 'bg-amber-100 border-l-4 border-amber-500 pl-2')
-                  : verseMenuOpen === idx
-                    ? (darkMode ? 'bg-gray-700' : 'bg-amber-50')
-                    : hoveredVerse === idx
-                      ? (darkMode ? 'bg-gray-700' : 'bg-amber-50')
-                      : ''
-                } rounded px-2 py-1 text-base md:text-lg ${darkMode ? 'text-gray-100' : 'text-gray-800'}`}
+              className={`verse-text mb-3 sm:mb-4 transition-all cursor-pointer relative ${getVerseBackgroundClass(idx)} rounded px-2 py-1 text-base md:text-lg ${darkMode ? 'text-gray-100' : 'text-gray-800'}`}
               onMouseEnter={() => setHoveredVerse(idx)}
               onMouseLeave={() => setHoveredVerse(null)}
               onClick={(e) => handleVerseClick(idx, e)}
@@ -156,30 +169,78 @@ export function VerseDisplay({
             {verseMenuOpen === idx && (
               <div className={`verse-menu absolute left-1/2 -translate-x-1/2 ${verseMenuPosition[idx] ? 'top-full mt-2' : '-top-14'
                 } ${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-full shadow-2xl border ${darkMode ? 'border-gray-700' : 'border-amber-200'} p-2 z-20 flex gap-1`}>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onAddVerseBookmark(idx);
-                  }}
-                  className={`p-3 rounded-full ${isVerseBookmarked(idx)
+                <div className="relative">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setBookmarkMenuOpen(!bookmarkMenuOpen);
+                      setVerseShareMenuOpen(false);
+                    }}
+                    className={`p-3 rounded-full ${getVerseBookmark(idx)
                       ? 'bg-amber-500 hover:bg-amber-600'
                       : darkMode ? 'hover:bg-gray-700' : 'hover:bg-amber-50'
-                    } transition-colors`}
-                  title="Guardar versículo"
-                  data-testid={`button-bookmark-verse-${idx + 1}`}
-                >
-                  {isVerseBookmarked(idx) ? (
-                    <Bookmark size={20} className="text-white fill-white" />
-                  ) : (
-                    <BookmarkPlus size={20} className="text-amber-500" />
+                      } transition-colors`}
+                    title="Guardar marcador con emoción"
+                    data-testid={`button-bookmark-verse-${idx + 1}`}
+                  >
+                    {getVerseBookmark(idx) ? (
+                      <Bookmark size={20} className="text-white fill-white" />
+                    ) : (
+                      <BookmarkPlus size={20} className="text-amber-500" />
+                    )}
+                  </button>
+
+                  {bookmarkMenuOpen && (
+                    <div
+                      className={`absolute ${verseMenuPosition[idx] ? 'top-full mt-2' : 'bottom-full mb-2'
+                        } left-1/2 -translate-x-1/2 ${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg shadow-xl border ${darkMode ? 'border-gray-700' : 'border-amber-200'} p-3 w-56 z-30`}
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <p className={`text-xs font-semibold mb-2 ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>Guardar con estado de ánimo:</p>
+                      <div className="grid grid-cols-5 gap-2 mb-3">
+                        {MOOD_COLORS.map(mood => (
+                          <button
+                            key={mood.id}
+                            onClick={() => {
+                              onAddVerseBookmark(idx, mood.colorCode, mood.id);
+                              setBookmarkMenuOpen(false);
+                              setVerseMenuOpen(null);
+                            }}
+                            className={`w-8 h-8 rounded-full flex items-center justify-center border-2 hover:scale-110 transition-transform ${getVerseBookmark(idx)?.moodId === mood.id ? 'ring-2 ring-offset-2 ring-gray-400' : 'border-transparent'
+                              }`}
+                            style={{ backgroundColor: mood.colorCode }}
+                            title={mood.name}
+                          />
+                        ))}
+                      </div>
+
+                      <button
+                        onClick={() => {
+                          if (getVerseBookmark(idx)) {
+                            onAddVerseBookmark(idx);
+                          } else {
+                            onAddVerseBookmark(idx, undefined, undefined);
+                          }
+                          setBookmarkMenuOpen(false);
+                          setVerseMenuOpen(null);
+                        }}
+                        className={`w-full py-2 rounded-lg text-sm font-medium ${getVerseBookmark(idx)
+                          ? 'bg-red-100 text-red-600 hover:bg-red-200 dark:bg-red-900/30 dark:hover:bg-red-900/50'
+                          : 'bg-amber-100 text-amber-700 hover:bg-amber-200 dark:bg-amber-900/30 dark:hover:bg-amber-900/50 dark:text-amber-400'
+                          } transition-colors`}
+                      >
+                        {getVerseBookmark(idx) ? 'Eliminar marcador' : 'Guardar sin color'}
+                      </button>
+                    </div>
                   )}
-                </button>
+                </div>
 
                 <div className="relative">
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
                       setVerseShareMenuOpen(!verseShareMenuOpen);
+                      setBookmarkMenuOpen(false);
                     }}
                     className={`p-3 rounded-full ${darkMode ? 'hover:bg-gray-700' : 'hover:bg-amber-50'} transition-colors`}
                     title="Compartir versículo"

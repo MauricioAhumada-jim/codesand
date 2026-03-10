@@ -1,92 +1,3721 @@
 {
-    "1": [
-        {
-            "text": "Estos son los nombres de los hijos de Israel que fueron a Egipto con Jacob, cada uno con su familia:",
-            "audioUrl": ""
-        },
-        {
-            "text": "Rubén, Simeón, Leví y Judá;",
-            "audioUrl": ""
-        },
-        {
-            "text": "Isacar, Zabulón y Benjamín;",
-            "audioUrl": ""
-        },
-        {
-            "text": "Dan y Neftalí, Gad y Aser.",
-            "audioUrl": ""
-        },
-        {
-            "text": "El número total de las personas descendientes de Jacob era de setenta. José estaba ya en Egipto.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Murió José, y todos sus hermanos y toda aquella generación.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Pero los hijos de Israel fueron fecundos y se multiplicaron; llegaron a ser muy numerosos y fuertes, y llenaron el país.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Surgió en Egipto un nuevo rey, que no había conocido a José.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Y dijo a su pueblo: «Mirad, el pueblo de los hijos de Israel es más numeroso y fuerte que nosotros.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Vamos a actuar con prudencia contra él para que no se multiplique; no vaya a suceder que, en caso de guerra, se una a nuestros enemigos para combatir contra nosotros y salir del país».",
-            "audioUrl": ""
-        },
-        {
-            "text": "Les impusieron, pues, capataces para que los explotasen con trabajos forzados. Así edificaron para el faraón las ciudades de depósito: Pitón y Ramsés.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Pero cuanto más los oprimían, tanto más se multiplicaban y crecían, de modo que los egipcios llegaron a temer a los hijos de Israel.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Los egipcios esclavizaron cruelmente a los hijos de Israel,",
-            "audioUrl": ""
-        },
-        {
-            "text": "y les amargaron la vida con duro trabajo de arcilla y ladrillos, y con toda clase de labores del campo; los sometieron a dura esclavitud en todos sus trabajos.",
-            "audioUrl": ""
-        },
-        {
-            "text": "El rey de Egipto habló también a las parteras de las hebreas, una de las cuales se llamaba Sifrá y la otra Fuá,",
-            "audioUrl": ""
-        },
-        {
-            "text": "y les dijo: «Cuando asistáis a las hebreas y veáis que el hijo va a nacer, si es niño, matadlo; si es niña, dejadla con vida».",
-            "audioUrl": ""
-        },
-        {
-            "text": "Pero las parteras temían a Dios, y no hicieron lo que les había mandado el rey de Egipto, sino que dejaron con vida a los niños.",
-            "audioUrl": ""
-        },
-        {
-            "text": "El rey de Egipto llamó a las parteras y les dijo: «¿Por qué habéis hecho esto y habéis dejado con vida a los niños?»",
-            "audioUrl": ""
-        },
-        {
-            "text": "Las parteras respondieron al faraón: «Es que las mujeres hebreas no son como las egipcias; son robustas y dan a luz antes de que llegue la partera».",
-            "audioUrl": ""
-        },
-        {
-            "text": "Dios favoreció a las parteras, y el pueblo se multiplicó y se hizo muy fuerte.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Y por haber temido a Dios, él les concedió numerosa descendencia.",
-            "audioUrl": ""
-        },
-        {
-            "text": "Entonces el faraón dio esta orden a todo su pueblo: «Echad al Río a todo niño que nazca, pero a las niñas dejadlas con vida».",
-            "audioUrl": ""
-        }
-    ]
+  "1": [
+    {
+      "text": "Estos son los nombres de los israelitas que entraron con Jacob en Egipto, cada uno con su familia:"
+    },
+    {
+      "text": "Rubén, Simeón, Leví, Judá,"
+    },
+    {
+      "text": "Isacar, Zabulón, Benjamín,"
+    },
+    {
+      "text": "Dan, Neftalí, Gad y Aser."
+    },
+    {
+      "text": "El número de los descendientes de Jacob era de setenta personas. José estaba ya en Egipto."
+    },
+    {
+      "text": "Murió José, y todos sus hermanos, y toda aquella generación;"
+    },
+    {
+      "text": "pero los israelitas fueron fecundos y se multiplicaron; llegaron a ser muy numerosos y fuertes y llenaron el país."
+    },
+    {
+      "text": "Se alzó en Egipto un nuevo rey, que nada sabía de José;"
+    },
+    {
+      "text": "y que dijo a su pueblo: «Mirad, los israelitas son un pueblo más númeroso y fuerte que nosotros."
+    },
+    {
+      "text": "Tomemos precauciones contra él para que no siga multiplicándose, no sea que en caso de guerra se una también él a nuestros enemigos para luchar contra nosotros y salir del país.»"
+    },
+    {
+      "text": "Les impusieron pues, capataces para aplastarlos bajo el peso de duros trabajos; y así edificaron para Faraón las ciudades de depósito: Pitom y Ramsés."
+    },
+    {
+      "text": "Pero cuanto más les oprimían, tanto más crecían y se multiplicaban, de modo que los egipcios llegaron a temer a los israelitas."
+    },
+    {
+      "text": "Y redujeron a cruel servidumbre a los israelitas,"
+    },
+    {
+      "text": "les amargaron la vida con rudos trabajos de arcilla y ladrillos, con toda suerte de labores del campo y toda clase de servidumbre que les imponían por crueldad."
+    },
+    {
+      "text": "El rey de Egipto dio también orden a las parteras de las hebreas, una de las cuales se llamaba Sifrá, y la otra Puá,"
+    },
+    {
+      "text": "diciéndoles: «Cuando asistáis a las hebreas, observad bien las dos piedras: si es niño, hacedle morir; si es niña dejadla con vida.»"
+    },
+    {
+      "text": "Pero las parteras temían a Dios, y no hicieron lo que les había mandado el rey de Egipto, sino que dejaban con vida a los niños."
+    },
+    {
+      "text": "Llamó el rey de Egipto a las parteras y les dijo: «¿ Por qué habéis hecho esto y dejáis con vida a los niños?»"
+    },
+    {
+      "text": "Respondieron las parteras a Faraón: «Es que las hebreas no son como las egipcias. Son más robustas, y antes que llegue la partera, ya han dado a luz.»"
+    },
+    {
+      "text": "Y Dios favoreció a las parteras. El pueblo se multiplicó y se hizo muy poderoso."
+    },
+    {
+      "text": "Y por haber temido las parteras a Dios, les concedió numerosa prole."
+    },
+    {
+      "text": "Entonces Faraón dio a todo su pueblo esta orden: «Todo niño que nazca lo echaréis al Río; pero a las niñas las dejaréis con vida.»"
+    }
+  ],
+  "2": [
+    {
+      "text": "Un hombre de la casa de Leví fue a tomar por mujer una hija de Leví."
+    },
+    {
+      "text": "Concibió la mujer y dio a luz un hijo; y viendo que era hermoso lo tuvo escondido durante tres meses."
+    },
+    {
+      "text": "Pero no pudiendo ocultarlo ya por más tiempo, tomó una cestilla de papiro, la calafateó con betún y pez, metió en ella al niño, y la puso entre los juncos, a la orilla del Río."
+    },
+    {
+      "text": "La hermana del niño se apostó a lo lejos para ver lo que le pasaba."
+    },
+    {
+      "text": "Bajó la hija de Faraón a bañarse en el Río y, mientras sus doncellas se paseaban por la orilla del Río, divisó la cestilla entre los juncos, y envió una criada suya para que la cogiera."
+    },
+    {
+      "text": "Al abrirla, vio que era un niño que lloraba. Se compadeció de él y exclamó: «Es uno de los niños hebreos.»"
+    },
+    {
+      "text": "Entonces dijo la hermana a la hija de Faraón: «¿Quieres que yo vaya y llame una nodriza de entre las hebreas para que te críe este niño?»"
+    },
+    {
+      "text": "«Vete», le contestó la hija de Faraón. Fue, pues, la joven y llamó a la madre del niño."
+    },
+    {
+      "text": "Y la hija de Faraón le dijo: «Toma este niño y críamelo que yo te pagaré.» Tomó la mujer al niño y lo crió."
+    },
+    {
+      "text": "El niño creció, y ella lo llevó entonces a la hija de Faraón, que lo tuvo por hijo, y le llamó Moisés, diciendo: «De las aguas lo he sacado.»"
+    },
+    {
+      "text": "En aquellos días, cuando Moisés ya fue mayor, fue a visitar a sus hermanos, y comprobó sus penosos trabajos; vio también cómo un egipcio golpeaba a un hebreo, a uno de sus hermanos."
+    },
+    {
+      "text": "Miró a uno y a otro lado, y no viendo a nadie, mató al egipcio y lo escondió en la arena."
+    },
+    {
+      "text": "Salió al día siguiente y vio a dos hebreos que reñían. Y dijo al culpable: «¿Por qué pegas a tu compañero?»"
+    },
+    {
+      "text": "El respondió: «¿Quién te ha puesto de jefe y juez sobre nosotros? ¿Acaso estás pensando en matarme como mataste al egipcio?» Moisés, lleno de temor, se dijo: «La cosa ciertamente se sabe.»"
+    },
+    {
+      "text": "Supo Faraón lo sucedido y buscaba a Moisés para matarle; pero él huyó de la presencia de Faraón, y se fue a vivir al país de Madián. Se sentó junto a un pozo."
+    },
+    {
+      "text": "Tenía un sacerdote de Madián siete hijas, que fueron a sacar agua y llenar los pilones para abrevar las ovejas de su padre."
+    },
+    {
+      "text": "Pero vinieron los pastores y las echaron. Entonces, levantándose Moisés, salió en su defensa y les abrevó el rebaño."
+    },
+    {
+      "text": "Al volver ellas a donde su padre Reuel, éste les dijo: «Cómo es que venís hoy tan pronto?»"
+    },
+    {
+      "text": "Respondieron: «Un egipcio nos libró de las manos de los pastores, y además sacó agua para nosotras y abrevó el rebaño.»"
+    },
+    {
+      "text": "Preguntó entonces a sus hijas: «¿Y dónde está? ¿Cómo así habéis dejado a ese hombre? Llamadle para que coma.»"
+    },
+    {
+      "text": "Aceptó Moisés morar con aquel hombre, que dio a Moisés su hija Seforá."
+    },
+    {
+      "text": "Esta dio a luz un hijo y llamóle Guersom, pues dijo: «Forastero soy en tierra extraña.»"
+    },
+    {
+      "text": "Durante este largo período murió el rey de Egipto; los israelitas, gimiendo bajo la servidumbre, clamaron, y su clamor, que brotaba del fondo de su esclavitud, subió a Dios."
+    },
+    {
+      "text": "Oyó Dios sus gemidos, y acordóse Dios de su alianza con Abraham, Isaac y Jacob."
+    },
+    {
+      "text": "Y miró Dios a los hijos de Israel y conoció..."
+    }
+  ],
+  "3": [
+    {
+      "text": "Moisés era pastor del rebaño de Jetró su suegro, sacerdote de Madián. Una vez llevó las ovejas más allá del desierto; y llegó hasta Horeb, la montaña de Dios."
+    },
+    {
+      "text": "El ángel de Dios se le apareció en forma de llama de fuego, en medio de una zarza. Vio que la zarza estaba ardiendo, pero que la zarza no se consumía."
+    },
+    {
+      "text": "Dijo, pues, Moisés: «Voy a acercarme para ver este extraño caso: por qué no se consume la zarza.»"
+    },
+    {
+      "text": "Cuando vio Dios que Moisés se acercaba para mirar, le llamó de en medio de la zarza, diciendo: «¡Moisés, Moisés!» El respondió: «Heme aquí.»"
+    },
+    {
+      "text": "Le dijo: «No te acerques aquí; quita las sandalias de tus pies, porque el lugar en que estás es tierra sagrada.»"
+    },
+    {
+      "text": "Y añadió: «Yo soy el Dios de tu padre, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob.» Moisés se cubrió el rostro, porque temía ver a Dios."
+    },
+    {
+      "text": "Dijo Dios: «Bien vista tengo la aflicción de mi pueblo en Egipto, y he escuchado su clamor en presencia de sus opresores; pues ya conozco sus sufrimientos."
+    },
+    {
+      "text": "He bajado para librarle de la mano de los egipcios y para subirle de esta tierra a una tierra buena y espaciosa; a una tierra que mana leche y miel, al país de los cananeos, de los hititas, de los amorreos, de los perizitas, de los jivitas y de los jebuseos."
+    },
+    {
+      "text": "Así pues, el clamor de los israelitas ha llegado hasta mí y he visto además la opresión con que los egipcios los oprimen."
+    },
+    {
+      "text": "Ahora, pues, ve; yo te envío a Faraón, para que saques a mi pueblo, los israelitas, de Egipto.»"
+    },
+    {
+      "text": "Dijo Moisés a Dios: ¿Quién soy yo para ir a Faraón y sacar de Egipto a los israelitas?»"
+    },
+    {
+      "text": "Respondió: «Yo estaré contigo y esta será para ti la señal de que yo te envío: Cuando hayas sacado al pueblo de Egipto daréis culto a Dios en este monte .»"
+    },
+    {
+      "text": "Contestó Moisés a Dios: «Si voy a los israelitas y les digo: \"El Dios de vuestros padres me ha enviado a vosotros\"; cuando me pregunten: \"¿Cuál es su nombre?\", ¿qué les responderé?»"
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Yo soy el que soy.» Y añadió: «Así dirás a los israelitas: \"Yo soy\" me ha enviado a vosotros.»"
+    },
+    {
+      "text": "Siguió Dios diciendo a Moisés: «Así dirás a los israelitas: Dios, el Dios de vuestros padres, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob, me ha enviado a vosotros. Este es mi nombre para siempre, por él seré invocado de generación en generación.»"
+    },
+    {
+      "text": "«Ve, y reúne a los ancianos de Israel, y diles: \"Dios, el Dios de vuestros padres, el Dios de Abraham, de Isaac y de Jacob, se me apareció y me dijo: Yo os he visitado y he visto lo que os han hecho en Egipto."
+    },
+    {
+      "text": "Y he decidido sacaros de la tribulación de Egipto al país de los cananeos, los hititas, los amorreos, perizitas, jivitas y jebuseos, a una tierra que mana leche y miel.\""
+    },
+    {
+      "text": "Ellos escucharán tu voz, y tú irás con los ancianos de Israel donde el rey de Egipto; y le diréis: \"Dios, el Dios de los hebreos, se nos ha aparecido. Permite, pues, que vayamos camino de tres días al desierto, para ofrecer sacrificios a Dios, nuestro Dios.\""
+    },
+    {
+      "text": "Ya sé que el rey de Egipto no os dejará ir sino forzado por mano poderosa."
+    },
+    {
+      "text": "Pero yo extenderé mi mano y heriré a Egipto con toda suerte de prodigios que obraré en medio de ellos y después os dejará salir.»"
+    },
+    {
+      "text": "«Yo haré que este pueblo halle gracia a los ojos de los egipcios, de modo que cuando partáis, no saldréis con las manos vacías,"
+    },
+    {
+      "text": "sino que cada mujer pedirá a su vecina y a la que mora en su casa objetos de plata, objetos de oro y vestidos, que pondréis a vuestros hijos y a vuestras hijas, y así despojaréis a los egipcios.»"
+    }
+  ],
+  "4": [
+    {
+      "text": "Respondió Moisés y dijo: «No van a creerme, ni escucharán mi voz; pues dirán: \"No se te ha aparecido Dios.\"»"
+    },
+    {
+      "text": "Díjole Dios: «¿Qué tienes en tu mano?» «Un cayado», respondió él."
+    },
+    {
+      "text": "Dios le dijo: «Echalo a tierra.» Lo echó a tierra y se convirtió en serpiente; y Moisés huyó de ella."
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Extiende tu mano y agárrala por la cola.» Extendió la mano, la agarró, y volvió a ser cayado en su mano..."
+    },
+    {
+      "text": "«Para que crean que se te ha aparecido Dios, el Dios de sus padres, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob.»"
+    },
+    {
+      "text": "Y añadió Dios: «Mete tu mano en el pecho.» Metió él la mano en su pecho y cuando la volvió a sacar estaba cubierta de lepra, blanca como la nieve."
+    },
+    {
+      "text": "Y le dijo: «Vuelve a meter la mano en tu pecho.» La volvió a meter y, cuando la sacó de nuevo, estaba ya como el resto de su carne."
+    },
+    {
+      "text": "«Así pues, si no te creen ni escuchan la voz por la primera señal, creerán por la segunda."
+    },
+    {
+      "text": "Y si no creen tampoco por estas dos señales y no escuchan tu voz, tomarás agua del Río y la derramarás en el suelo; y el agua que saques del Río se convertirá en sangre sobre el suelo.»"
+    },
+    {
+      "text": "Dijo Moisés a Dios: «¡Por favor, Señor! Yo no he sido nunca hombre de palabra fácil, ni aun después de haber hablado tú con tu siervo; sino que soy torpe de boca y de lengua.»"
+    },
+    {
+      "text": "Le respondió Dios: «¿Quién ha dado al hombre la boca? ¿? Quién hace al mudo y al sordo, al que ve y al ciego? ¿No soy yo, Dios?"
+    },
+    {
+      "text": "Así pues, vete, que yo estaré en tu boca y te enseñaré lo que debes decir.»"
+    },
+    {
+      "text": "El replicó: «Por favor, envía a quien quieras.»"
+    },
+    {
+      "text": "Entonces se encendió la ira de Dios contra Moisés, y le dijo: «¿No tienes a tu hermano Aarón el levita? Sé que él habla bien; he aquí que justamente ahora sale a tu encuentro, y al verte se alegrará su corazón."
+    },
+    {
+      "text": "Tu le hablarás y pondrás las palabras en su boca; yo estaré en tu boca y en la suya, y os enseñaré lo que habéis de hacer."
+    },
+    {
+      "text": "El hablará por ti al pueblo, él será tu boca y tú serás su dios."
+    },
+    {
+      "text": "Toma también en tu mano este cayado, porque con él has de hacer las señales.»"
+    },
+    {
+      "text": "Moisés volvió y regresó a casa de Jetró, su suegro, y le dijo: «Con tu permiso, me vuelvo a ver a mis hermanos de Egipto para saber si viven todavía.» Dijo Jetró a Moisés: «Vete en paz.»"
+    },
+    {
+      "text": "Dios dijo a Moisés en Madián: «Anda, vuelve a Egipto ; pues han muerto todos los que buscaban tu muerte.»"
+    },
+    {
+      "text": "Tomó, pues, Moisés a su mujer y a su hijo y, montándolos sobre un asno, volvió a la tierra de Egipto. Tomó también Moisés el cayado de Dios en su mano."
+    },
+    {
+      "text": "Y dijo Dios a Moisés: «Cuando vuelvas a Egipto, harás delante de Faraón todos los prodigios que yo he puesto en tu mano; yo, por mi parte, endureceré su corazón, y no dejará salir al pueblo."
+    },
+    {
+      "text": "Y dirás a Faraón: Así dice Dios: Israel es mi hijo, mi primogénito."
+    },
+    {
+      "text": "Yo te he dicho: \"Deja ir a mi hijo para que me dé culto,\" pero como tú no quieres dejarle partir, mira que yo voy a matar a tu hijo, a tu primogénito.»"
+    },
+    {
+      "text": "Y sucedió que en el camino le salió al encuentro Dios en el lugar donde pasaba la noche y quiso darle muerte."
+    },
+    {
+      "text": "Tomó entonces Seforá un cuchillo de pedernal y, cortando el prepucio de su hijo, tocó los pies de Moisés, diciendo: «Tú eres para mí esposo de sangre.»"
+    },
+    {
+      "text": "Y Dios le soltó; ella había dicho: «esposo de sangre», por la circuncisión."
+    },
+    {
+      "text": "Dijo Dios a Aarón: «Vete al desierto al encuentro de Moisés.» Partió, pues, y le encontró en el monte de Dios y le besó."
+    },
+    {
+      "text": "Moisés contó a Aaron todas las palabras que Dios le había encomendado y todas las señales que le había mandado hacer."
+    },
+    {
+      "text": "Fueron, pues, Moisés y Aarón y reunieron a todos los ancianos de los israelitas."
+    },
+    {
+      "text": "Aarón refirió todas las palabras que Dios había dicho a Moisés, el cual hizo las señales delante del pueblo."
+    },
+    {
+      "text": "El pueblo creyó, y al oír que Dios había visitado a los israelitas y había visto su aflicción, se postraron y adoraron."
+    }
+  ],
+  "5": [
+    {
+      "text": "Después se presentaron Moisés y Aarón a Faraón y le dijeron: «Así dice Dios, el Dios de Israel: Deja salir a mi pueblo para que me celebre una fiesta en el desierto.»"
+    },
+    {
+      "text": "Respondió Faraón: «¿Quién es Dios para que yo escuche su voz y deje salir a Israel? No conozco a Dios y no dejaré salir a Israel.»"
+    },
+    {
+      "text": "Ellos dijeron: «El Dios de los hebreos se nos ha aparecido; permite, pues, que vayamos camino de tres días al desierto para ofrecer sacrificios a Dios, nuestro Dios, no sea que nos castigue con peste o espada.»"
+    },
+    {
+      "text": "El rey de Egipto les replicó: «¿Por qué vosotros, Moisés y Aarón, apartáis al pueblo de sus trabajos? Idos a vuestra tarea.»"
+    },
+    {
+      "text": "Y añadió Faraón: «Ahora que el pueblo de esa región es numeroso ¿queréis interrumpir sus trabajos?»"
+    },
+    {
+      "text": "Aquel mismo día dio Faraón esta orden a los capataces del pueblo y a los escribas:"
+    },
+    {
+      "text": "«Ya no daréis como antes paja al pueblo para hacer ladrillos; que vayan ellos mismos a buscársela."
+    },
+    {
+      "text": "Pero que hagan la misma cantidad de ladrillos que hacían antes, sin rebajarla; pues son unos perezosos. Y por eso claman diciendo: Vamos a ofrecer sacrificios a nuestro Dios."
+    },
+    {
+      "text": "Que se aumente el trabajo de estos hombres para que estén ocupados en él y no den oídos a palabras mentirosas."
+    },
+    {
+      "text": "Salieron los capataces del pueblo diciendo: «Esto dice Faraón: No os daré ya más paja;"
+    },
+    {
+      "text": "id vosotros mismos a buscárosla donde la podáis hallar. Pero vuestra tarea no se disminuirá en nada.»"
+    },
+    {
+      "text": "Esparcióse, pues, el pueblo por el país de Egipto en busca de rastrojo para emplearlo como paja."
+    },
+    {
+      "text": "Los capataces por su lado los apremiaban, diciendo: «Terminad la tarea que os ha sido fijada para cada día, como cuando había paja.»"
+    },
+    {
+      "text": "A los escribas de los israelitas, que los capataces de Faraón habían puesto al frente de aquéllos, se les castigó, diciéndoles: «¿Por qué no habéis hecho, ni ayer ni hoy, la misma cantidad de ladrillos que antes?»"
+    },
+    {
+      "text": "Los escribas de los israelitas fueron a quejarse a Faraón, diciendo: «¿Por qué tratas así a tus siervos?"
+    },
+    {
+      "text": "No se da paja a tus siervos y sin embargo nos dicen: \"Haced ladrillos.\" Y he aquí que tus siervos son castigados...»"
+    },
+    {
+      "text": "El respondió: «Haraganes sois, grandes haraganes; por eso decís: \"Vamos a ofrecer sacrificios a Dios.\""
+    },
+    {
+      "text": "Pues, id a trabajar; no se os dará paja, y habéis de entregar la cantidad de ladrillos señalada.»"
+    },
+    {
+      "text": "Los escribas de los israelitas se vieron en grande aprieto, pues les ordenaron: «No disminuiréis vuestra producción diaria de ladrillos.»"
+    },
+    {
+      "text": "Encontráronse, pues, con Moisés y Aarón, que les estaban esperando a la salida de su entrevista con Faraón,"
+    },
+    {
+      "text": "y les dijeron: Que Dios os examine y que él os juzgue por habernos hecho odiosos a Faraón y a sus siervos y haber puesto la espada en sus manos para matarnos.»"
+    },
+    {
+      "text": "Volvióse entonces Moisés a Dios y dijo: «Señor, ¿por qué maltratas a este pueblo? ¿por qué me has enviado?"
+    },
+    {
+      "text": "Pues desde que fui a Faraón para hablarle en tu nombre está maltratando a este pueblo, y tú no haces nada por librarle.»"
+    }
+  ],
+  "6": [
+    {
+      "text": "Respondió Dios a Moisés: «Ahora verás lo que voy a hacer con Faraón; porque bajo fuerte mano tendrá que dejarles partir y bajo fuerte mano él mismo los expulsará de su territorio.»"
+    },
+    {
+      "text": "Habló Dios a Moisés y le dijo: «Yo soy Dios."
+    },
+    {
+      "text": "Me aparecí a Abraham, a Isaac y a Jacob como El Sadday; pero mi nombre de Dios no se lo di a conocer."
+    },
+    {
+      "text": "También con ellos establecí mi alianza, para darles la tierra de Canaán, la tierra en que peregrinaron y en la que moraron como forasteros."
+    },
+    {
+      "text": "Y ahora, al oír el gemido de los israelitas, reducidos a esclavitud por los egipcios, he recordado mi alianza."
+    },
+    {
+      "text": "Por tanto, di a los hijos de Israel: Yo soy Dios; Yo os libertaré de los duros trabajos de los egipcios, os libraré de su esclavitud y os salvaré con brazo tenso y castigos grandes."
+    },
+    {
+      "text": "Yo os haré mi pueblo, y seré vuestro Dios; y sabréis que yo soy Dios, vuestro Dios, que os sacaré de la esclavitud de Egipto."
+    },
+    {
+      "text": "Yo os introduciré en la tierra que he jurado dar a Abraham, a Isaac y a Jacob, y os la daré en herencia. Yo, Dios.»"
+    },
+    {
+      "text": "Moisés dijo esto a los israelitas; pero ellos no escucharon a Moisés, consumidos por la dura servidumbre."
+    },
+    {
+      "text": "Entonces Dios habló a Moisés diciendo:"
+    },
+    {
+      "text": "«Ve a hablar con Faraón, rey de Egipto, para que deje salir a los israelitas fuera de su territorio.»"
+    },
+    {
+      "text": "Respondió Moisés ante Dios: «Si los israelitas no escuchan: ¿cómo me va a escuchar Faraón, a mí que soy torpe de palabra?»"
+    },
+    {
+      "text": "Pero Dios habló a Moisés y a Aarón, y les dio órdenes para los israelitas y para Faraón, rey de Egipto, a fin de sacar del país de Egipto a los israelitas."
+    },
+    {
+      "text": "Estos son los jefes de sus casas paternas: Hijos de Rubén, primogénito de Israel: Henoc, Pallú, Jesrón y Karmí, éstas son las familias de Rubén."
+    },
+    {
+      "text": "Hijos de Simeón: Yemuel, Yamín, Ohad, Yakín, Sójar y Saúl, hijo de la cananea; éstas son las familias de Simeón."
+    },
+    {
+      "text": "Y éstos son los nombres de los hijos de Leví por sus linajes: Guerson, Quehat, Merarí. Los años de la vida de Leví fueron 137."
+    },
+    {
+      "text": "Hijos de Guerson: Libní y Simei según sus familias."
+    },
+    {
+      "text": "Hijos de Quehat: Amram, Yishar, Hebrón y Uzziel. Los años de la vida de Quehat fueron 133 años."
+    },
+    {
+      "text": "Hijos de Merarí: Majlí y Musí. Estas son las familias de los levitas, por sus linajes."
+    },
+    {
+      "text": "Amram tomó por mujer a Yokébed, su tía, de la cual nacieron Aarón y Moisés. Y los años de la vida de Amram fueron 137."
+    },
+    {
+      "text": "Hijos de Yishar: Coré, Néfeg y Zikrí."
+    },
+    {
+      "text": "Hijos de Uzziel: Missael, Elsafán y Sitrí."
+    },
+    {
+      "text": "Aarón tomó por mujer a Isabel, hija de Amminadab, hermana de Najsón; de la cual le nacieron Nadab, Abihú, Eleazar e Itamar."
+    },
+    {
+      "text": "Hijos de Coré: Assir, Elcaná y Abiasaf. Estas son la familias de los coreítas."
+    },
+    {
+      "text": "Eleazar, hijo de Aarón, tomó por mujer a una de las hijas de Putiel y de ella nació Pinjás. Estos son los jefes de las casas paternas de los levitas, según sus familias."
+    },
+    {
+      "text": "Estos son, pues, aquel Aarón y aquel Moisés a quienes dijo Dios: «Sacad a los israelitas de la tierra de Egipto en orden de campaña.»"
+    },
+    {
+      "text": "Estos son los que hablaron a Faraón, rey de Egipto, para sacar de Egipto a los israelitas. Estos son Moisés y Aarón."
+    },
+    {
+      "text": "El día en que Dios habló a Moisés en el país de Egipto,"
+    },
+    {
+      "text": "le dijo: «Yo soy Dios; di a Faraón, rey de Egipto, cuanto yo te diga.»"
+    },
+    {
+      "text": "Moisés respondió ante Dios: «Siendo yo torpe de palabra, ¿cómo me va a escuchar Faraón?»"
+    }
+  ],
+  "7": [
+    {
+      "text": "Dijo Dios a Moisés: «Mira que te he constituido como dios para Faraón y Aarón, tu hermano, será tu profeta;"
+    },
+    {
+      "text": "tú le dirás cuanto yo te mande; y Aarón, tu hermano, se lo dirá a Faraón, para que deje salir de su país a los israelitas."
+    },
+    {
+      "text": "Yo, por mi parte, endureceré el corazón de Faraón, y multiplicaré mis señales y mis prodigios en el país de Egipto."
+    },
+    {
+      "text": "Faraón no os escuchará, pero yo pondré mi mano sobre Egipto y sacaré de la tierra de Egipto a mi ejército, mi pueblo, los israelitas, a fuerza de duros castigos."
+    },
+    {
+      "text": "Y los egipcios reconocerán que yo soy Dios, cuando extienda mi mano sobre Egipto y saque de en medio de ellos a los hijos de Israel.»"
+    },
+    {
+      "text": "Moisés y Aarón hicieron lo que les mandó Dios."
+    },
+    {
+      "text": "Tenía Moisés ochenta años, y Aarón 83 cuando hablaron a Faraón."
+    },
+    {
+      "text": "Habló Dios a Moisés y Aarón, y dijo:"
+    },
+    {
+      "text": "«Cuando Faraón os diga: Haced algún prodigio, dirás a Aarón: \"Toma tu cayado y échalo delante de Faraón, y que se convierta en serpiente.\"»"
+    },
+    {
+      "text": "Presentáronse, pues, Moisés y Aarón a Faraón, e hicieron lo que Dios había ordenado: Aarón echó su cayado delante de Faraón y de sus servidores, y se convirtió en serpiente."
+    },
+    {
+      "text": "También Faraón llamó a los sabios y a los hechiceros, y también ellos, los sabios egipcios, hicieron con sus encantamientos las mismas cosas."
+    },
+    {
+      "text": "Echó cada cual su vara, y se trocaron en serpientes; pero el cayado de Aarón devoró sus varas."
+    },
+    {
+      "text": "Sin embargo el corazón de Faraón se endureció, y no les escuchó, conforme había predicho Dios."
+    },
+    {
+      "text": "Entonces dijo Dios a Moisés: «El corazón de Faraón es obstinado; se niega a dejar salir al pueblo."
+    },
+    {
+      "text": "Preséntate a Faraón por la mañana, cuando vaya a la ribera. Le saldrás al encuentro a la orilla del Río, llevando en tu mano el cayado que se convirtió en serpiente."
+    },
+    {
+      "text": "Y le dirás: Dios, el Dios de los hebreos, me ha enviado a ti para decirte: \"Deja partir a mi pueblo, para que me den culto en el desierto\"; pero hasta el presente no has escuchado."
+    },
+    {
+      "text": "Así dice Dios: En esto conoceras que yo soy Dios: Mira que voy a golpear con el cayado que tengo en la mano las aguas del Río, y se convertirán en sangre."
+    },
+    {
+      "text": "Los peces del Río morirán, y el Río quedará apestado de modo que los egipcios no podrán ya beber agua del Río.»"
+    },
+    {
+      "text": "Dios dijo a Moisés: «Di a Aarón: Toma tu cayado, y extiende tu mano sobre las aguas de Egipto, sobre sus canales, sobre sus ríos, sobre sus lagunas y sobre todos sus depósitos de agua. Se convertirán en sangre; y habrá sangre en toda la tierra de Egipto, hasta en los árboles y la piedras.»"
+    },
+    {
+      "text": "Moisés y Aarón hicieron lo que Dios les había mandado: alzó el cayado y golpeó las aguas que hay en el Rió en presencia de Faraón y de sus servidores, y todas las aguas del Rió se convirtieron en sangre."
+    },
+    {
+      "text": "Los peces del Río murieron, el Río quedó apestado de modo que los egipcios nos pudieron beber el agua del Río; hubo sangre en todo el país de Egipto."
+    },
+    {
+      "text": "Pero lo mismo hicieron con sus encantamientos los magos de Egipto; y el corazón de Faraón se endureció y no les escuchó, como había dicho Dios."
+    },
+    {
+      "text": "Se volvió Faraón y entró en su casa sin hacer caso de ello."
+    },
+    {
+      "text": "Y todos los egipcios tuvieron que cavar en los alrededores del Río en busca de agua potable, porque no podían beber las aguas del Río."
+    },
+    {
+      "text": "Pasaron siete días desde que Dios hirió el Río."
+    },
+    {
+      "text": "Y dijo Dios a Moisés: «Preséntate a Faraón y dile: Así dice Dios: \"Deja salir a mi pueblo para que me dé culto.\""
+    },
+    {
+      "text": "Si te niegas a dejarle partir infestaré de ranas todo tu país."
+    },
+    {
+      "text": "El Río bullirá de ranas, que subirán y entrarán en tu casa, en tu dormitorio y en tu lecho, en las casas de tus servidores y en tu pueblo, en tus hornos y en tus artesas."
+    },
+    {
+      "text": "Subirán la ranas sobre ti, sobre tu pueblo, y sobre tus siervos.»"
+    }
+  ],
+  "8": [
+    {
+      "text": "Dijo Dios a Moisés: «Di a Aarón: Extiende tu mano con tu cayado sobre los canales, sobre los ríos y sobre las lagunas, y haz que suban las ranas sobre la tierra de Egipto.»"
+    },
+    {
+      "text": "Aarón extendió su mano sobre las aguas de Egipto; subieron la ranas y cubrieron la tierra de Egipto."
+    },
+    {
+      "text": "Pero los magos hicieron lo mismo con sus encantamientos, e hicieron subir las ranas sobre la tierra de Egipto."
+    },
+    {
+      "text": "Faraón llamó a Moisés y a Aarón y dijo: «Pedid a Dios que aparte las ranas de mí y de mi pueblo, y yo dejaré salir al pueblo para que ofrezca sacrificios a Dios.»"
+    },
+    {
+      "text": "Respondió Moisés a Faraón: «Dígnate indicarme cuándo he de rogar por ti, por tus siervos y por tu pueblo, para que se alejen las ranas de ti y de tus casas, y queden solamente en el Río.»"
+    },
+    {
+      "text": "«Mañana», contestó el. Replicó Moisés: «Será conforme a tu palabra, para que sepas que no hay como Dios, nuestro Dios."
+    },
+    {
+      "text": "Las ranas se apartarán de ti, de tus casas, de tus siervos y de tu pueblo, y quedarán sólo en el Río.»"
+    },
+    {
+      "text": "Salieron Moisés y Aarón de la presencia de Faraón, invocó Moisés a Dios acerca de las ranas que afligían a Faraón,"
+    },
+    {
+      "text": "y Dios hizo lo que Moisés pedía: murieron las ranas de las casas, de los patios y de los campos."
+    },
+    {
+      "text": "Las juntaron en montones y el país apestaba."
+    },
+    {
+      "text": "Pero Faraón viendo que tenía este respiro, endureció su corazón, y no les escuchó como había predicho Dios."
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Di a Aarón: extiende tu cayado y golpea el polvo de la tierra que se convertirá en mosquitos sobre todo el país de Egipto.»"
+    },
+    {
+      "text": "Así lo hicieron: Aarón extendió su mano con el cayado y golpeó el polvo de la tierra; y hubo mosquitos sobre los hombres y sobre los ganados. Todo el polvo de la tierra se convirtió en mosquitos sobre todo el país de Egipto."
+    },
+    {
+      "text": "Los magos intentaron con sus encantamientos hacer salir mosquitos, pero no pudieron. Hubo, pues, mosquitos sobre hombres y ganados."
+    },
+    {
+      "text": "Dijeron los magos a Faraón: «¡es el dedo de Dios!» Pero el corazón de Faraón se endureció, y no les escuchó, como había dicho Dios."
+    },
+    {
+      "text": "Dios dijo a Moisés: «Levántate muy de mañana, preséntate a Faraón cuando vaya a la ribera, y dile: Así dice Dios: \"Deja salir a mi pueblo, para que me dé culto.\""
+    },
+    {
+      "text": "Si no dejas salir a mi pueblo, mira que voy a enviar tábanos contra ti, contra tus siervos, tu pueblo y tus casas, de manera que las casas de los egipcios y hasta el suelo sobre el cual están se llenarán de tábanos."
+    },
+    {
+      "text": "Pero exceptuaré ese día la región de Gosen, donde está mi pueblo, para que no haya allí tábanos, a fin de que sepas que yo soy Dios en medio de la tierra;"
+    },
+    {
+      "text": "haré distinción entre mi pueblo y el tuyo. Este prodigio sucederá mañana.»"
+    },
+    {
+      "text": "Así lo hizo Dios, y un enorme enjambre de tábanos vino sobre la casa de Faraón y la casas de sus siervos; y toda la tierra de Egipto; la tierra fue devastada por los tábanos."
+    },
+    {
+      "text": "Entonces llamó Faraón a Moisés y a Aarón y les dijo: «Id y ofreced sacrificios a vuestro Dios en este país.»"
+    },
+    {
+      "text": "Moisés respondió: «No conviene que se haga así, porque el sacrificio que ofrecemos a Dios, nuestro Dios, es abominación para los egipcios. ¿No nos apedrearían los egipcios si ofreciéramos ante sus ojos un sacrificio que para ellos es abominable?"
+    },
+    {
+      "text": "Iremos tres jornadas de camino por el desierto, y allí ofreceremos sacrificios a Dios, nuestro Dios, según él nos ordena.»"
+    },
+    {
+      "text": "Contestó Faraón: «Os dejaré ir, para que ofrezcáis en el desierto sacrificios a Dios, vuestro Dios, con tal que no vayáis demasiado lejos. Rogad por mí.»"
+    },
+    {
+      "text": "Moisés respondió: «En cuanto salga rogaré a Dios, y mañana los tábanos se alejarán de Faraón, de sus siervos y de su pueblo; pero que no nos siga engañando Faraón, impidiendo que el pueblo vaya a ofrecer sacrificios a Dios.»"
+    },
+    {
+      "text": "Salió, pues, Moisés de la presencia de Faraón, y rogó a Dios."
+    },
+    {
+      "text": "Hizo Dios lo que Moisés pedía, y alejó los tábanos del Faraón, de sus siervos y de su pueblo, sin quedar ni uno."
+    },
+    {
+      "text": "Pero también esta vez endureció Faraón su corazón y no dejó salir al pueblo."
+    }
+  ],
+  "9": [
+    {
+      "text": "Dios dijo a Moisés: «Preséntate a Faraón y dile: Así dice Dios, el Dios de los hebreos: \"Deja salir a mi pueblo para que me den culto.\""
+    },
+    {
+      "text": "Si te niegas a dejarles salir y los sigues reteniendo,"
+    },
+    {
+      "text": "mira que la mano de Dios caerá sobre tus ganados del campo, sobre los caballos, sobre los asnos, sobre los camellos, sobre la vacadas y sobre las ovejas; habrá una grandísima peste."
+    },
+    {
+      "text": "Pero Dios hará distinción entre el ganado de Israel y el ganado de los egipcios, de modo que nada perecerá de lo perteneciente a Israel.»"
+    },
+    {
+      "text": "Y Dios fijó el plazo, diciendo: «Mañana hará esto Dios en el país.»"
+    },
+    {
+      "text": "Al día siguiente cumplió Dios su palabra y murió todo el ganado de los egipcios; mas del ganado de los israelitas no murió ni una sola cabeza."
+    },
+    {
+      "text": "Faraón mandó hacer averiguaciones, y se vio que del ganado de Israel no había muerto ni un solo animal. Sin embargo, se endureció el corazón de Faraón y no dejó salir al pueblo."
+    },
+    {
+      "text": "Dijo Dios a Moisés y a Aarón: «Tomad dos grandes puñados de hollín de horno, y que Moisés lo lance hacia el cielo, en presencia de Faraón;"
+    },
+    {
+      "text": "se convertirá en polvo fino sobre todo el territorio de Egipto, y formará erupciones pustulosas, en hombres y ganados, por toda la tierra de Egipto.»"
+    },
+    {
+      "text": "Tomaron, pues, hollín de horno y presentándose ante Faraón, lo lanzó Moisés hacia el cielo, y hubo erupciones pustulosas en hombres y ganados."
+    },
+    {
+      "text": "Ni los magos pudieron permanecer delante de Moisés a causa de las erupciones; pues los magos tenían las mismas erupciones que todos los egipcios."
+    },
+    {
+      "text": "Pero Dios endureció el corazón de Faraón, que nos les escuchó, según Dios había dicho a Moisés."
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Levántate de mañana, preséntate a Faraón y dile: Así dice Dios, el Dios de los hebreos: \"Deja salir a mi pueblo para que me den culto.\""
+    },
+    {
+      "text": "Porque esta vez voy a enviar todas mis plagas sobre ti, sobre tus siervos y sobre tu pueblo para que sepas que no hay como yo en toda la tierra."
+    },
+    {
+      "text": "Si yo hubiera extendido mi mano y te hubiera herido a ti y a tu pueblo con peste, ya habrías desaparecido de la tierra;"
+    },
+    {
+      "text": "pero te he dejado con vida, para hacerte ver mi poder, y para que sea celebrado mi nombre sobre toda la tierra."
+    },
+    {
+      "text": "Tú te opones todavía a mi pueblo, para no dejarle salir."
+    },
+    {
+      "text": "Pues mira que mañana, a esta hora, haré llover una granizada tan fuerte, como no hubo otra en Egipto desde el día en que fue fundado hasta el presente."
+    },
+    {
+      "text": "Ahora, pues, manda poner a salvo tu ganado y cuanto tienes en del campo; porque el granizo descargará sobre todos los hombres y animales que se hallan en el campo, y cuantos no se hayan recogido bajo techumbre perecerán.»"
+    },
+    {
+      "text": "Aquéllos de los siervos de Faraón que temieron la palabra de Dios pusieron al abrigo a sus siervos y su ganado;"
+    },
+    {
+      "text": "mas los que no hicieron caso de la palabra de Dios, dejaron en el campo a sus siervos y su ganado."
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Extiende tu mano hacia el cielo, y que caiga granizo en toda la tierra de Egipto, sobre los hombres, sobre los ganados y sobre todas las hierbas del campo que hay en la tierra de Egipto.»"
+    },
+    {
+      "text": "Extendió Moisés su cayado hacia el cielo, y Dios envió truenos y granizo; cayeron rayos sobre la tierra, y Dios hizo llover granizo sobre el país de Egipto."
+    },
+    {
+      "text": "El granizo y los rayos mezclados con el granizo cayeron con fuerza tan extraordinaria que nunca hubo semejante en toda la tierra de Egipto desde que comenzó a ser nación."
+    },
+    {
+      "text": "El granizo hirió cuanto había en el campo en todo el país de Egipto, desde los hombres hasta los ganados. El granizo machacó también toda la hierba del campo, y quebró todos los árboles del campo."
+    },
+    {
+      "text": "Tan sólo en la región de Gosen, donde habitaban los israelitas, no hubo granizo."
+    },
+    {
+      "text": "Faraón hizo llamar a Moisés y a Aarón y les dijo: «Ahora sí, he pecado; Dios es el justo, y yo y mi pueblo somos inicuos."
+    },
+    {
+      "text": "Rogad a Dios que cesen ya los truenos y el granizo; y os dejaré salir. No tendréis que quedaros más tiempo aquí.»"
+    },
+    {
+      "text": "Moisés le respondió: «Cuando salga de la ciudad extenderé mis manos hacia Dios, cesarán los truenos, y no habrá más granizo, para que sepas que la tierra es de Dios."
+    },
+    {
+      "text": "Pero bien sé que ni tú ni tus siervos teméis todavía a Dios, Dios.»"
+    },
+    {
+      "text": "Fueron destrozados el lino y la cebada, pues la cebada estaba ya en espiga, y el lino en flor."
+    },
+    {
+      "text": "El trigo y la espelta no fueron destrozados por ser tardíos."
+    },
+    {
+      "text": "Dejando a Faraón, salió Moisés de la ciudad, extendió las manos hacia Dios, y cesaron los truenos y granizos, y no cayó más lluvia sobre la tierra."
+    },
+    {
+      "text": "Cuando Faraón vio que había cesado la lluvia, el granizo y los truenos, volvió a pecar, endureciendo su corazón, tanto él como sus siervos."
+    },
+    {
+      "text": "Endurecióse, pues, el corazón de Faraón y no dejó salir a los israelitas como Dios había dicho por boca de Moisés."
+    }
+  ],
+  "10": [
+    {
+      "text": "Dijo Dios a Moisés: «Ve a Faraón, porque he endurecido su corazón y el corazón de sus siervos, para obrar estas señales mías en medio de ellos;"
+    },
+    {
+      "text": "y para que puedas contar a tu hijo, y al hijo de tu hijo, cómo me divertí con Egipto y las señales que realicé entre ellos, y sepáis que yo soy Dios.»"
+    },
+    {
+      "text": "Fueron, pues, Moisés y Aarón donde Faraón y le dijeron: «Así dice Dios, el Dios de los hebreos: ¿Hasta cuándo te resistirás a humillarte ante mí? Deja salir a mi pueblo para que me dé culto."
+    },
+    {
+      "text": "Si te niegas a dejar salir a mi pueblo, mira que mañana traeré langostas sobre tu territorio;"
+    },
+    {
+      "text": "y cubrirán la superficie del país, de suerte que ni podrá verse el suelo. Devorarán lo que os quedó de la granizada, y comerán todos los árboles que os crecen en el campo."
+    },
+    {
+      "text": "Llenarán tus casas, las casas de todos los egipcios, como nunca vieron tus padres, ni los padres de tus padres, desde el día en que existieron sobre la tierra hasta el día de hoy.» Y retirándose salió de la presencia de Faraón."
+    },
+    {
+      "text": "Dijeron entonces a Faraón sus siervos: «¿Hasta cuándo ha de ser este hombre causa de nuestra ruina? Deja salir a esa gente y que den culto a Dios, su Dios. ¿Te darás cuenta a tiempo de que Egipto se pierde?»"
+    },
+    {
+      "text": "Hicieron, pues, volver a Moisés y a Aarón a la presencia de Faraón; el cual les dijo: «Id a dar culto a Dios, vuestro Dios. ¿Quiénes van a ir?»"
+    },
+    {
+      "text": "Respondió Moisés: «Saldremos con nuestros niños y nuestros ancianos, con nuestros hijos y nuestras hijas, con nuestras ovejas y nuestras vacadas; porque es nuestra fiesta de Dios.»"
+    },
+    {
+      "text": "Contestóles: «¡Así esté Dios con vosotros como voy a dejaros salir a vosotros con vuestros pequeños! Ved cómo a la vista están vuestras malas intenciones."
+    },
+    {
+      "text": "No será así; salid si queréis los varones solos y dad culto a Dios, pues eso es lo que buscabais.» Y fueron echados de la presencia de Faraón."
+    },
+    {
+      "text": "Dios dijo a Moisés: «Extiende tu mano sobre la tierra de Egipto para que venga la langosta; que suba sobre el país de Egipto y coma toda la hierba del país, todo lo que dejó el granizo.»"
+    },
+    {
+      "text": "Moisés extendió su cayado sobre la tierra de Egipto; y Dios hizo soplar el solano sobre el país todo aquel día y toda la noche. Y cuando amaneció, el solano había traído la langosta."
+    },
+    {
+      "text": "La langosta invadió todo el país de Egipto, y se posó en todo el territorio egipcio, en cantidad tan grande como nunca había habido antes tal plaga de langosta ni la habría después."
+    },
+    {
+      "text": "Cubrieron toda la superficie del país hasta oscurecer la tierra; devoraron toda la hierba del país y todos los frutos de los árboles que el granizo había dejado; no quedó nada verde ni en los árboles ni en las hierbas del campo en toda la tierra de Egipto."
+    },
+    {
+      "text": "Entonces Faraón llamó a toda prisa a Moisés y a Aaron, y dijo: «He pecado contra Dios, vuestro Dios, y contra vosotros."
+    },
+    {
+      "text": "Ahora, pues, perdonad por favor mi pecado, siquiera por esta vez; rogad a Dios, vuestro Dios, que aparte de mí al menos esta mortandad.»"
+    },
+    {
+      "text": "Salió Moisés de la presencia de Faraón y rogó a Dios."
+    },
+    {
+      "text": "Dios hizo que soplara con gran violencia un viento del mar que se llevó la langosta y la echó al mar de Suf. No quedó ni una langosta en todo el territorio de Egipto."
+    },
+    {
+      "text": "Pero Dios endureció el corazón de Faraón, que no dejó salir a los israelitas."
+    },
+    {
+      "text": "Dios dijo a Moisés: «Extiende tu mano hacia el cielo, y haya sobre la tierra de Egipto tinieblas que puedan palparse.»"
+    },
+    {
+      "text": "Extendió, pues, Moisés su mano hacia el cielo, y hubo por tres días densas tinieblas en todo el país de Egipto."
+    },
+    {
+      "text": "No se veían unos a otros, y nadie se levantó de su sitio por espacio de tres días, mientras que todos los israelitas tenían luz en sus moradas."
+    },
+    {
+      "text": "Llamó Faraón a Moisés y dijo: «Id y dad culto a Dios; que se queden solamente vuestras ovejas y vuestras vacadas. También vuestros pequeños podrán ir con vosotros.»"
+    },
+    {
+      "text": "Respondió Moisés: «Nos tienes que conceder también sacrificios y holocaustos, para que los ofrendemos a Dios, nuestro Dios."
+    },
+    {
+      "text": "También nuestro ganado ha de venir con nosotros. No quedará ni una pezuña; porque de ellos hemos de tomar para dar culto a Dios, nuestro Dios. Y no sabemos todavía qué hemos de ofrecer a Dios hasta que lleguemos allá.»"
+    },
+    {
+      "text": "Dios endureció el corazón de Faraón, que no quiso dejarles salir."
+    },
+    {
+      "text": "Y dijo Faraón a Moisés: «¡Retírate de mi presencia! ¡Guárdate de volver a ver mi rostro, pues el día en que veas mi rostro, morirás!»"
+    },
+    {
+      "text": "Respondió Moisés: «Tú lo has dicho: no volveré a ver tu rostro.»"
+    }
+  ],
+  "11": [
+    {
+      "text": "Dijo Dios a Moisés: «Todavía traeré una plaga más sobre Faraón y sobre Egipto; tras de lo cual os dejará marchar de aquí y cuando, por fin, os deje salir del país, él mismo os expulsará de aquí."
+    },
+    {
+      "text": "Habla, pues, al pueblo y que cada hombre pida a su vecino, y cada mujer a su vecina, objetos de plata y objetos de oro.»"
+    },
+    {
+      "text": "Dios hizo que el pueblo se ganase el favor de los egipcios. Además, Moisés era un gran personaje en la tierra de Egipto, tanto a los ojos de los servidores de Faraón como a los ojos del pueblo."
+    },
+    {
+      "text": "Moisés dijo: «Así dice Dios: hacia media noche pasaré yo a través de Egipto;"
+    },
+    {
+      "text": "y morirá en el país de Egipto todo primogénito, desde el primogénito de Faraón que se sienta en su trono hasta el primogénito de la esclava encargada de moler, así como todo primer nacido del ganado."
+    },
+    {
+      "text": "Y se elevará en todo el país de Egipto un alarido tan grande como nunca lo hubo, ni lo habrá."
+    },
+    {
+      "text": "Pero entre los israelitas ni siquiera un perro ladrará ni contra hombre ni contra bestia; para que sepáis cómo Dios hace distinción entre Egipto e Israel."
+    },
+    {
+      "text": "Entonces vendrán a mí todos estos siervos tuyos y se postrarán delante de mí, diciendo: Sal, tú y todo el pueblo que te sigue. Y entonces, saldré.» Y, ardiendo en cólera, salió de la presencia de Faraón."
+    },
+    {
+      "text": "Y dijo Dios a Moisés: «no os escuchará Faraón, para que así pueda yo multiplicar mis prodigios en la tierra de Egipto.»"
+    },
+    {
+      "text": "Moisés y Aarón obraron todos estos prodigios ante Faraón; pero Dios endureció el corazón de Faraón, que no dejó salir de su país a los israelitas."
+    }
+  ],
+  "12": [
+    {
+      "text": "Dijo Dios a Moisés y Aarón en el país de Egipto:"
+    },
+    {
+      "text": "«Este mes será para vosatros el comienzo de los meses; será el primero de los meses del año."
+    },
+    {
+      "text": "Hablad a toda la comunidad de Israel y decid: El día diez de este mes tomará cada uno para sí una res de ganado menor por familia, una res de ganado menor por casa."
+    },
+    {
+      "text": "Y si la familia fuese demasiado reducida para una res de ganado menor, traerá al vecino más cercano a su casa, según el número de personas y conforme a lo que cada cual pueda comer."
+    },
+    {
+      "text": "El animal será sin defecto, macho, de un año. Lo escogeréis entre los corderos o los cabritos."
+    },
+    {
+      "text": "Lo guardaréis hasta el día catorce de este mes; y toda la asamblea de la comunidad de los israelitas lo inmolará entre dos luces."
+    },
+    {
+      "text": "Luego tomarán la sangre y untarán las dos jambas y el dintel de las casas donde lo coman."
+    },
+    {
+      "text": "En aquella misma noche comerán la carne. La comerán asada al fuego, con ázimos y con hierbas amargas."
+    },
+    {
+      "text": "Nada de él comeréis crudo ni cocido, sino asado, con su cabeza, sus patas y sus entrañas."
+    },
+    {
+      "text": "Y no dejaréis nada de él para la mañana; lo que sobre al amanecer lo quemaréis."
+    },
+    {
+      "text": "Así lo habéis de comer: ceñidas vuestras cinturas, calzados vuestros pies, y el bastón en vuestra mano; y lo comeréis de prisa. Es Pascua de Dios."
+    },
+    {
+      "text": "Yo pasaré esta noche por la tierra de Egipto y heriré a todos los primogénitos del país de Egipto, desde los hombres hasta los ganados, y me tomaré justicia de todos los dioses de Egipto. Yo, Dios."
+    },
+    {
+      "text": "La sangre será vuestra señal en las casas donde moráis. Cuando yo vea la sangre pasaré de largo ante vosotros, y no habrá entre vosotros plaga exterminadora cuando yo hiera el país de Egipto."
+    },
+    {
+      "text": "Este será un día memorable para vosotros, y lo celebraréis como fiesta en honor de Dios de generación en generación. Decretaréis que sea fiesta para siempre»."
+    },
+    {
+      "text": "«Durante siete días comeréis ázimos; ya desde el primer día quitaréis de vuestras casas la levadura. Todo el que desde el día primero hasta el día séptimo coma pan fermentado, ese tal será exterminado de en medio de Israel."
+    },
+    {
+      "text": "El primer día tendréis reunión sagrada; también el día séptimo os reuniréis en reunión sagrada. Ningún trabajo se hará en esos días, salvo la comida para cada uno. Esto es lo único que podréis hacer."
+    },
+    {
+      "text": "Guardad la fiesta de los Azimos, porque en ese mismo día saqué yo vuestros ejércitos de la tierra de Egipto. Guardad este día de generación en generación como decreto perpetuo."
+    },
+    {
+      "text": "Comeréis ázimos en el mes primero, desde la tarde del día catorce del mes hasta la tarde del día veintiuno."
+    },
+    {
+      "text": "No habrá levadura en vuestras casas por espacio de siete días; todo aquel que coma algo fermentado, sea forastero o natural del país, será exterminado de la comunidad de Israel."
+    },
+    {
+      "text": "No comeréis nada fermentado; en todo lugar donde habitéis, comeréis ázimos.»"
+    },
+    {
+      "text": "Llamó Moisés a todos los ancianos de Israel y les dijo: «Id en busca de reses menores para vuestras familias e inmolad la pascua."
+    },
+    {
+      "text": "Tomaréis un manojo de hisopo, lo mojaréis en la sangre que está en la vasija y untaréis el dintel y las dos jambas con la sangre de la vasija; y ninguno de vosotros saldrá de la puerta de su casa hasta la mañana."
+    },
+    {
+      "text": "Dios pasará y herirá a los egipcios, pero al ver la sangre en el dintel y en las dos jambas, Dios pasará de largo por aquella puerta y no permitirá que el Exterminador entre en vuestras casas para herir."
+    },
+    {
+      "text": "Guardad este mandato como decreto perpetuo para vosotros y vuestros hijos."
+    },
+    {
+      "text": "También guardaréis este rito cuando entréis en la tierra que os dará Dios, según su promesa."
+    },
+    {
+      "text": "Y cuando os pregunten vuestros hijos: \"¿Qué significa para vosotros este rito?\","
+    },
+    {
+      "text": "responderéis: \"Este es el sacrificio de la Pascua de Dios, que pasó de largo por las casas de los israelitas en Egipto cuando hirió a los egipcios y salvó nuestras casas.\"» Entonces el pueblo se postró para adorar."
+    },
+    {
+      "text": "Fueron los israelitas e hicieron lo que había mandado Dios a Moisés y a Aarón; así lo hicieron."
+    },
+    {
+      "text": "Y sucedió que, a media noche, Dios hirió en el país de Egipto a todos los primogénitos, desde el primogénito de Faraón, que se sienta sobre su trono, hasta el primogénito del preso en la cárcel, y a todo primer nacido del ganado."
+    },
+    {
+      "text": "Levantóse Faraón aquella noche, con todos sus servidores y todos los egipcios; y hubo grande alarido en Egipto, porque no había casa donde no hubiese un muerto."
+    },
+    {
+      "text": "Llamó Faraón a Moisés y a Aarón, durante la noche, y les dijo: «Levantaos y salid de en medio de mi pueblo, vosotros y los israelitas, e id a dar culto a Dios, como habéis dicho."
+    },
+    {
+      "text": "Tomad también vuestros rebaños y vuestras vacadas, como dijisteis. Marchaos y bendecidme también a mí.»"
+    },
+    {
+      "text": "Los egipcios por su parte instaban al pueblo para acelerar su salida del país, pues decían. «Vamos a morir todos.»"
+    },
+    {
+      "text": "Tomó, pues, el pueblo la masa, antes que fermentara y, envolviendo en los mantos las artesas de la harina, se las cargaron a hombros."
+    },
+    {
+      "text": "Los israelitas hicieron lo que les dijo Moisés y pidieron a los egipcios objetos de plata, objetos de oro y vestidos."
+    },
+    {
+      "text": "Dios hizo que el pueblo se ganara el favor de los egipcios, los cuales se los prestaron. Así despojaron a los egipcios."
+    },
+    {
+      "text": "Los israelitas partieron de Ramsés hacia Sukkot, unos 600.000 hombres de a pie, sin contar los niños."
+    },
+    {
+      "text": "Salió también con ellos una muchedumbre abigarrada y grandes rebaños de ovejas y vacas."
+    },
+    {
+      "text": "De la masa que habían sacado de Egipto cocieron tortas ázimas, porque no había fermentado todavía; pues al ser echados de Egipto no pudieron tomar víveres ni provisiones para el camino."
+    },
+    {
+      "text": "Los israelitas estuvieron en Egipto 430 años."
+    },
+    {
+      "text": "El mismo día que se cumplían los 430 años, salieron de la tierra de Egipto todos los ejércitos de Dios."
+    },
+    {
+      "text": "Noche de guardia fue ésta para Dios, para sacarlos de la tierra de Egipto. Esta misma noche será la noche de guardia en honor de Dios para todos los israelitas, por todas sus generaciones."
+    },
+    {
+      "text": "Dijo Dios a Moisés y a Aarón: «Estas son las normas sobre la Pascua: no comerá de ella ningún extranjero."
+    },
+    {
+      "text": "Todo siervo, comprado por dinero, a quien hayas circuncidado, podrá comerla."
+    },
+    {
+      "text": "Pero el residente y el jornalero no la comerán."
+    },
+    {
+      "text": "Se ha de comer dentro de casa; no sacaréis fuera de casa nada de carne, ni le quebraréis ningún hueso."
+    },
+    {
+      "text": "Toda la comunidad de Israel la celebrará."
+    },
+    {
+      "text": "Si un forastero que habita contigo quiere celebrar la Pascua de Dios, que se circunciden todos sus varones, y entonces podrá acercarse para celebrarla, pues será como los nativos; pero ningún incircunciso podrá comerla."
+    },
+    {
+      "text": "Una misma ley habrá para el nativo y para el forastero que habita en medio de vosotros.»"
+    },
+    {
+      "text": "Así lo hicieron todos los israelitas. Tal como había mandado Dios a Moisés y a Aarón, así lo hicieron."
+    },
+    {
+      "text": "Y en aquel mismo día sacó Dios del país de Egipto a los israelitas en orden de campaña."
+    }
+  ],
+  "13": [
+    {
+      "text": "Habló Dios a Moisés, diciendo:"
+    },
+    {
+      "text": "«Conságrame todo primogénito, todo lo que abre el seno materno entre los israelitas. Ya sean hombres o animales, míos son todos.»"
+    },
+    {
+      "text": "Dijo, pues, Moisés al pueblo: «Acordaos de este día en que salisteis de Egipto, de la casa de servidumbre, pues Dios os ha sacado de aquí con mano fuerte; y no comáis pan fermentado."
+    },
+    {
+      "text": "Salís hoy, en el mes de Abib."
+    },
+    {
+      "text": "Así, cuando Dios te haya introducido en la tierra de los cananeos, de los hititas, de los amorreos, de los jivitas y de los jebuseos, que juró a tus padres que te daría, tierra que mana leche y miel, celebrarás ese rito en este mes."
+    },
+    {
+      "text": "Siete días comerás ázimos y el día séptimo será fiesta de Dios."
+    },
+    {
+      "text": "Se comerán ázimos durante siete días, y no se verá pan fermentado en tu casa, ni levadura en tu casa, en todo tu territorio."
+    },
+    {
+      "text": "En aquel día harás saber a tu hijo: \"Esto es con motivo de lo que hizo conmigo Dios cuando salí de Egipto.\""
+    },
+    {
+      "text": "Y esto te servirá como señal en tu mano, y como recordatorio ante tus ojos, para que la ley de Dios esté en tu boca; porque con mano fuerte te sacó Dios de Egipto."
+    },
+    {
+      "text": "Guardarás este precepto, año por año, en el tiempo debido.»"
+    },
+    {
+      "text": "Cuando Dios te haya introducido en la tierra del cananeo, como lo tiene jurado a ti y a tus padres, y te la haya dado,"
+    },
+    {
+      "text": "consagrarás a Dios todo lo que abre el seno materno. Todo primer nacido de tus ganados, si son machos, pertenecen también a Dios."
+    },
+    {
+      "text": "Todo primer nacido del asno lo rescatarás con un cordero; y si no lo rescatas lo desnucarás. Rescatarás también todo primogénito de entre tus hijos."
+    },
+    {
+      "text": "Y cuando el día de mañana te pregunte tu hijo: \"¿Qué significa esto?\", le dirás: \"Con mano fuerte nos sacó Dios de Egipto, de la casa de servidumbre.\""
+    },
+    {
+      "text": "Como Faraón se obstinó en no dejarnos salir, Dios mató a todos los primogénitos en el país de Egipto, desde el primogénito del hombre hasta el primogénito del ganado. Por eso sacrifico a Dios todo macho que abre el seno materno, y rescato todo primogénito de mis hijos."
+    },
+    {
+      "text": "Esto será como señal en tu mano y como insignia entre tus ojos; porque con mano fuerte nos sacó Dios de Egipto.»"
+    },
+    {
+      "text": "Cuando Faraón dejó salir al pueblo, Dios no los llevó por el camino de la tierra de los filisteos, aunque era más corto; pues se dijo Dios: «No sea que, al verse atacado, se arrepienta el pueblo y se vuelva a Egipto.»"
+    },
+    {
+      "text": "Hizo Dios dar un rodeo al pueblo por el camino del desierto del mar de Suf. Los israelitas salieron bien equipados del país de Egipto."
+    },
+    {
+      "text": "Moisés tomó consigo los huesos de José, pues éste había hecho jurar solemnemente a los israelitas, diciendo: « Ciertamente Dios os visitará, y entonces llevaos de aquí mis huesos con vosotros.\""
+    },
+    {
+      "text": "Partieron de Sukkot y acamparon en Etam, al borde del desierto."
+    },
+    {
+      "text": "Dios iba al frente de ellos, de día en columna de nube para guiarlos por el camino, y de noche en columna de fuego para alumbrarlos, de modo que pudiesen marchar de día y de noche."
+    },
+    {
+      "text": "No se apartó del pueblo ni la columna de nube por el día, ni la columna de fuego por la noche."
+    }
+  ],
+  "14": [
+    {
+      "text": "Habló Dios a Moisés, diciendo:"
+    },
+    {
+      "text": "«Di a los israelitas que se vuelvan y acampen frente a Pi Hajirot, entre Migdol y el mar, enfrente de Baal Sefón. Frente a ese lugar acamparéis, junto al mar."
+    },
+    {
+      "text": "Faraón dirá de los israelitas: \"Andan errantes en el país, y el desierto les cierra el paso.\""
+    },
+    {
+      "text": "Yo endureceré el corazón de Faraón, y os perseguirá; pero yo manifestaré mi gloria a costa de Faraón y de todo su ejército, y sabrán los egipcios que yo soy Dios.» Así lo hicieron."
+    },
+    {
+      "text": "Cuando anunciaron al rey de Egipto que había huido el pueblo, se mudó el corazón de Faraón y de sus servidores respecto del pueblo, y dijeron: «¿Qué es lo que hemos hecho dejando que Israel salga de nuestro servicio?»"
+    },
+    {
+      "text": "Faraón hizo enganchar su carro y llevó consigo sus tropas."
+    },
+    {
+      "text": "Tomó seiscientos carros escogidos y todos los carros de Egipto, montados por sus combatientes."
+    },
+    {
+      "text": "Endureció Dios el corazón de Faraón rey de Egipto, el cual persiguió a los israelitas, pero los israelitas salieron con la mano alzada."
+    },
+    {
+      "text": "Los egipcios los persiguieron: todos los caballos, los carros de Faraón, con la gente de los carros y su ejército; y les dieron alcance mientras acampaban junto al mar, cerca de Pi Hajirot, frente a Baal Sefón."
+    },
+    {
+      "text": "Al acercarse Faraón, los israelitas alzaron sus ojos, y viendo que los egipcios marchaban tras ellos, temieron mucho los israelitas y clamaron a Dios."
+    },
+    {
+      "text": "Y dijeron a Moisés: «¿Acaso no había sepulturas en Egipto para que nos hayas traído a morir en el desierto? ¿Qué has hecho con nosotros sacándonos de Egipto?"
+    },
+    {
+      "text": "¿No te dijimos claramente en Egipto: Déjanos en paz, queremos servir a los egipcios? Porque mejor nos es servir a los egipcios que morir en el desierto.»"
+    },
+    {
+      "text": "Contestó Moisés al pueblo: «No temáis; estad firmes, y veréis la salvación que Dios os otorgará en este día, pues los egipcios que ahora veis, no los volveréis a ver nunca jamás."
+    },
+    {
+      "text": "Dios peleará por vosotros, que vosotros no tendréis que preocuparos.»"
+    },
+    {
+      "text": "Dijo Dios a Moisés: «¿Por qué sigues clamando a mí? Di a los israelitas que se pongan en marcha."
+    },
+    {
+      "text": "Y tú, alza tu cayado, extiende tu mano sobre el mar y divídelo, para que los israelitas entren en medio del mar a pie enjuto."
+    },
+    {
+      "text": "Que yo voy a endurecer el corazón de los egipcios para que los persigan, y me cubriré de gloria a costa de Faraón y de todo su ejército, de sus carros y de los guerreros de los carros."
+    },
+    {
+      "text": "Sabrán los egipcios que yo soy Dios, cuando me haya cubierto de gloria a costa de Faraón, de sus carros y de sus jinetes."
+    },
+    {
+      "text": "Se puso en marcha el Angel de Dios que iba al frente del ejército de Israel, y pasó a retaguardia. También la columna de nube de delante se desplazó de allí y se colocó detrás,"
+    },
+    {
+      "text": "poniéndose entre el campamento de los egipcios y el campamento de los israelitas. La nube era tenebrosa y transcurrió la noche sin que pudieran trabar contacto unos con otros en toda la noche."
+    },
+    {
+      "text": "Moisés extendió su mano sobre el mar, y Dios hizo soplar durante toda la noche un fuerte viento del Este que secó el mar, y se dividieron las aguas."
+    },
+    {
+      "text": "Los israelitas entraron en medio del mar a pie enjuto, mientras que las aguas formaban muralla a derecha e izquierda."
+    },
+    {
+      "text": "Los egipcios se lanzaron en su persecución, entrando tras ellos, en medio del mar, todos los caballos de Faraón, y los carros con sus guerreros."
+    },
+    {
+      "text": "Llegada la vigilia matutina, miró Dios desde la columna de fuego y humo hacia el ejército de los egipcios, y sembró la confusión en el ejército egipcio."
+    },
+    {
+      "text": "Trastornó la ruedas de sus carros, que no podían avanzar sino con gran dificultad. Y exclamaron los egipcios: «Huyamos ante Israel, porque Dios pelea por ellos contra los egipcios.»"
+    },
+    {
+      "text": "Dios dijo a Moisés: Extiende tu mano sobre el mar, y las aguas volverán sobre los egipcios, sobre sus carros y sobre los guerreros de los carros.»"
+    },
+    {
+      "text": "Extendió Moisés su mano sobre el mar, y al rayar el alba volvió el mar a su lecho; de modo que los egipcios, al querer huir, se vieron frente a las aguas. Así precipitó Dios a los egipcios en medio del mar,"
+    },
+    {
+      "text": "pues al retroceder las aguas cubrieron los carros y a su gente, a todo el ejército de Faraón, que había entrado en el mar para perseguirlos; no escapó ni uno siquiera."
+    },
+    {
+      "text": "Mas los israelitas pasaron a pie enjuto por en medio del mar, mientras las aguas hacían muralla a derecha e izquierda."
+    },
+    {
+      "text": "Aquel día salvó Dios a Israel del poder de los egipcios; e Israel vio a los egipcios muertos a orillas del mar."
+    },
+    {
+      "text": "Y viendo Israel la mano fuerte que Dios había desplegado contra los egipcios, temió el pueblo a Dios, y creyeron en Dios y en Moisés, su siervo."
+    }
+  ],
+  "15": [
+    {
+      "text": "Entonces Moisés y los israelitas cantaron este cántico a Dios. Dijeron: «Canto a Dios pues se cubrió de gloria arrojando en el mar caballo y carro."
+    },
+    {
+      "text": "Mi fortaleza y mi canción es Yah. El es mi salvación. El, mi Dios, yo le glorifico, el Dios de mi padre, a quien exalto."
+    },
+    {
+      "text": "¡Un guerrero Dios, Dios es su nombre!"
+    },
+    {
+      "text": "Los carros de Faraón y sus soldados precipitó en el mar. La flor de sus guerreros tragó el mar de Suf;"
+    },
+    {
+      "text": "cubriólos el abismo, hasta el fondo cayeron como piedra."
+    },
+    {
+      "text": "Tu diestra, Dios,relumbra por su fuerza; tu diestra, Dios, aplasta al enemigo."
+    },
+    {
+      "text": "En tu gloria inmensa derribas tus contrarios, desatas tu furor y los devora como paja."
+    },
+    {
+      "text": "Al soplo de tu ira se apiñaron las aguas, se irguieron las olas como un dique, los abismos cuajaron en el corazón del mar."
+    },
+    {
+      "text": "Dijo el enemigo: «Marcharé a su alcance, repartiré despojos, se saciará mi alma, sacaré mi espada y los aniquilará mi mano.»"
+    },
+    {
+      "text": "Mandaste tu soplo, cubriólos el mar; se hundieron como plomo en las temibles aguas."
+    },
+    {
+      "text": "¿Quién como tú, Dios, entre los dioses? ¿Quién como tú, glorioso en santidad, terrible en prodigios, autor de maravillas?"
+    },
+    {
+      "text": "Tendiste tu diestra y los tragó la tierra."
+    },
+    {
+      "text": "Guiaste en tu bondad al pueblo rescatado. Tu poder los condujo a tu santa morada."
+    },
+    {
+      "text": "Oyéronlo los pueblos, se turbaron, dolor como de parto en Filistea."
+    },
+    {
+      "text": "Los príncipes de Edom se estremecieron, se angustiaron los jefes de Moab y todas las gentes de Canaán temblaron."
+    },
+    {
+      "text": "Pavor y espanto cayó sobre ellos. La fuerza de tu brazo los hizo enmudecer como una piedra, hasta que pasó tu pueblo, oh Dios, hasta pasar el pueblo que compraste."
+    },
+    {
+      "text": "Tú le llevas y le plantas en el monte de tu herencia, hasta el lugar que tú te has preparado para tu sede, ¡oh Dios! Al santuario, Adonay, que tus manos prepararon."
+    },
+    {
+      "text": "¡Dios reinará por siempre jamás!»"
+    },
+    {
+      "text": "Porque cuando los caballos de Faraón y los carros con sus guerreros entraron en el mar, Dios hizo que las aguas del mar volvieran sobre ellos, mientras que los israelitas pasaron a pie enjuto por medio del mar."
+    },
+    {
+      "text": "María, la profetisa, hermana de Aarón tomó en sus manos un tímpano y todas la mujeres la seguían con tímpanos y danzando en coro."
+    },
+    {
+      "text": "Y María les entonaba el estribillo: «Cantad a Dios pues se cubrió de gloria. arrojando en el mar caballo y carro.»"
+    },
+    {
+      "text": "Moisés hizo partir a los israelitas del mar de Suf y se dirigieron hacia el desierto de Sur: caminaron tres días por el desierto sin encontrar agua."
+    },
+    {
+      "text": "Luego llegaron a Mará, porque era amarga. Por eso se llama aquel lugar Mará."
+    },
+    {
+      "text": "El pueblo murmuró contra Moisés, diciendo: «¿Qué vamos a beber?»"
+    },
+    {
+      "text": "Entonces Moisés invocó a Dios, y Dios le mostró un madero que Moisés echó al agua, y el agua se volvió dulce. Allí dio a Israel decretos y normas, y allí le puso a prueba."
+    },
+    {
+      "text": "Y dijo: «Si de veras escuchas la voz de Dios, tu Dios, y haces lo que es recto a sus ojos, dando oídos a sus mandatos y guardando todos sus preceptos, no traeré sobre ti ninguna de las plagas que envié sobre los egipcios; porque yo soy Dios, el que te sana.»"
+    },
+    {
+      "text": "Después llegaron a Elim, donde hay doce fuentes de agua y setenta palmeras, y acamparon allí junto a las aguas."
+    }
+  ],
+  "16": [
+    {
+      "text": "Partieron de Elim, y toda la comunidad de los israelitas llegó al desierto de Sin, que está entre Elim y el Sinaí, el día quince del segundo mes después de su salida del país de Egipto."
+    },
+    {
+      "text": "Toda la comunidad de los israelitas empezó a murmurar contra Moisés y Aarón en el desierto."
+    },
+    {
+      "text": "Los israelitas les decían: «¡Ojalá hubiéramos muerto a manos de Dios en la tierra de Egipto cuando nos sentábamos junto a las ollas de carne, cuando comíamos pan hasta hartarnos! Vosotros nos habéis traído a este desierto para matar de hambre a toda esta asamblea.»"
+    },
+    {
+      "text": "Dios dijo a Moisés: «Mira, yo haré llover sobre vosotros pan del cielo; el pueblo saldrá a recoger cada día la porción diaria; así le pondré a prueba para ver si anda o no según mi ley."
+    },
+    {
+      "text": "Mas el día sexto, cuando preparen lo que hayan traído, la ración será doble que la de los demás días.»"
+    },
+    {
+      "text": "Dijeron, pues, Moisés y Aarón a toda la comunidad de los israelitas: «Esta tarde sabréis que es Dios quien os ha sacado del país de Egipto;"
+    },
+    {
+      "text": "y por la mañana veréis la gloria de Dios. Porque ha oído vuestras murmuraciones contra Dios; pues ¿qué somos nosotros para que murmuréis contra nosotros?»"
+    },
+    {
+      "text": "Y añadió Moisés: «Dios os dará esta tarde carne para comer, y por la mañana pan en abundancia; porque Dios ha oído vuestras murmuraciones contra él; pues ¿qué somos nosotros? No van contra nosotros vuestras murmuraciones, sino contra Dios.»"
+    },
+    {
+      "text": "Dijo entonces Moisés a Aarón: «Ordena a toda la comunidad de los israelitas: Acercaos a Dios, pues él ha oído vuestras murmuraciones.»"
+    },
+    {
+      "text": "Aún estaba hablando Aarón a toda la comunidad de los israelitas, cuando ellos miraron hacia el desierto, y he aquí que la gloria de Dios se apareció en forma de nube."
+    },
+    {
+      "text": "Y Dios habló a Moisés, diciendo:"
+    },
+    {
+      "text": "«He oído las murmuraciones de los israelitas. Diles: Al atardecer comeréis carne y por la mañana os hartaréis de pan; y así sabréis que yo soy Dios, vuestro Dios.»"
+    },
+    {
+      "text": "Aquella misma tarde vinieron las codornices y cubrieron el campamento; y por la mañana había una capa de rocío en torno al campamento."
+    },
+    {
+      "text": "Y al evaporarse la capa de rocío apareció sobre el suelo del desierto una cosa menuda, como granos, parecida a la escarcha de la tierra."
+    },
+    {
+      "text": "Cuando los israelitas la vieron, se decían unos a otros: «¿Qué es esto?» Pues no sabían lo que era. Moisés les dijo: «Este es el pan que Dios os da por alimento."
+    },
+    {
+      "text": "He aquí lo que manda Dios: Que cada uno recoja cuanto necesite para comer, un gomor por cabeza, según el número de los miembros de vuestra familia; cada uno recogerá para la gente de su tienda.»"
+    },
+    {
+      "text": "Así lo hicieron los israelitas; unos recogieron mucho y otros poco."
+    },
+    {
+      "text": "Pero cuando lo midieron con el gomor, ni los que recogieron poco tenían de menos. Cada uno había recogido lo que necesitaba para su sustento."
+    },
+    {
+      "text": "Moisés les dijo: «Que nadie guarde nada para el día siguiente.»"
+    },
+    {
+      "text": "Pero no obedecieron a Moisés, y algunos guardaron algo para el día siguiente; pero se llenó de gusanos y se pudrió; y Moisés se irritó contra ellos."
+    },
+    {
+      "text": "Lo recogían por las mañanas, cada cual según lo que necesitaba; y luego, con el calor del sol, se derretía."
+    },
+    {
+      "text": "El día sexto recogieron doble racíon, dos gomor por persona. Todos los jefes de la comunidad fueron a decírselo a Moisés;"
+    },
+    {
+      "text": "él les respondió: «Esto es lo que manda Dios: Mañana es sábado, día de descanso consagrado a Dios. Coced lo que se deba cocer, hervid lo que se tenga que hervir; y lo sobrante, guardadlo como reserva para mañana.»"
+    },
+    {
+      "text": "Ellos lo guardaron para el día siguiente, según la orden de Moisés; y no se pudrió, ni se agusanó."
+    },
+    {
+      "text": "Dijo entonces Moisés: «Hoy comeréis esto, porque es sábado de Dios; y en tal día no hallaréis nada en el campo."
+    },
+    {
+      "text": "Seis días podéis recogerlo, pero el día séptimo, que es sábado, no habrá nada.»"
+    },
+    {
+      "text": "A pesar de todo, salieron algunos del pueblo a recogerlo el séptimo día, pero no encontraron nada."
+    },
+    {
+      "text": "Dios dijo a Moisés: «¿Hasta cuándo os negaréis a guardar mi mandatos y mis leyes?"
+    },
+    {
+      "text": "Mirad que Dios os ha puesto el sábado; por eso el día sexto os da ración para dos días. Quédese cada uno en su sitio, y que nadie se mueva de su lugar el día séptimo.»"
+    },
+    {
+      "text": "Y el día séptimo descansó el pueblo."
+    },
+    {
+      "text": "La casa de Israel lo llamó maná. Era como semilla de cilantro, blanco, y con sabor a torta de miel."
+    },
+    {
+      "text": "Dijo Moisés: «Esto manda Dios: Llenad un gomor de maná, y conservadlo, para vuestros descendientes, para que vean el pan con que os alimenté en el desierto cuando os saqué del país de Egipto.»"
+    },
+    {
+      "text": "Dijo, pues, Moisés a Aarón: «Toma una vasija, pon en ella un gomor lleno de maná, y colócalo ante Dios, a fin de conservarlo para vuestros descendientes.»"
+    },
+    {
+      "text": "Tal como Dios se lo mandó a Moisés, Aarón lo puso ante el Testimonio para conservarlo."
+    },
+    {
+      "text": "Los israelitas comieron el maná por espacio de cuarenta años, hasta que llegaron a tierra habitada. Lo estuvieron comiendo hasta que llegaron a los confines del país de Canaán."
+    },
+    {
+      "text": "El gomor es la décima parte de la medida."
+    }
+  ],
+  "17": [
+    {
+      "text": "Toda la comunidad de los israelitas partió del desierto de Sin, a la orden de Dios, para continuar sus jornadas; y acamparon en Refidim, donde el pueblo no encontró agua para beber."
+    },
+    {
+      "text": "El pueblo entonces se querelló contra Moisés, diciendo: «Danos agua para beber.» Respondióles Moisés: «¿Por qué os querelláis conmigo? ¿Por qué tentáis a Dios?»"
+    },
+    {
+      "text": "Pero el pueblo, torturado por la sed, siguió murmurando contra Moisés: «¿Nos has hecho salir de Egipto para hacerme morir de sed, a mí, a mis hijos y a mis ganados?»"
+    },
+    {
+      "text": "Clamó Moisés a Dios y dijo: «¿ Qué puedo hacer con este pueblo? Poco falta para que me apedreen.»"
+    },
+    {
+      "text": "Respondió Dios a Moisés: «Pasa delante del pueblo, llevando contigo algunos de los ancianos de Israel; lleva también en tu mano el cayado con que golpeaste el Río y vete,"
+    },
+    {
+      "text": "que allí estaré yo ante ti, sobre la piña, en Horeb; golpearás la peña, y saldrá de ella agua para que beba el pueblo.» Moisés lo hizo así a la vista de los ancianos de Israel."
+    },
+    {
+      "text": "Aquel lugar se llamó Massá y Meribá, a causa de la querella de los israelitas, y por haber tentado a Dios, diciendo: «¿Está Dios entre nosotros o no?»"
+    },
+    {
+      "text": "Vinieron los amalecitas y atacaron a Israel en Refidim."
+    },
+    {
+      "text": "Moisés dijo a Josué: «Elígete algunos hombres, y sal mañana a combatir contra Amalec. Yo me pondré en la cima del monte, con el cayado de Dios en mi mano.»"
+    },
+    {
+      "text": "Josué cumplió las órdenes de Moisés, y salió a combatir contra Amalec. Mientras tanto, Moisés, Aarón y Jur subieron a la cima del monte."
+    },
+    {
+      "text": "Y sucedió que, mientras Moisés tenía alzadas las manos, prevalecía Israel; pero cuando las bajaba, prevalecía Amalec."
+    },
+    {
+      "text": "Se le cansaron las manos a Moisés, y entonces ellos tomaron una piedra y se la pusieron debajo; él se sentó sobre ella, mientras Aarón y Jur le sostenían las manos, uno a un lado y otro al otro. Y así resistieron sus manos hasta la puesta del sol."
+    },
+    {
+      "text": "Josué derrotó a Amalec y a su pueblo a filo de espada."
+    },
+    {
+      "text": "Dios dijo Moisés: «Escribe esto en un libro para que sirva de recuerdo, y haz saber a Josué que yo borraré por completo la memoria de Amalec de debajo de los cielos.»"
+    },
+    {
+      "text": "Después edificó Moisés un altar, al que puso por nombre Dios Nissí"
+    },
+    {
+      "text": "diciendo: «La bandera de Dios en la mano; Dios está en guerra con Amalec de generación en generación.»"
+    }
+  ],
+  "18": [
+    {
+      "text": "Jetró, sacerdote de Madián, suegro de Moisés, se enteró de lo que había hecho Dios en favor de Moisés y de Israel, su pueblo, y cómo Dios había sacado a Israel de Egipto."
+    },
+    {
+      "text": "Entonces Jetró, suegro de Moisés, tomó a Séfora, mujer de Moisés, a la que Moisés había despedido,"
+    },
+    {
+      "text": "y a sus hijos; el uno se llamaba Guersom, pues Moisés dijo: «Forastero soy en tierra extraña,»"
+    },
+    {
+      "text": "y el otro se llamaba Eliezer, pues dijo Moisés: «El Dios de mi padre es mi protector y me ha librado de la espada de Faraón.»"
+    },
+    {
+      "text": "Llegó, pues, Jetró, suegro de Moisés, con los hijos y la mujer de Moisés, al desierto, donde estaba acampado junto al monte de Dios."
+    },
+    {
+      "text": "Y dijo a Moisés: Yo, Jetró, tu suegro, vengo a ti con tu mujer y sus dos hijos.»"
+    },
+    {
+      "text": "Moisés salió al encuentro de su suegro, se postró y le besó. Se saludaron ambos y entraron en la tienda."
+    },
+    {
+      "text": "Moisés contó a su suegro todo lo que Dios había hecho a Faraón y a los egipcios, en favor de Israel; todos los trabajos sufridos en el camino y cómo Dios les había librado de ellos."
+    },
+    {
+      "text": "Jetró se alegró de todo el bien que Dios había hecho a Israel, librándole de la mano de los egipcios."
+    },
+    {
+      "text": "Y dijo Jetró: «¡Bendito sea Dios, que os ha librado de la mano de los egipcios y de la mano de Faraón y ha salvado al pueblo del poder de los egipcios!"
+    },
+    {
+      "text": "Ahora reconozco que Dios es más grande que todos los dioses...»"
+    },
+    {
+      "text": "Después Jetró, suegro de Moisés, ofreció un holocausto y sacrificios a Dios; y Aarón y todos los ancianos de Israel fueron a comer con el suegro de Moisés en presencia de Dios."
+    },
+    {
+      "text": "Al día siguiente, se sentó Moisés para juzgar al pueblo; y el pueblo estuvo ante Moisés desde la mañana hasta la noche."
+    },
+    {
+      "text": "El suegro de Moisés vio el trabajo que su yerno se imponía por el pueblo, y dijo: «¿Cómo haces eso con el pueblo? ¿Por qué te sientas tú solo haciendo que todo el pueblo tenga que permanecer delante de ti desde la mañana hasta la noche?»"
+    },
+    {
+      "text": "Contestó Moisés a su suegro: «Es que el pueblo viene a mí para consultar a Dios."
+    },
+    {
+      "text": "Cuando tienen un pleito, vienen a mí; yo dicto sentencia entre unos y otros, y les doy a conocer los preceptos de Dios y sus leyes.»"
+    },
+    {
+      "text": "Entonces el suegro de Moisés le dijo: «No está bien lo que estás haciendo."
+    },
+    {
+      "text": "Acabarás agotándote, tú y este pueblo que está contigo; porque este trabajo es superior a tus fuerzas; no podrás hacerlo tú solo."
+    },
+    {
+      "text": "Así que escúchame; te voy a dar un consejo, y Dios estará contigo. Sé tú el representante del pueblo delante de Dios y lleva ante Dios sus asuntos."
+    },
+    {
+      "text": "Enséñales los preceptos y las leyes, dales a conocer el camino que deben seguir y las obras que han de practicar."
+    },
+    {
+      "text": "Pero elige de entre el pueblo hombres capaces, temerosos de Dios, hombres fieles e incorruptibles, y ponlos al frente del pueblo como jefes de mil, jefes de ciento, jefes de cincuenta y jefes de diez."
+    },
+    {
+      "text": "Ellos juzgarán al pueblo en todo momento; te presentarán a ti los asuntos más graves, pero en los asuntos de menor importancia, juzgarán ellos. Así se aliviará tu carga, pues ellos te ayudarán a llevarla."
+    },
+    {
+      "text": "Si haces esto, Dios te comunicará sus órdenes, tú podrás resistir, y todo este pueblo por su parte podrá volver en paz a su lugar.»"
+    },
+    {
+      "text": "Escuchó Moisés la voz de su suegro e hizo todo lo que le había dicho."
+    },
+    {
+      "text": "Eligió, pues, hombres capaces de entre todo Israel, y los puso al frente del pueblo, como jefes de mil, jefes de ciento, jefes de cincuenta, y jefes de diez."
+    },
+    {
+      "text": "Estos juzgaban al pueblo en todo momento; los asuntos graves se los presentaban a Moisés, mas en todos los asuntos menores juzgaban por sí mismos."
+    },
+    {
+      "text": "Después Moisés despidió a su suegro, que se volvió a su tierra."
+    }
+  ],
+  "19": [
+    {
+      "text": "Al tercer mes después de la salida de Egipto, ese mismo día, llegaron los hijos de Israel al desierto de Sinaí."
+    },
+    {
+      "text": "Partieron de Refidim, y al llegar al desierto de Sinaí acamparon en el desierto. Allí acampó Israel frente al monte."
+    },
+    {
+      "text": "Moisés subió hacia Dios. Dios le llamó desde el monte, y le dijo: «Así dirás a la casa de Jacob y esto anunciarás a los hijos de Israel:"
+    },
+    {
+      "text": "\"Ya habéis visto lo que he hecho con los egipcios, y cómo a vosotros os he llevado sobre alas de águila y os he traído a mí."
+    },
+    {
+      "text": "Ahora, pues, si de veras escucháis mi voz y guardáis mi alianza, vosotros seréis mi propiedad personal entre todos los pueblos, porque mía es toda la tierra;"
+    },
+    {
+      "text": "seréis para mí un reino de sacerdotes y una nación santa.\" Estas son las palabras que has de decir a los hijos de Israel.»"
+    },
+    {
+      "text": "Fue, pues, Moisés y convocó a los ancianos del pueblo y les expuso todas estas palabras que Dios le había mandado."
+    },
+    {
+      "text": "Todo el pueblo a una respondió diciendo: «Haremos todo cuanto ha dicho Dios.» Y Moisés llevó a Dios la respuesta del pueblo."
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Mira: Voy a presentarme a ti en una densa nube para que el pueblo me oiga hablar contigo, y así te dé crédito para siempre.» Y Moisés refirió a Dios las palabras del pueblo."
+    },
+    {
+      "text": "Dios dijo a Moisés: «Ve donde el pueblo y haz que se santifiquen hoy y mañana; que laven sus vestidos"
+    },
+    {
+      "text": "y estén preparados para el tercer día; porque al día tercero descenderá Dios a la vista de todo el pueblo sobre el monte Sinaí."
+    },
+    {
+      "text": "Deslinda el contorno de la montaña, y di: Guardaos de subir al monte y aun de tocar su falda. Todo aquel que toque el monte morirá."
+    },
+    {
+      "text": "Pero nadie pondrá la mano sobre el culpable, sino que será lapidado o asaeteado; sea hombre o bestia, no quedará con vida. Cuando resuene el cuerno, subirán ellos al monte.»"
+    },
+    {
+      "text": "Bajó, pues, Moisés del monte, adonde estaba el pueblo, y ellos lavaron sus vestidos."
+    },
+    {
+      "text": "Y dijo al pueblo: «Estad preparados para el tercer día, y absteneos de mujer.»"
+    },
+    {
+      "text": "Al tercer día, al rayar el alba, hubo truenos y relámpagos y una densa nube sobre el monte y un poderoso resonar de trompeta; y todo el pueblo que estaba en el campamento se echó a temblar."
+    },
+    {
+      "text": "Entonces Moisés hizo salir al pueblo del campamento para ir al encuentro de Dios, y se detuvieron al pie del monte."
+    },
+    {
+      "text": "Todo el monte Sinaí humeaba, porque Dios había descendido sobre él en el fuego. Subía el humo como de un horno, y todo el monte retemblaba con violencia."
+    },
+    {
+      "text": "El sonar de la trompeta se hacía cada vez más fuerte; Moisés hablaba y Dios le respondía con el trueno."
+    },
+    {
+      "text": "Dios bajó al monte Sinaí, a la cumbre del monte; llamó Dios a Moisés a la cima de la montaña y Moisés subió."
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Baja y conjura al pueblo que no traspase las lindes para ver a Dios, porque morirían muchos de ellos;"
+    },
+    {
+      "text": "aun los sacerdotes que se acercan a Dios deben santificarse para que Dios no irrumpa contra ellos.»"
+    },
+    {
+      "text": "Moisés respondió a Dios: «El pueblo no podrá subir al monte Sinaí, porque tú nos lo has prohibido, diciendo: Señala un límite alrededor del monte y decláralo sagrado.»"
+    },
+    {
+      "text": "Dios le dijo: «Anda, baja, y luego subes tú y Aarón contigo; pero los sacerdotes y el pueblo no traspasarán las lindes para subir hacia Dios a fin de que no irrumpa contra ellos.\""
+    },
+    {
+      "text": "Bajó, pues, Moisés adonde estaba el pueblo y les dijo..."
+    }
+  ],
+  "20": [
+    {
+      "text": "Entonces pronunció Dios todas estas palabras diciendo:"
+    },
+    {
+      "text": "«Yo, Dios, soy tu Dios, que te he sacado del país de Egipto, de la casa de servidumbre."
+    },
+    {
+      "text": "No habrá para ti otros dioses delante de mí."
+    },
+    {
+      "text": "No te harás escultura ni imagen alguna ni de lo que hay arriba en los cielos, ni de lo que hay abajo en la tierra, ni de lo que hay en las aguas debajo de la tierra."
+    },
+    {
+      "text": "No te postrarás ante ellas ni les darás culto, porque yo Dios, tu Dios, soy un Dios celoso, que castigo la iniquidad de los padres en los hijos hasta la tercera y cuarta generación de los que me odian,"
+    },
+    {
+      "text": "y tengo misericordia por millares con los que me aman y guardan mis mandamientos."
+    },
+    {
+      "text": "No tomarás en falso el nombre de Dios, tu Dios; porque Dios no dejará sin castigo a quien toma su nombre en falso."
+    },
+    {
+      "text": "Recuerda el día del sábado para santificarlo."
+    },
+    {
+      "text": "Seis días trabajarás y harás todos tus trabajos,"
+    },
+    {
+      "text": "pero el día séptimo es día de descanso para Dios, tu Dios. No harás ningún trabajo, ni tú, ni tu hijo, ni tu hija, ni tu siervo, ni tu sierva, ni tu ganado, ni el forastero que habita en tu ciudad."
+    },
+    {
+      "text": "Pues en seis días hizo Dios el cielo y la tierra, el mar y todo cuanto contienen, y el séptimo descansó; por eso bendijo Dios el día del sábado y lo hizo sagrado."
+    },
+    {
+      "text": "Honra a tu padre y a tu madre, para que se prolonguen tus días sobre la tierra que Dios, tu Dios, te va a dar."
+    },
+    {
+      "text": "No matarás."
+    },
+    {
+      "text": "No cometerás adulterio."
+    },
+    {
+      "text": "No robarás."
+    },
+    {
+      "text": "No darás testimonio falso contra tu prójimo."
+    },
+    {
+      "text": "No codiciarás la casa de tu prójimo, ni codiciarás la mujer de tu prójimo, ni su siervo, ni su sierva, ni su buey, ni su asno, ni nada que sea de tu prójimo.»"
+    },
+    {
+      "text": "Todo el pueblo percibía los truenos y relámpagos, el sonido de la trompeta y el monte humeante, y temblando de miedo se mantenía a distancia."
+    },
+    {
+      "text": "Dijeron a Moisés: «Habla tú con nosotros, que podremos entenderte, pero que no hable Dios con nosotros, no sea que muramos.»"
+    },
+    {
+      "text": "Respondió Moisés al pueblo: «No temáis, pues Dios ha venido para poneros a prueba, para que su temor esté ante vuestros ojos, y no pequéis»."
+    },
+    {
+      "text": "Y el pueblo se mantuvo a distancia, mientras Moisés se acercaba a la densa nube donde estaba Dios."
+    },
+    {
+      "text": "Dijo Dios a Moisés: Así dirás a los israelitas: Vosotros mismos habéis visto que os he hablado desde el cielo."
+    },
+    {
+      "text": "No haréis junto a mí dioses de plata, ni os haréis dioses de oro."
+    },
+    {
+      "text": "Hazme un altar de tierra para ofrecer sobre él tus holocaustos y tus sacrificios de comunión, tus ovejas y tus bueyes. En todo lugar donde haga yo memorable mi nombre, vendré a ti y te bendeciré."
+    },
+    {
+      "text": "Y si me haces un altar de piedra, no lo edificarás de piedras labradas; porque al alzar tu cincel sobre ella queda profanada."
+    },
+    {
+      "text": "Tampoco subirás por gradas a mi altar, para que no se descubra tu desnudez sobre él."
+    }
+  ],
+  "21": [
+    {
+      "text": "Estas con las normas que has de dar:"
+    },
+    {
+      "text": "Cuando compres un esclavo hebreo, servirá seis años, y el séptimo quedará libre sin pagar rescate."
+    },
+    {
+      "text": "Si entró solo, solo saldrá; si tenía mujer, su mujer saldrá con él."
+    },
+    {
+      "text": "Si su amo le dio mujer, y ella le dio a luz hijos o hijas, la mujer y sus hijos serán del amo, y él saldrá solo."
+    },
+    {
+      "text": "Si el esclavo declara: «Yo quiero a mi señor, a mi mujer y a mis hijos; renucio a la libertad»"
+    },
+    {
+      "text": "su amo le llevará ante Dios y, arrimándolo a la puerta o a la jamba, su amo le horadará la oreja con una lezna; y quedará a su servicio para siempre."
+    },
+    {
+      "text": "Si un hombre vende a su hija por esclava, ésta no saldrá de la esclavitud como salen los esclavos."
+    },
+    {
+      "text": "Si no agrada a su señor que la había destinado para sí, éste permitirá su rescate; y no podrá venderla a gente extraña, tratándola con engaño."
+    },
+    {
+      "text": "Si la destina para su hijo, le dará el mismo trato que a sus hijas."
+    },
+    {
+      "text": "Si toma para sí otra mujer, no le disminuirá a la primera la comida, ni el vestido ni los derechos conyugales."
+    },
+    {
+      "text": "Y si no le da estas tres cosas, ella podrá salirse de balde sin pagar rescate."
+    },
+    {
+      "text": "El que hiera mortalmente a otro, morirá;"
+    },
+    {
+      "text": "pero si no estaba al acecho, sino que Dios se lo puso al alcance de la mano, yo te señalaré un lugar donde éste pueda refugiarse."
+    },
+    {
+      "text": "Pero al que se atreva a matar a su prójimo con alevosía, hasta de mi altar le arrancarás para matarle."
+    },
+    {
+      "text": "El que pegue a su padre o a su madre morirá."
+    },
+    {
+      "text": "Quien rapte a una persona - la haya vendido o esté todavía en su poder - morirá."
+    },
+    {
+      "text": "Quien maldiga a su padre o a su madre morirá."
+    },
+    {
+      "text": "Si dos hombres riñen y uno hiere a otro con una piedra o con el puño, pero no muere, sino que, después de guardar cama,"
+    },
+    {
+      "text": "puede levantarse y andar por la calle, apoyado en su bastón, el que le hirió quedará exculpado, pero pagará el tiempo perdido y los gastos de la curación completa."
+    },
+    {
+      "text": "Si un hombre golpea a su siervo o a su sierva con un palo y muere a sus manos, cae bajo la ley de venganza."
+    },
+    {
+      "text": "Pero si sobrevive un día o dos, no será vengado, pues lo había comprado con dinero."
+    },
+    {
+      "text": "Si unos hombres, en el curso de una riña, dan un golpe a una mujer encinta, y provocan el parto sin más daño, el culpable será multado conforme a lo que imponga el marido de la mujer y mediante arbitrio."
+    },
+    {
+      "text": "Pero si resultare daño, darás vida por vida,"
+    },
+    {
+      "text": "ojo por ojo, diente por diente, mano por mano, pie por pie,"
+    },
+    {
+      "text": "quemadura por quemadura, herida por herida, cardenal por cardenal."
+    },
+    {
+      "text": "Si un hombre hiere a su siervo o a su sierva en el ojo y le deja tuerto, le dará libertad en compensación del ojo."
+    },
+    {
+      "text": "Si uno salta un diente a su siervo o a su sierva, le pondrá en libertad en compensación del diente."
+    },
+    {
+      "text": "Si un buey acornea a un hombre o a una mujer, y le causa la muerte, el buey será apedreado, y no se comerá su carne, pero el dueño del buey quedará exculpado."
+    },
+    {
+      "text": "Mas si el buey acorneaba ya desde tiempo atrás, y su dueño, aun advertido, no le vigiló, y ese buey mata a un hombre o a una mujer, el buey será apedreado, y también su dueño morirá."
+    },
+    {
+      "text": "Si se le impone un precio por ello, dará en rescate de su vida cuanto le impongan."
+    },
+    {
+      "text": "Si acornea a un muchacho o a una muchacha, se seguirá esta misma norma."
+    },
+    {
+      "text": "Si el buey acornea a un siervo o a una sierva, se pagarán treinta siclos de plata al dueño de ellos, y el buey será apedreado."
+    },
+    {
+      "text": "Si un hombre deja abierto un pozo, o si cava un pozo y no lo tapa, y cae en él un buey o un asno,"
+    },
+    {
+      "text": "el propietario del pozo pagará al dueño de ellos el precio en dinero, y el animal muerto será suyo."
+    },
+    {
+      "text": "Si el buey de uno acornea al buey de otro, causándole la muerte, venderán el buey vivo y se repartirán el precio, repartiendo igualmente el buey muerto."
+    },
+    {
+      "text": "Pero si era notorio que el buey acorneaba desde tiempo atrás, y su dueño no le vigiló, pargará buey por buey y el buey muerto será suyo."
+    },
+    {
+      "text": "Si un hombre roba un buey o una oveja, y los mata o vende, pagará cinco bueyes por el buey, y cuatro ovejas por la oveja."
+    }
+  ],
+  "22": [
+    {
+      "text": "Si el ladrón, sorprendido al perforar la pared, es herido mortalmente, no habrá venganza de sangre."
+    },
+    {
+      "text": "Mas si esto sucede salido ya el sol, su sangre será vengada. - Debe restituir; si no tiene con qué, será vendido para restituir por su robo."
+    },
+    {
+      "text": "Si lo robado, sea buey, asno u oveja, fuere hallado vivo en su poder, restituirá el doble."
+    },
+    {
+      "text": "Si un hombre causa daño en un campo o en una viña, dejando suelto su ganado de modo que pazca en campo ajeno, restituirá con lo mejor de su propio campo y lo mejor de su propia viña."
+    },
+    {
+      "text": "Si se declara un fuego, y se incrementa con zarzales de modo que se abrasen las hacinas, la mies, o el campo, el autor del incendio deberá resarcir el daño."
+    },
+    {
+      "text": "Cuando un hombre dé a otro dinero o utensilios en depósito para que se lo guarde, y son robados de la casa de éste, el ladrón, si es hallado, restituirá el doble."
+    },
+    {
+      "text": "Pero si no es hallado, el dueño de la casa se presentará ante Dios para declarar que no ha puesto su mano sobre los bienes de su prójimo."
+    },
+    {
+      "text": "En todo caso delictivo, ya se trate de buey, asno, oveja, ropa o de cualquier cosa desaparecida, de la que uno diga: «Es esto», la causa de ambos se llevará ante Dios; y aquel a quien Dios declare culpable, restituirá el doble a su prójimo."
+    },
+    {
+      "text": "Si un hombre entrega a otro un asno, buey, oveja, o cualquier otro animal para su custodia, y éstos mueren o sufren daño o son robados sin que nadie lo vea,"
+    },
+    {
+      "text": "mediará entre los dos el juramento de Dios para atestiguar que el depositario no ha puesto su mano sobre la hacienda de su prójimo; el dueño tomará lo que quede y el otro no tendrá que restituir."
+    },
+    {
+      "text": "Pero si el animal le ha sido robado estando él cerca, restituirá a su dueño."
+    },
+    {
+      "text": "Si el animal ha sido despedazado, que traiga como testimonio los despojos y no tendrá que restituir."
+    },
+    {
+      "text": "Si un hombre pide a otro que le preste un ganado y éste sufre un daño o muere, en ausencia de su dueño, tendrá que restituir."
+    },
+    {
+      "text": "Si estaba presente su dueño, nada se restituirá. Si lo había alquilado, el dueño recibirá el precio del alquiler."
+    },
+    {
+      "text": "Si un hombre seduce a una virgen, no desposada, y se acuesta con ella, le pagará la dote, y la tomará por mujer."
+    },
+    {
+      "text": "Y si el padre de ella no quiere dársela, el seductor pagará el dinero de la dote de las vírgenes."
+    },
+    {
+      "text": "A la hechicera no la dejarás con vida."
+    },
+    {
+      "text": "Todo el que peque con bestia, morirá."
+    },
+    {
+      "text": "El que ofrece sacrificios a otros dioses, será entregado al anatema."
+    },
+    {
+      "text": "No maltratarás al forastero, ni le oprimirás, pues forasteros fuisteis vosotros en el país de Egipto."
+    },
+    {
+      "text": "No vejarás a viuda ni a huérfano."
+    },
+    {
+      "text": "Si le vejas y clama a mí, no dejaré de oír su clamor,"
+    },
+    {
+      "text": "se encenderá mi ira y os mataré a espada; vuestras mujeres quedarán viudas y vuestros hijos huérfanos."
+    },
+    {
+      "text": "Si prestas dinero a uno de mi pueblo, al pobre que habita contigo, no serás con él un usurero; no le exigiréis interés."
+    },
+    {
+      "text": "Si tomas en prenda el manto de tu prójimo, se lo devolverás al ponerse el sol,"
+    },
+    {
+      "text": "porque con él se abriga; es el vestido de su cuerpo. ¿Sobre qué va a dormir, si no? Clamará a mí, y yo le oiré, porque soy compasivo."
+    },
+    {
+      "text": "No blasfemarás contra Dios, ni maldecirás al principal de tu pueblo."
+    },
+    {
+      "text": "No tardarás en ofrecerme de tu abundancia y de tus jugos. Me darás el primogénito de tus hijos."
+    },
+    {
+      "text": "Lo mismo has de hacer con el de tus vacas y ovejas. Siete días estará con su madre, y al octavo me lo darás."
+    },
+    {
+      "text": "Hombres santos seréis para mí. No comáis la carne despedazada por una fiera en el campo; echádsela a los perros."
+    }
+  ],
+  "23": [
+    {
+      "text": "No levantes testimonio falso, ni ayudes al malvado dando testimonio injusto."
+    },
+    {
+      "text": "No sigas a la mayoría para hacer el mal; ni te inclines en un proceso por la mayoría en contra de la justicia."
+    },
+    {
+      "text": "Tampoco favorecerás al pobre en su pleito."
+    },
+    {
+      "text": "Si encuentras el buey de tu enemigo o su asno extraviado, se lo llevarás."
+    },
+    {
+      "text": "Si ves caído bajo la carga el asno del que te aborrece, no rehúses tu ayuda. Acude a ayudarle."
+    },
+    {
+      "text": "No tuerzas el derecho de tu pobre en su pleito."
+    },
+    {
+      "text": "Aléjate de causas mentirosas, no quites la vida al inocente y justo; y no absuelvas al malvado."
+    },
+    {
+      "text": "No recibas regalos; porque el regalo ciega a los perspicaces y pervierte las causas justas."
+    },
+    {
+      "text": "No oprimas al forastero; ya sabéis lo que es ser forastero, porque forasteros fuisteis vosotros en la tierra de Egipto."
+    },
+    {
+      "text": "Seis años sembrarás tu tierra y recogerás su producto;"
+    },
+    {
+      "text": "al séptimo la dejarás descansar y en barbecho, para que coman los pobres de tu pueblo, y lo que quede lo comerán los animales del campo. Harás lo mismo con tu viña y tu olivar."
+    },
+    {
+      "text": "Seis días harás tus trabajos, y el séptimo descansarás, para que reposen tu buey y tu asno, y tengan un respiro el hijo de tu sierva y el forastero."
+    },
+    {
+      "text": "Guardad todo lo que os he dicho. No invocarás el nombre de otros dioses: ni se oiga en vuestra boca."
+    },
+    {
+      "text": "Tres veces al año me celebrarás fiesta."
+    },
+    {
+      "text": "Guardarás la fiesta de los Azimos. Durante siete días comerás ázimos, como te he mandado, en el tiempo señalado, en el mes de Abib; pues en él saliste de Egipto. Nadie se presentará delante de mí con las manos vacías."
+    },
+    {
+      "text": "También guardarás la fiesta de la Siega, de las primicias de tus trabajos, de lo que hayas sembrado en el campo; y la fiesta de la Recolección al término del año, al recoger del campo los frutos de tu trabajo."
+    },
+    {
+      "text": "Tres veces al año se presentarán tus varones delante de Dios, el Señor."
+    },
+    {
+      "text": "No ofrecerás la sangre de mi sacrificio con pan fermentado ni guardarás hasta el día siguiente la grasa de mi fiesta."
+    },
+    {
+      "text": "Llevarás a la Casa de Dios, tu Dios, las mejores primicias de tu suelo. No cocerás el cabrito en la leche de su madre."
+    },
+    {
+      "text": "He aquí que yo voy a enviar un ángel delante de ti, para que te guarde en el camino y te conduzca al lugar que te tengo preparado."
+    },
+    {
+      "text": "Pórtate bien en su presencia y escucha su voz; no le seas rebelde, que no perdonará vuestras transgresiones, pues en él está mi Nombre."
+    },
+    {
+      "text": "Si escuchas atentamente su voz y haces todo lo que yo diga, tus enemigos serán mis enemigos y tus adversarios mis adversarios."
+    },
+    {
+      "text": "Mi ángel caminará delante de ti y te introducirá en el país de los amorreos, de los hititas, de los perizitas, de los cananeos, de los jivitas y de los jebuseos; y yo los exterminaré."
+    },
+    {
+      "text": "No te mostrarás ante sus dioses, ni les darás culto, ni imitarás su conducta; al contrario, los destruirás por completo y romperás sus estelas."
+    },
+    {
+      "text": "Vosotros daréis culto a Dios, vuestro Dios, yo bendeciré tu pan y tu agua. Y apartaré de ti las enfermedades."
+    },
+    {
+      "text": "No habrá en tu tierra mujer que aborte ni que sea estéril; y colmaré el número de tus días."
+    },
+    {
+      "text": "«Sembraré delante de ti mi terror; llenaré de turbación a todos los pueblos donde llegues; y haré que todos tus enemigos huyan ante ti."
+    },
+    {
+      "text": "Enviaré avispas delante de ti que ahuyentarán de tu presencia al jivita, al cananeo y al hitita."
+    },
+    {
+      "text": "No les expulsaré de tu presencia en un solo año, no sea que al quedar desierta la tierra se multipliquen contra ti las fieras del campo."
+    },
+    {
+      "text": "Les expulsaré de tu vista poco a poco, hasta que tú te multipliques y te apoderes de la tierra."
+    },
+    {
+      "text": "Y fijaré tus confines desde el mar de Suf hasta el mar de los filisteos, y desde el desierto hasta el Río, pues entregaré en tus manos a los habitantes del país para que los arrojes de tu presencia."
+    },
+    {
+      "text": "No hagas pacto con ellos ni con sus dioses."
+    },
+    {
+      "text": "No habitarán en tu tierra, no sea que te hagan pecar contra mí, pues dando culto a sus dioses caerías en un lazo.»"
+    }
+  ],
+  "24": [
+    {
+      "text": "Dijo a Moisés: «Sube donde Dios, tú, Aarón, Nadab y Abihú, con setenta de los ancianos de Israel; os postraréis desde lejos."
+    },
+    {
+      "text": "Sólo Moisés se acercará a Dios; ellos no se acercarán. Tampoco el pueblo subirá con ellos.»"
+    },
+    {
+      "text": "Vino, pues, Moisés y refirió al pueblo todas las palabras de Dios y todas sus normas. Y todo el pueblo respondió a una voz: «Cumpliremos todas las palabras que ha dicho Dios.»"
+    },
+    {
+      "text": "Entonces escribió Moisés todas las palabras de Dios; y, levantándose de mañana, alzó al pie del monte un altar y doce estelas por las doce tribus de Israel."
+    },
+    {
+      "text": "Luego mandó a algunos jóvenes, de los israelitas, que ofreciesen holocaustos e inmolaran novillos como sacrificios de comunión para Dios."
+    },
+    {
+      "text": "Tomó Moisés la mitad de la sangre y la echó en vasijas; la otra mitad la derramó sobre el altar."
+    },
+    {
+      "text": "Tomó después el libro de la Alianza y lo leyó ante el pueblo, que respondió: «Obedeceremos y haremos todo cuanto ha dicho Dios.»"
+    },
+    {
+      "text": "Entonces tomó Moisés la sangre, roció con ella al pueblo y dijo: «Esta es la sangre de la Alianza que Dios ha hecho con vosotros, según todas estas palabras.»"
+    },
+    {
+      "text": "Moisés subió con Aarón, Nadab y Abihú y setenta de los ancianos de Israel,"
+    },
+    {
+      "text": "y vieron al Dios de Israel. Bajo sus pies había como un pavimento de zafiro tan puro como el mismo cielo."
+    },
+    {
+      "text": "No extendió él su mano contra los notables de Israel, que vieron a Dios, comieron y bebieron."
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Sube hasta mí, al monte; quédate allí, y te daré las tablas de piedra - la ley y los mandamientos - que tengo escritos para su instrucción.»"
+    },
+    {
+      "text": "Se levantó Moisés, con Josué, su ayudante; y subieron al monte de Dios."
+    },
+    {
+      "text": "Dijo a los ancianos: «Esperadnos aquí que volvamos a vosotros. Ahí quedan con vosotros Aarón y Jur. El que tenga alguna cuestión que recurra a ellos.»"
+    },
+    {
+      "text": "Y subió Moisés al monte. La nube cubrió el monte."
+    },
+    {
+      "text": "La gloria de Dios descansó sobre el monte Sinaí y la nube lo cubrió por seis días. Al séptimo día, llamó Dios a Moisés de en medio de la nube."
+    },
+    {
+      "text": "La gloria de Dios aparecía a la vista de los hijos de Israel como fuego devorador sobre la cumbre del monte."
+    },
+    {
+      "text": "Moisés entró dentro de la nube y subió al monte. Y permaneció Moisés en el monte cuarenta días y cuarenta noches."
+    }
+  ],
+  "25": [
+    {
+      "text": "Dios habló a Moisés diciendo:"
+    },
+    {
+      "text": "Di a los israelitas que reserven ofrendas para mí. Me reservaréis la ofrenda de todo aquel a quien su corazón mueva."
+    },
+    {
+      "text": "De ellos reservaréis lo siguiente: oro, plata y bronce;"
+    },
+    {
+      "text": "púrpura violeta y escarlata, carmesí, lino fino y pelo de cabra;"
+    },
+    {
+      "text": "pieles de carnero teñidas de rojo, cueros finos y maderas de acacia;"
+    },
+    {
+      "text": "aceite para el alumbrado, aromas para el óleo de la unción y para el incienso aromático;"
+    },
+    {
+      "text": "piedras de ónice y piedras de engaste para el efod y el pectoral."
+    },
+    {
+      "text": "Me harás un Santuario para que yo habite en medio de ellos."
+    },
+    {
+      "text": "Lo haréis comforme al modelo de la Morada y al modelo de todo su mobiliario que yo voy a mostrarte."
+    },
+    {
+      "text": "Harás un arca de madera de acacia de dos codos y medio de largo, codo y medio de ancho y codo y medio de alto."
+    },
+    {
+      "text": "La revestirás de oro puro; por dentro y por fuera la revestirás; y además pondrás en su derredor una moldura de oro."
+    },
+    {
+      "text": "Fundirás para ella cuatro anillas de oro, que pondrás en sus cuatro pies, dos anillas a un costado, y dos anillas al otro."
+    },
+    {
+      "text": "Harás también varales de madera de acacia, que revestirás de oro,"
+    },
+    {
+      "text": "y los pasarás por las anillas de los costados del arca, para transportarla."
+    },
+    {
+      "text": "Los varales deben quedar en las anillas del arca, y no se sacarán de allí."
+    },
+    {
+      "text": "En el arca pondrás el Testimonio que yo te voy a dar."
+    },
+    {
+      "text": "Harás asimismo uno propiciatorio de oro puro, de dos codos y medio de largo y codo y medio de ancho."
+    },
+    {
+      "text": "Harás, además, dos querubines de oro macizo; los harás en los dos extremos del propiciatorio:"
+    },
+    {
+      "text": "haz el primer querubín en un extremo y el segundo en el otro. Los querubines formarán un cuerpo con el propiciatorio, en sus dos extremos."
+    },
+    {
+      "text": "Estarán con las alas extendidas por encima, cubriendo con ellas el propiciatorio, uno frente al otro, con las caras vueltas hacia el propiciatorio."
+    },
+    {
+      "text": "Pondrás el propiciatorio encima del arca; y pondrás dentro del arca el Testimonio que yo te daré."
+    },
+    {
+      "text": "Allí me encontraré contigo; desde encima del propiciatorio, de en medio de los dos querubines colocados sobre el arca del Testimonio, te comunicaré todo lo que haya de ordenarte para los israelitas."
+    },
+    {
+      "text": "Harás una mesa de madera de acacia, de dos codos de largo, uno de ancho, y codo y medio de alto."
+    },
+    {
+      "text": "La revestirás de oro puro y le pondrás alrededor una moldura de oro."
+    },
+    {
+      "text": "Harás también en torno de ella un reborde de una palma de ancho, con una moldura de oro alrededor del mismo."
+    },
+    {
+      "text": "Le harás cuatro anillas de oro, y pondrás las anillas en los cuatro ángulos correspondientes a sus cuatro pies."
+    },
+    {
+      "text": "Estarán las anillas junto al reborde, para pasar por ellas los varales y transportar la mesa."
+    },
+    {
+      "text": "Harás los varales de madera de acacia y los revestirás de oro. Con ellos se transportará la mesa."
+    },
+    {
+      "text": "Harás también las fuentes, los vasos, los jarros y las tazas para las libaciones. De oro puro los harás."
+    },
+    {
+      "text": "Y sobre la mesa pondrás perpetuamente delante de mí el pan de la Presencia."
+    },
+    {
+      "text": "Harás también un candelabro de oro puro. Harás de oro macizo el candelabro, su pie y su tallo. Sus cálices - corolas y flores - formarán un cuerpo con él."
+    },
+    {
+      "text": "Saldrán seis brazos de sus lados: tres brazos de un lado y tres del otro."
+    },
+    {
+      "text": "El primer brazo tendrá tres cálices en forma de flor de almendro, con corola y flor; también el segundo brazo tendrá tres cálices en forma de flor de almendro, con corola y flor; y así los seis brazos que salen del candelabro."
+    },
+    {
+      "text": "En el mismo candelabro habrá cuatro cálices en forma de flor de almendro, con sus corolas y sus flores:"
+    },
+    {
+      "text": "una corola debajo de los dos primeros brazos que forman cuerpo con el candelabro; una corola, debajo de los dos siguientes, y una corola, debajo de los dos últimos brazos; así con los seis brazos que salen del candelabro."
+    },
+    {
+      "text": "Las corolas y los brazos formarán un cuerpo con el candelabro. Todo ello formará un cuerpo de oro puro macizo."
+    },
+    {
+      "text": "Harás sus siete lámparas que colocarás encima de manera que den luz al frente."
+    },
+    {
+      "text": "Sus despabiladeras y sus ceniceros serán de oro puro."
+    },
+    {
+      "text": "Se empleará un talento de oro puro para hacer el candelabro con todos estos utensilios."
+    },
+    {
+      "text": "Fíjate para que lo hagas según los modelos que te han sido mostrados en el monte."
+    }
+  ],
+  "26": [
+    {
+      "text": "Harás la Morada con diez tapices, de lino fino torzal, de púrpura violeta y escarlata y de carmesí; bordarás en ellos unos querubines."
+    },
+    {
+      "text": "La longitud de cada tapiz será de veintiocho codos y la anchura de cuatro. Todos los tapices tendrán las mismas medidas."
+    },
+    {
+      "text": "Cinco tapices estarán unidos entre sí y lo mismo los otros cinco."
+    },
+    {
+      "text": "Pondrás lazos de púrpura violeta en el borde del tapiz con que termina la primera serie, y lo mismo harás en el borde del tapiz con que termina el segundo conjunto."
+    },
+    {
+      "text": "Pondrás cincuenta lazos en el primer tapiz y otros cincuenta en el borde del último tapiz del segundo conjunto, correspondiéndose los lazos unos a otros."
+    },
+    {
+      "text": "Harás cincuenta broches de oro y con los broches enlazarás entre sí los tapices, para que la Morada forme un espacio único."
+    },
+    {
+      "text": "Tejerás también piezas de pelo de cabra para que a modo de tienda cubran la Morada. Tejerás once de estas piezas."
+    },
+    {
+      "text": "La longitud de cada pieza será de treinta codos; de cuatro, la anchura. Las once piezas tendrán las mismas medidas."
+    },
+    {
+      "text": "Juntarás cinco piezas en una parte y seis en la otra y doblarás la sexta pieza ante la fachada de la Tienda."
+    },
+    {
+      "text": "Harás cincuenta lazos en el borde de la última pieza del primer conjunto, y cincuenta lazos en el borde de la última pieza del segundo conjunto."
+    },
+    {
+      "text": "Harás cincuenta broches de bronce e introducirás los broches en los lazos, uniendo así la Tienda de modo que forme un espacio único."
+    },
+    {
+      "text": "Como las piezas de la Tienda exceden en amplitud, harás extender la mitad de la pieza excedente por detrás de la Morada."
+    },
+    {
+      "text": "Lo que excede en longitud de las piezas de la Tienda - un codo por cada lado - se extenderá a ambos lados de la Morada, a un lado y a otro, para cubrirla."
+    },
+    {
+      "text": "También harás para la Tienda un toldo de pieles de carnero teñidas de rojo; y encima otro toldo de cueros finos."
+    },
+    {
+      "text": "También harás para la Morada tableros de madera de acacia, y los pondrás de pie."
+    },
+    {
+      "text": "Cada tablero tendrá diez codos de largo y codo y medio de ancho."
+    },
+    {
+      "text": "Tendrá además dos espigas paralelas. Harás lo mismo para todos los tableros de la Morada."
+    },
+    {
+      "text": "Pondrás veinte de los tableros en el flanco del Négueb, hacia el sur."
+    },
+    {
+      "text": "Harás cuarenta basas de plata para colocarlas debajo de los veinte tableros: dos basas debajo de un tablero para sus dos espigas y dos basas debajo del otro tablero para sus dos espigas."
+    },
+    {
+      "text": "Para el segundo flanco de la Morada, la parte del norte, otros veinte tableros,"
+    },
+    {
+      "text": "con sus cuarenta basas de plata: dos basas debajo de un tablero y dos basas debajo de otro tablero."
+    },
+    {
+      "text": "Para la parte posterior de la Morada, hacia el occidente, harás seis tableros;"
+    },
+    {
+      "text": "y para los ángulos de la Morada, en su parte posterior, dos más,"
+    },
+    {
+      "text": "que estarán unidos, desde abajo hasta arriba, hasta la primera anilla. Así se hará con los dos tableros destinados a los dos ángulos."
+    },
+    {
+      "text": "Serán, pues, ocho tableros con sus basas de plata; dieciséis basas, dos debajo del otro tablero."
+    },
+    {
+      "text": "Harás, además, cinco travesaños de madera de acacia para los tableros de un flanco de la Morada,"
+    },
+    {
+      "text": "cinco travesaños para los tableros del otro flanco, y cinco travesaños para los tableros de la parte posterior de la Morada, hacia el occidente."
+    },
+    {
+      "text": "El travesaño central pasará a media altura de los tableros, de un extremo al otro."
+    },
+    {
+      "text": "Revestirás de oro los tableros y les harás anillas de oro, para pasar los travesaños. También revestirás de oro los travesaños."
+    },
+    {
+      "text": "Erigirás la Morada según la norma que te ha sido mostrada en el monte."
+    },
+    {
+      "text": "Harás un velo de púrpura violeta y escarlata, de carmesí y lino fino torzal; bordarás en él unos querubines."
+    },
+    {
+      "text": "Lo colgarás de cuatro postes de acacia, revestidos de oro, provistos de ganchos de oro y de sus cuatro basas de plata."
+    },
+    {
+      "text": "Colgarás el velo debajo de los broches; y allá, detrás del velo, llevarás el arca del Testimonio, y el velo os servirá para separar el Santo del Santo de los Santos."
+    },
+    {
+      "text": "Pondrás el propiciatorio sobre el arca del Testimonio, en el Santo de los Santos."
+    },
+    {
+      "text": "Fuera del velo colocarás la mesa, y frente a la mesa, en el lado meridional de la Morada, el candelabro; pondrás la mesa en el lado norte."
+    },
+    {
+      "text": "Harás para la entrada de la Tienda una cortina de púrpura violeta y escarlata, de carmesí y lino fino torzal, labor de recamador."
+    },
+    {
+      "text": "Para la cortina harás cinco postes de acacia, que revestirás de oro; sus ganchos serán también de oro, y fundirás para ellos cinco basas de bronce."
+    }
+  ],
+  "27": [
+    {
+      "text": "Harás el altar de madera de acacia de cinco codos de largo y cinco de ancho; será cuadrado y tendrá tres codos de alto."
+    },
+    {
+      "text": "Harás sobresalir de sus cuatro ángulos unos cuernos, que formarán un cuerpo con él; lo revestirás de bronce."
+    },
+    {
+      "text": "Le harás ceniceros para la grasa incinerada, badiles y acetres, tenedores y braseros. Fundirás de bronce todos estos utensilios."
+    },
+    {
+      "text": "Fabricarás para él una rejilla de bronce, en forma de red; y en los cuatro extremos de la red fijarás cuatro anillas de bronce."
+    },
+    {
+      "text": "La colocarás bajo la cornisa inferior del altar, de modo que llegue desde abajo hasta la mitad del altar."
+    },
+    {
+      "text": "Harás varales para el altar, varales de madera de acacia, que revestirás de bronce."
+    },
+    {
+      "text": "Para transportar el altar, se pasarán estos varales por las anillas de ambos lados del altar."
+    },
+    {
+      "text": "Harás el altar hueco, de paneles; conforme a lo que se te ha mostrado en el monte, así lo harás."
+    },
+    {
+      "text": "También harás el atrio de la Morada. Del lado del Négueb, hacia el sur, el atrio tendrá un cortinaje de lino fino torzal, en una longitud de cien codos a uno de los lados."
+    },
+    {
+      "text": "Sus veinte postes descansarán sobre veinte basas de bronce; sus ganchos y varillas serán de plata."
+    },
+    {
+      "text": "A lo largo del lado septenrional habrá igualmente un cortinaje en una longitud de cien codos, con sus veinte postes que descansarán sobre veinte basas de bronce; los ganchos de los postes y sus varillas serán de plata."
+    },
+    {
+      "text": "A lo ancho del atrio, por el lado occidental, habrá un cortinaje de cincuenta codos; sus postes serán diez, y diez igualmente las basas en que descansarán."
+    },
+    {
+      "text": "La anchura del atrio, al este, al oriente, será de cincuenta codos."
+    },
+    {
+      "text": "Quince codos tendrá el cortinaje de un lado, con sus tres postes y sus tres basas."
+    },
+    {
+      "text": "Por el otro lado, otro cortinaje de quince codos, con sus tres postes y sus tres basas."
+    },
+    {
+      "text": "La puerta del atrio tendrá un tapiz de veinte codos, de púrpura violeta y escarlata, de carmesí y lino fino torzal, labor de recamador. Tendrá cuatro postes y cuatro basas."
+    },
+    {
+      "text": "Todos los postes que rodean al atrio tendrán varillas de plata; sus ganchos serán de plata y sus basas de bronce."
+    },
+    {
+      "text": "El atrio tendrá cien codos de largo, cincuenta codos de ancho y cinco codos de alto; todo de lino fino torzal y con sus basas de bronce."
+    },
+    {
+      "text": "Todos los utensilios de la Morada para toda clase de servicios con todo su clavazón y toda la clavazón del atrio, serán de bronce."
+    },
+    {
+      "text": "Mandarás a los israelitas que te traigan aceite puro de oliva molida para el alumbrado, para alimentar continuamente la llama."
+    },
+    {
+      "text": "Aarón y sus hijos lo tendrán dispuesto delante de Dios desde la tarde hasta la mañana en Tienda del Encuentro, fuera del velo que cuelga delante del Testimonio. Decreto perpetuo será éste para las generaciones de los israelitas."
+    }
+  ],
+  "28": [
+    {
+      "text": "Manda acercarse a ti de en medio de los israelitas a tu hermano Aarón, con sus hijos, para que ejerza mi sacerdocio: Aarón, con Nadab y Abihú, Eleazar e Itamar, hijos de Aarón."
+    },
+    {
+      "text": "Harás para Aarón, tu hermano, vestiduras sagradas, que le den majestad y esplendor."
+    },
+    {
+      "text": "Hablarás tú con todos los artesanos hábiles a quienes he llenado de espíritu de sabiduría; ellos harán las vestiduras de Aarón para que sea consagrado sacerdote mío."
+    },
+    {
+      "text": "Harán las vestituras siguientes: un pectoral, un efod, un manto, una túnica bordada, una tiara y una faja. Harán, pues, a tu hermano Aarón y a sus hijos vestiduras sagradas para que ejerzan mi sacerdocio."
+    },
+    {
+      "text": "Tomarán para ello oro, púrpura violeta y escarlata, carmesí y lino fino."
+    },
+    {
+      "text": "Bordarán el efod de oro, púrpura violeta y escarlata, carmesí y lino fino torzal."
+    },
+    {
+      "text": "Se le pondrán dos hombreras y se fijará por sus dos extremos."
+    },
+    {
+      "text": "La cinta con que se ciña el efod será de la misma hechura y formará con él una misma pieza: de oro, púrpura violeta y escarlata, carmesí y lino fino torzal."
+    },
+    {
+      "text": "Tomarás dos piedras de ónice, sobre las cuales grabarás los nombres de los hijos de Israel:"
+    },
+    {
+      "text": "seis de sus nombres en una piedra y los seis restantes en la otra, por orden de nacimiento."
+    },
+    {
+      "text": "Como se tallan las piedras y se graban los sellos, así harás grabar esas dos piedras con los nombres de los hijos de Israel; las harás engarzar en engastes de oro."
+    },
+    {
+      "text": "Después pondrás las dos piedras sobre las hombreras del efod, como piedras que me hagan recordar a los hijos de Israel, y así llevará Aarón sus nombres sobre sus dos hombros para recuerdo delante de Dios."
+    },
+    {
+      "text": "Harás engarces de oro;"
+    },
+    {
+      "text": "y también dos cadenillas de oro puro; las harás trenzadas a manera de cordones, y fijarás las cadenillas trenzadas en los engarces."
+    },
+    {
+      "text": "Bordarás también el pectoral del juicio; lo harás al estilo de la labor del efod. Lo harás de oro, púrpura violeta y escarlata, de carmesí y lino fino torzal."
+    },
+    {
+      "text": "Será cuadrado y doble, de un palmo de largo y otro de ancho."
+    },
+    {
+      "text": "Lo llenarás de pedrería, poniendo cuatro filas de piedras: en la primera fila, un sardio, un topacio y una esmeralda;"
+    },
+    {
+      "text": "en la segunda fila, un rubí, un zafiro y un diamante;"
+    },
+    {
+      "text": "en la tercera fila, un ópalo, una ágata y una amatista;"
+    },
+    {
+      "text": "en la cuarta fila, un crisólito, un ónice y un jaspe; todas estarán engastadas en oro."
+    },
+    {
+      "text": "Las piedras corresponderán a los nombres de los hijos de Israel: doce, como los nombres de ellos. Estarán grabadas como los sellos, cada una con su nombre, conforme a las doce tribus."
+    },
+    {
+      "text": "Para el pectoral harás cadenillas de oro puro, trenzadas a manera de cordones;"
+    },
+    {
+      "text": "y harás también para el pectoral dos anillas de oro que fijarás en sus dos extremos."
+    },
+    {
+      "text": "Pasarás los dos cordones de oro por las dos anillas, en los extremos del pectoral;"
+    },
+    {
+      "text": "unirás los dos extremos de los dos cordones a los dos engarces, y los fijarás en la parte delantera de las hombreras del efod."
+    },
+    {
+      "text": "Harás otras dos anillas de oro que pondrás en los dos extremos del pectoral, en el borde interior que mira hacia el efod."
+    },
+    {
+      "text": "Harás otras dos anillas de oro y las fijarás en la parte inferior de las dos hombreras del efod, por delante, cerca de su unión encima de la cinta del efod."
+    },
+    {
+      "text": "Sujetarán el pectoral por sus anillas a las anillas del efod, con un cordón de púrpura violeta, para que el pectoral quede sobre la cinta del efod y no se desprenda del efod."
+    },
+    {
+      "text": "Así llevará Aarón sobre su corazón los nombres de los hijos de Israel, en el pectoral del juicio, siempre que entre en el Santuario, para recuerdo perpetuo delante de Dios."
+    },
+    {
+      "text": "En el pectoral del juicio pondrás el Urim y el Tummim, que estarán sobre el corazón de Aarón cuando se presente ante Dios. Así llevará Aarón constantemente sobre su corazón, delante de Dios, el oráculo de los hijos de Israel."
+    },
+    {
+      "text": "Tejerás el manto del efod todo él de púrpura violeta."
+    },
+    {
+      "text": "Habrá en su centro una abertura para la cabeza; esta abertura llevará en derredor una orla, tejida como el cuello de una cota, para que no se rompa."
+    },
+    {
+      "text": "En todo su ruedo inferior harás granadas de púrpura violeta y escarlata, de carmesí y lino fino torzal; y entre ellas, también alrededor, pondrás campanillas de oro:"
+    },
+    {
+      "text": "una campanilla de oro y una granada; otra campanilla de oro y otra granada; así por todo el ruedo inferior del manto."
+    },
+    {
+      "text": "Aarón lo llevará en su ministerio y se oirá el tintineo cuando entre en el Santuario, ante Dios, y cuando salga; así no morirá."
+    },
+    {
+      "text": "Harás, además, una lámina de oro puro y en ella grabarás como se graban los sellos: «\"Consagrado a Dios.»"
+    },
+    {
+      "text": "La sujetarás con un cordón de púrpura violeta, de modo que esté fija sobre la tiara; estará en la parte delantera de la tiara."
+    },
+    {
+      "text": "Quedará sobre la frente de Aarón; pues Aarón cargará con las faltas cometidas por los israelitas en las cosas sagradas; es decir, al ofrecer toda clase de santas ofrendas. La tendrá siempre sobre su frente, para que hallen favor delante de Dios."
+    },
+    {
+      "text": "Tejerás la túnica con lino fino; harás también la tiara de lino fino, y la faja con brocado."
+    },
+    {
+      "text": "Para los hijos de Aarón harás túnicas. Les harás también fajas y mitras que les den majestad y esplendor."
+    },
+    {
+      "text": "Vestirás así a tu hermano Aarón y a sus hijos; los ungirás, los investirás y los consagrarás para que ejerzan mi sacerdocio."
+    },
+    {
+      "text": "Hazles también calzones de lino, para cubrir su desnudez desde la cintura hasta los muslos."
+    },
+    {
+      "text": "Aarón y sus hijos los llevarán al entrar en la Tienda del Encuentro, o al acercarse al altar para oficiar en el Santuario, para que no incurran en culpa y mueran. Decreto perpetuo será éste para él y su posteridad."
+    }
+  ],
+  "29": [
+    {
+      "text": "Para consagrarlos a mi sacerdocio has de proceder con ellos de esta manera. Toma un novillo y dos carneros sin defecto,"
+    },
+    {
+      "text": "panes ázimos y tortas sin levadura: unas, amasadas con aceite, y otras, untadas en aceite. Las harás con flor de harina de trigo."
+    },
+    {
+      "text": "Las pondrás en un canastillo y las presentarás en él junto con el novillo y los dos carneros."
+    },
+    {
+      "text": "Mandarás que Aarón y sus hijos se acerquen a la entrada de la Tienda del Encuentro, donde los bañarás con agua."
+    },
+    {
+      "text": "Tomarás las vestiduras y vestirás a Aarón con la túnica, el manto del efod, el efod y el pectoral, que ceñirás con la cinta del efod."
+    },
+    {
+      "text": "Pondrás la tiara sobre su cabeza, y sobre la tiara colocarás la diadema sagrada."
+    },
+    {
+      "text": "Entonces tomarás el óleo de la unción, lo derramarás sobre su cabeza y así le ungirás."
+    },
+    {
+      "text": "Harás igualmente que se acerquen sus hijos y los vestirás con túnicas;"
+    },
+    {
+      "text": "ceñirás a Aarón y a sus hijos las fajas y les pondrás las mitras. A ellos les corresponderá el sacerdocio por decreto perpetuo. Así investirás a Aarón y a sus hijos."
+    },
+    {
+      "text": "Presentarás el novillo ante la Tienda del Encuentro, y Aarón y sus hijos impondrán las manos sobre la cabeza del novillo."
+    },
+    {
+      "text": "Luego inmolarás el novillo delante de Dios, a la entrada de la Tienda del Encuentro."
+    },
+    {
+      "text": "Tomando sangre del novillo, untarás con tu dedo los cuernos del altar, y derramarás toda la sangre al pie del altar."
+    },
+    {
+      "text": "Saca todo el sebo que cubre las entrañas, el que queda junto al hígado, y los dos riñones con el sebo que los envuelve, para quemarlo en el altar."
+    },
+    {
+      "text": "Pero quemarás fuera del campamento la carne del novillo, con su piel y sus excrementos. Es sacrificio por el pecado."
+    },
+    {
+      "text": "Después tomarás uno de los carneros y Aarón y sus hijos impondrán las manos sobre la cabeza del carnero."
+    },
+    {
+      "text": "Una vez inmolado el carnero, tomarás su sangre y la derramarás en torno al altar."
+    },
+    {
+      "text": "Luego despedazarás el carnero, lavarás sus entrañas y sus patas; las pondrás sobre sus porciones y sobre su cabeza,"
+    },
+    {
+      "text": "y quemarás todo el carnero en el altar. Es holocausto para Dios, calmante aroma de manjares abrasados en honor de Dios."
+    },
+    {
+      "text": "Tomarás también el segundo carnero, y Aarón y sus hijos impondrán las manos sobre la cabeza del carnero."
+    },
+    {
+      "text": "Una vez inmolado, tomarás su sangre y untarás con ella el lóbulo de la oreja derecha de Aarón y el lóbulo de la oreja derecha de sus hijos; el pulgar de su mano derecha y el pulgar de su pie derecho, y derramarás la sangre alrededor del altar."
+    },
+    {
+      "text": "Tomarás luego sangre de la que está sobre el altar, y óleo de la unción, para rociar a Aarón y sus vestiduras, a sus hijos y las vestiduras de sus hijos juntamente con él. Así quedará consagrado él y sus vestiduras y con él sus hijos y las vestiduras de sus hijos."
+    },
+    {
+      "text": "Toma después el sebo de este carnero: la cola, el sebo que cubre las entrañas, el que queda junto al hígado, los dos riñones con el sebo que lo envuelve y la pierna derecha, porque se trata del carnero de la investidura."
+    },
+    {
+      "text": "Toma del canastillo de los ázimos que está delante de Dios un pan redondo, una torta de pan de aceite y otra, untada de aceite."
+    },
+    {
+      "text": "Lo pondrás todo sobre las palmas de las manos de Aarón y de sus hijos; y lo mecerás como ofrenda mecida delante de Dios."
+    },
+    {
+      "text": "Después lo tomarás de sus manos y lo quemarás en el altar junto al holocausto como calmante aroma ante Dios. Es un manjar abrasado en honor de Dios."
+    },
+    {
+      "text": "Tomarás también el pecho del carnero inmolado por la investidura de Aarón, y lo mecerás como ofrenda mecida delante de Dios; esa será tu porción."
+    },
+    {
+      "text": "Así santificarás el pecho de la ofrenda mecida y la pierna de la ofrenda reservada, es decir, lo que ha sido mecido y reservado del carnero de la investidura de Aarón y de sus hijos;"
+    },
+    {
+      "text": "según decreto perpetuo, pertenecerán a Aarón y a sus hijos, como porción recibida de los israelitas, porque es ofrenda reservada; será reservada de lo que ofrecen los israelitas, en sus sacrificios de comunión como ofrenda reservada a Dios."
+    },
+    {
+      "text": "Las vestiduras sagradas de Aarón serán, después de él, para sus hijos, de modo que, vestidos con ellas, sean ungidos e investidos."
+    },
+    {
+      "text": "Por siete días las vestirá aquel de sus hijos que le suceda como sacerdote y entre en la Tienda del Encuentro para oficiar en el Santuario."
+    },
+    {
+      "text": "Tomarás después el carnero de la investidura y cocerás su carne en lugar sagrado;"
+    },
+    {
+      "text": "Aarón y sus hijos comerán a la entrada de la Tienda del Encuentro la carne del carnero y el pan del canastillo."
+    },
+    {
+      "text": "Comerán aquello que ha servido para su expiación al investirlos y consagrarlos; pero que ningún laico coma de ello, porque es cosa sagrada."
+    },
+    {
+      "text": "Si a la mañana siguiente sobra algo de la carne o del pan de la investidura, quemarás este resto; no ha de comerse, porque es cosa sagrada."
+    },
+    {
+      "text": "Harás, pues, con Aarón y con sus hijos de esta manera, según todo lo que te he mandado. Siete días invertirás en la investidura."
+    },
+    {
+      "text": "Cada día ofrecerás un novillo en expiación como sacrificio por el pecado; y purificarás, mediante tu expiación, el altar, que ungirás para consagrarlo."
+    },
+    {
+      "text": "Siete días harás la expiación por el altar, y lo santificarás; el altar será cosa sacratísima; todo cuanto toque al altar quedará consagrado."
+    },
+    {
+      "text": "He aquí lo que has de ofrecer sobre el altar: dos corderos primales cada día, perpetuamente."
+    },
+    {
+      "text": "Ofrecerás un cordero por la mañana y el otro entre dos luces;"
+    },
+    {
+      "text": "y con el primer cordero, una décima de medida de flor de harina, amasada con un cuarto de sextario de aceite de oliva molida, y como libación un cuarto de sextario de vino."
+    },
+    {
+      "text": "Ofrecerás el otro cordero entre dos luces; lo ofrecerás con la misma oblación que a la mañana y con la misma libación, como calmante aroma del manjar abrasado en honor de Dios,"
+    },
+    {
+      "text": "en holocausto perpetuo, de generación en generación, ante Dios, a la entrada de la Tienda del Encuentro, donde me encontraré contigo, para hablarte allí."
+    },
+    {
+      "text": "Me encontraré con los israelitas en ese lugar que será consagrado por mi gloria."
+    },
+    {
+      "text": "Consagraré la Tienda del Encuentro y el altar, y consagraré también a Aarón y a sus hijos para que ejerzan mi sacerdocio."
+    },
+    {
+      "text": "Moraré en medio de los israelitas, y seré para ellos Dios."
+    },
+    {
+      "text": "Y reconocerán que yo soy Dios, su Dios, que los saqué del país de Egipto para morar entre ellos. Yo, Dios, su Dios."
+    }
+  ],
+  "30": [
+    {
+      "text": "Harás también un altar para quemar el incienso. De madera de acacia lo harás."
+    },
+    {
+      "text": "Será cuadrado: de un codo de largo y otro de ancho; su altura será de dos codos. Sus cuernos formarán un solo cuerpo con él."
+    },
+    {
+      "text": "Lo revestirás de oro puro, tanto su parte superior como sus costados, así como sus cuernos. Pondrás en su derredor una moldura de oro,"
+    },
+    {
+      "text": "y debajo de la moldura, a los costados, harás dos anillas. Las harás a ambos lados, para meter por ellas los varales con que transportarlo."
+    },
+    {
+      "text": "Harás los varales de madera de acacia y los revestirás de oro."
+    },
+    {
+      "text": "Colocarás el altar delante del velo que está junto al arca del Testimonio y ante el propiciatorio que cubre el Testimonio, donde yo me encontraré contigo."
+    },
+    {
+      "text": "Aarón quemará en él incienso aromático; lo quemará todas la mañanas, al preparar las lámparas,"
+    },
+    {
+      "text": "y lo quemará también cuando al atardecer alimente las lámparas. Será incienso continuo ante Dios, de generación en generación."
+    },
+    {
+      "text": "No ofrezcáis sobre él incienso profano, ni holocausto ni oblación, ni derraméis sobre él libación alguna."
+    },
+    {
+      "text": "Aarón una vez al año hará expiación sobre los cuernos de este altar. Con la sangre del sacrificio por el pecado, es decir, el de la expiación, una vez cada año hará expiación por él en vuestras sucesivas generaciones. Cosa sacratísima es el altar en honor de Dios."
+    },
+    {
+      "text": "Habló Dios a Moisés, diciendo:"
+    },
+    {
+      "text": "Cuando cuentes el número de los israelitas para hacer su censo, cada uno pagará a Dios el rescate por su vida al ser empadronado, para que no haya plaga entre ellos con motivo del empadronamiento."
+    },
+    {
+      "text": "Esto es lo que ha de dar cada uno de los comprendidos en el censo: medio siclo, en siclos del Santuario. Este siclo es de veinte óbolos. El tribruto reservado a Dios es medio siclo."
+    },
+    {
+      "text": "Todos los comprendidos en el censo, de veinte años en adelante, pagarán el tributo reservado a Dios."
+    },
+    {
+      "text": "El rico no dará más, ni el pobre menos del medio siclo, al pagar el tributo a Dios como rescate de vuestras vidas."
+    },
+    {
+      "text": "Tomarás el dinero del rescate de parte de los israelitas, y lo darás para el servicio de la Tienda del Encuenro; y será para los israelitas como recordatorio ante Dios por el rescate de sus vidas."
+    },
+    {
+      "text": "Habló Dios a Moisés, diciendo:"
+    },
+    {
+      "text": "Haz una pila de bronce, con su base de bronce, para las abluciones. Colócala entre la Tienda del Encuentro y el altar, y echa agua en ella,"
+    },
+    {
+      "text": "para que Aarón y sus hijos se laven las manos y los pies con su agua."
+    },
+    {
+      "text": "Antes de entrar en la Tienda del Encuentro se han de lavar con agua para que no mueran; también antes de acercarse al altar para el ministerio de quemar los manjares que se abrasan en honor de Dios."
+    },
+    {
+      "text": "Se lavarán las manos y los pies, y no morirán. Este será decreto perpetuo para ellos, para Aarón y su posteridad, de generación en generación."
+    },
+    {
+      "text": "Habló Dios a Moisés, diciendo:"
+    },
+    {
+      "text": "Toma tú aromas escogidos: de mirra pura, quinientos siclos; de cinamomo, la mitad, o sea, 250; de caña aromática, 250;"
+    },
+    {
+      "text": "de casia, quinientos, en siclos del Santuario, y un sextario de aceite de oliva."
+    },
+    {
+      "text": "Prepararás con ello el óleo para la unción sagrada, perfume aromático como lo prepara el perfumista. Este será el óleo para la unción sagrada."
+    },
+    {
+      "text": "Con él ungirás la Tienda del Encuentro y el arca del Testimonio,"
+    },
+    {
+      "text": "la mesa con todos sus utensilios, el candelabro con todos sus utensilios, el altar del incienso,"
+    },
+    {
+      "text": "el altar del holocausto con todos sus utensilios y la pila con su base."
+    },
+    {
+      "text": "Así los consagrarás y serán cosa sacratísima. Todo cuanto los toque quedará santificado."
+    },
+    {
+      "text": "Ungirás también a Aarón y a sus hijos y los consagrarás para que ejerzan mi sacerdocio."
+    },
+    {
+      "text": "Hablarás a los israelitas, diciendo: Este será para vosotros el óleo de la unción sagrada de generación en generación."
+    },
+    {
+      "text": "No debe derramarse sobre el cuerpo de ningún hombre; no haréis ningún otro de composición parecida a la suya. Santo es y lo tendréis por cosa sagrada."
+    },
+    {
+      "text": "Cualquiera que prepare otro semejante, o derrame de él sobre un laico, será exterminado de su pueblo."
+    },
+    {
+      "text": "Dijo Dios a Moisés: Procúrate en cantidades iguales aromas: estacte, uña marina y gálbano, especias aromáticas e incienso puro."
+    },
+    {
+      "text": "Prepara con ello, según el arte del perfumista, un incienso perfumado, sazonado con sal, puro y santo;"
+    },
+    {
+      "text": "pulverizarás una parte que pondrás delante del Testimonio, en la Tienda del Encuentro, donde yo me encontraré contigo. Será para vosotros cosa sacratísima."
+    },
+    {
+      "text": "Y en cuanto a la composición de este incienso que vas a hacer, no la imitéis para vuestro uso. Lo tendrás por consagrado a Dios."
+    },
+    {
+      "text": "Cualquiera que prepare otro semejante para aspirar su fragancia, será exterminado de en medio de su pueblo."
+    }
+  ],
+  "31": [
+    {
+      "text": "Habló Dios a Moisés diciendo:"
+    },
+    {
+      "text": "Mira que he designado a Besalel, hijo de Urí, hijo de Jur, de la tribu de Judá;"
+    },
+    {
+      "text": "y le he llenado del espíritu de Dios concediéndole habilidad, pericia y experiencia en toda clase de trabajos;"
+    },
+    {
+      "text": "para concebir y realizar proyectos en oro, plata y bronce;"
+    },
+    {
+      "text": "para labrar piedras de engaste, tallar la madera y ejecutar cualquier otra labor."
+    },
+    {
+      "text": "Mira que yo le he dado por colaborador a Oholiab, hijo de Ajisamak, de la tribu de Dan; y además, en el corazón de todos los hombres hábiles he infundido habilidad para que hagan todo lo que te he mandado:"
+    },
+    {
+      "text": "la Tienda del Encuentro, el arca del Testimonio, el propiciatorio que la cubre y todos los utensilios de la Tienda;"
+    },
+    {
+      "text": "la mesa con sus utensilios, el candelabro con todos sus utensilios, el altar del incienso,"
+    },
+    {
+      "text": "el altar del holocausto con todos sus utensilios, la pila con su base;"
+    },
+    {
+      "text": "las vestiduras de ceremonia, las vestiduras sagradas del sacerdote Aarón, y las vestiduras de sus hijos para las funciones sacerdotales:"
+    },
+    {
+      "text": "el óleo de la unción y el incienso aromático para el Santuario. Ellos lo harán conforme a todo lo que te he ordenado."
+    },
+    {
+      "text": "Habló Dios a Moisés diciendo:"
+    },
+    {
+      "text": "Habla tú a los israelitas y diles: No dejéis de guardar mis sábados; porque el sábado es una señal entre yo y vosotros, de generación en generación, para que sepáis que yo, Dios, soy el que os santifico."
+    },
+    {
+      "text": "Guardad el sábado, porque es sagrado para vosotros. El que lo profane morirá. Todo el que haga algún trabajo en él será exterminado de en medio de su pueblo."
+    },
+    {
+      "text": "Seis días se trabajará; pero el día séptimo será día de descanso completo, consagrado a Dios. Todo aquel que trabaje en sábado, morirá."
+    },
+    {
+      "text": "Los israelitas guardarán el sábado celebrándolo de generación en generación como alianza perpetua."
+    },
+    {
+      "text": "Será entre yo y los israelitas una señal perpetua; pues en seis días hizo Dios los cielos y la tierra, y el día séptimo descansó y tomó respiro."
+    },
+    {
+      "text": "Después de hablar con Moisés en el monte Sinaí, le dio las dos tablas del Testimonio, tablas de piedra, escritas por el dedo de Dios."
+    }
+  ],
+  "32": [
+    {
+      "text": "Cuando el pueblo vio que Moisés tardaba en bajar del monte, se reunió el pueblo en torno a Aarón y le dijeron: «Anda, haznos un dios que vaya delante de nosotros, ya que no sabemos qué ha sido de Moisés, el hombre que nos sacó de la tierra de Egipto.»"
+    },
+    {
+      "text": "Aarón les respondió: «Quitad los pendientes de oro de las orejas de vuestras mujeres, de vuestros hijos y vuestras hijas, y traédmelos.»"
+    },
+    {
+      "text": "Y todo el pueblo se quitó los pendientes de oro que llevaba en las orejas, y los entregó a Aarón."
+    },
+    {
+      "text": "Los tomó él de sus manos, hizo un molde y fundió un becerro. Entonces ellos exclamaron: «Este es tu Dios, Israel, el que te ha sacado de la tierra de Egipto.»"
+    },
+    {
+      "text": "Viendo esto Aarón, erigió un altar ante el becerro y anunció: «Mañana habrá fiesta en honor de Dios.»"
+    },
+    {
+      "text": "Al día siguiente se levantaron de madrugada y ofrecieron holocaustos y presentaron sacrificios de comunión. Luego se sentó el pueblo a comer y beber, y después se levantaron para solazarse."
+    },
+    {
+      "text": "Entonces habló Dios a Moisés, y dijo: «¡Anda, baja! Porque tu pueblo, el que sacaste de la tierra de Egipto, ha pecado."
+    },
+    {
+      "text": "Bien pronto se han apartado el camino que yo les había prescrito. Se han hecho un becerro fundido y se han postrado ante él; le han ofrecido sacrificios y han dicho: \"Este es tu Dios, Israel, el que te ha sacado de la tierra de Egipto.\"»"
+    },
+    {
+      "text": "Y dijo Dios a Moisés: «Ya veo que este pueblo es un pueblo de dura cerviz."
+    },
+    {
+      "text": "Déjame ahora que se encienda mi ira contra ellos y los devore; de ti, en cambio, haré un gran pueblo.»"
+    },
+    {
+      "text": "Pero Moisés trató de aplacar a Dios su Dios, diciendo: \"¿Por qué, oh Dios, ha de encenderse tu ira contra tu pueblo, el que tú sacaste de la tierra de Egipto con gran poder y mano fuerte?"
+    },
+    {
+      "text": "¿Van a poder decir los egipcios: Por malicia los ha sacado, para matarlos en las montañas y exterminarlos de la faz de la tierra? Abandona el ardor de tu cólera y renuncia a lanzar el mal contra tu pueblo."
+    },
+    {
+      "text": "Acuérdate de Abraham, de Isaac y de Israel, siervos tuyos, a los cuales juraste por ti mismo: Multiplicaré vuestra descendencia como las estrellas del cielo; toda esta tierra que os tengo prometida, la daré a vuestros descendientes, y ellos la poseerán como herencia para siempre.»"
+    },
+    {
+      "text": "Y Dios renunció a lanzar el mal con que había amenazado a su pueblo."
+    },
+    {
+      "text": "Volvióse Moisés y bajó del monte, con las dos tablas del Testimonio en su mano, tablas escritas por ambos lados; por una y otra cara estaban escritas."
+    },
+    {
+      "text": "Las tablas eran obra de Dios, y la escritura, grabada sobre las mismas, era escritura de Dios."
+    },
+    {
+      "text": "Cuando Josué oyó la voz del pueblo que gritaba, dijo a Moisés: «Gritos de guerra en el campamento.»"
+    },
+    {
+      "text": "Respondió Moisés: «No son gritos de victoria, ni alarido de derrota. Cantos a coro es lo que oigo.»"
+    },
+    {
+      "text": "Cuando Moisés llegó cerca del campamento y vio el becerro y las danzas, ardió en ira, arrojó de su mano las tablas y las hizo añicos al pie del monte."
+    },
+    {
+      "text": "Luego tomó el becerro que habían hecho, lo quemó y lo molió hasta redurcirlo a polvo, que esparció en el agua, y se lo dio a beber a los israelitas."
+    },
+    {
+      "text": "Y dijo Moisés a Aarón: «¿Qué te hizo este pueblo para que hayas traído sobre él tan gran pecado?»"
+    },
+    {
+      "text": "Aarón respondió: «No se encienda la ira de mi señor. Tú mismo sabes que este pueblo es inclinado al mal."
+    },
+    {
+      "text": "Me dijeron: \"Haznos un dios que vaya delante de nosotros, ya que no sabemos qué le ha sucedido a Moisés, el hombre que nos sacó de la tierra de Egipto.\""
+    },
+    {
+      "text": "Yo les contesté: \"El que tenga oro despréndase.\" Ellos se lo quitaron y me lo dieron; yo lo eché al fuego y salió este becerro.»"
+    },
+    {
+      "text": "Vio Moisés al pueblo desenfrenado - pues Aarón les había permitido entregarse a la idolatría en medio de sus adversarios -"
+    },
+    {
+      "text": "y se puso Moisés a la puerta del campamento, y exclamó: «¡A mí los de Dios!» y se le unieron todos los hijos de Leví."
+    },
+    {
+      "text": "El les dijo: «Así dice Dios, el Dios de Israel: Cíñase cada uno su espada al costado; pasad y repasad por el campamento de puerta en puerta, y matad cada uno a su hermano, a su amigo y a su pariente.»"
+    },
+    {
+      "text": "Cumplieron los hijos de Leví la orden de Moisés; y cayeron aquel día unos 3000 hombres del pueblo."
+    },
+    {
+      "text": "Y dijo Moisés: «Hoy habéis recibido la investidura como sacerdotes de Dios, cada uno a costa de vuestros hijos y vuestros hermanos, para que él os dé hoy la bendición.»"
+    },
+    {
+      "text": "Al día siguiente dijo Moisés al pueblo: «Habéis cometido un gran pecado. Yo voy a subir ahora donde Dios; acaso pueda obtener la expiación de vuestro pecado.»"
+    },
+    {
+      "text": "Volvió Moisés donde Dios y dijo: «¡Ay! Este pueblo ha cometido un gran pecado al hacerse un dios de oro."
+    },
+    {
+      "text": "Con todo, si te dignas perdonar su pecado..., y si no, bórrame del libro que has escrito.»"
+    },
+    {
+      "text": "Dios respondió a Moisés: Al que peque contra mí, le borraré yo de mi libro."
+    },
+    {
+      "text": "Ahora ve y conduce al pueblo adonde te he dicho. He aquí que mi ángel irá delante de ti, mas en el día de mi visita los castigaré yo por su pecado.»"
+    },
+    {
+      "text": "Y Dios castigó al pueblo a causa del becerro fabricado por Aarón."
+    }
+  ],
+  "33": [
+    {
+      "text": "Dijo Dios a Moisés: «Anda, sube de aquí, tú y el pueblo que sacaste de Egipto, a la tierra que yo prometí con juramento a Abraham, a Isaac y a Jacob, diciendo: \"A tu posteridad se la daré.\""
+    },
+    {
+      "text": "Enviaré delante de ti un ángel y expulsaré al cananeo, al amorreo, al hitita, al perizita, al jivita y al jebuseo."
+    },
+    {
+      "text": "Sube a una tierra que mana leche y miel; que yo no subiré contigo, pues eres un pueblo de dura cerviz; no sea que te destruya en el camino.»"
+    },
+    {
+      "text": "Al oír el pueblo estas duras palabras, hizo duelo y nadie se vistió sus galas."
+    },
+    {
+      "text": "Dijo entonces Dios a Moisés: «Di a los israelitas: Vosotros sois un pueblo de dura cerviz. Si yo saliera contigo, aunque fuera un solo momento, te destruiría. Ahora, pues, quítate tus galas, para que yo sepa qué he de hacer contigo.»"
+    },
+    {
+      "text": "Y los israelitas se despojaron de sus galas a partir del monte Horeb."
+    },
+    {
+      "text": "Tomó Moisés la Tienda y la plantó para él a cierta distancia fuera del campamento; la llamó Tienda del Encuentro. De modo que todo el que tenía que consultar a Dios salía hacia la Tienda del Encuentro, que estaba fuera del campamento."
+    },
+    {
+      "text": "Cuando salía Moisés hacia la Tienda, todo el pueblo se levantaba y se quedaba de pie a la puerta de su tienda, siguiendo con la vista a Moisés hasta que entraba en la Tienda."
+    },
+    {
+      "text": "Y una vez entrado Moisés en la tienda, bajaba la columna de nube y se detenía a la puerta de la Tienda, mientras Dios hablaba con Moisés."
+    },
+    {
+      "text": "Todo el pueblo veía la columna de nube detenida a la puerta de la Tienda y se levantaba el pueblo, y cada cual se postraba junto a la puerta de su tienda."
+    },
+    {
+      "text": "Dios hablaba con Moisés cara a cara, como habla un hombre con su amigo. Luego volvía Moisés al campamento, pero su ayudante, el joven Josué, hijo de Nun, no se apartaba del interior de la Tienda."
+    },
+    {
+      "text": "Dijo Moisés a Dios: «Mira, tú me dices: Haz subir a este pueblo; pero no me has indicado a quién enviarás conmigo; a pesar de que me has dicho: \"Te conozco por tu nombre\", y también: \"Has hallado gracia a mis ojos.\""
+    },
+    {
+      "text": "Ahora, pues, si realmente he hallado gracia a tus ojos, hazme saber tu camino, para que yo te conozca y halle gracia a tus ojos, y mira que esta gente es tu pueblo.»"
+    },
+    {
+      "text": "Respondió él: «Yo mismo iré contigo y te daré descanso.»"
+    },
+    {
+      "text": "Contestóle: «Si no vienes tú mismo, no nos hagas partir de aquí."
+    },
+    {
+      "text": "Pues ¿en qué podrá conocerse que he hallado gracia a tus ojos, yo y tu pueblo, sino en eso, en que tú marches con nosotros? Así nos distinguiremos, yo y tu pueblo, de todos los pueblos que hay sobre la tierra.»"
+    },
+    {
+      "text": "Respondió Dios a Moisés: «Haré también esto que me acabas de pedir, pues has hallado gracia a mis ojos, y yo te conozco por tu nombre.»"
+    },
+    {
+      "text": "Entonces dijo Moisés: «Déjame ver, por favor, tu gloria.»"
+    },
+    {
+      "text": "El le contestó: «Yo haré pasar ante tu vista toda mi bondad y pronunciaré delante de ti el nombre de Dios; pues hago gracia a quien hago gracia y tengo misericordia con quien tengo misericordia.»"
+    },
+    {
+      "text": "Y añadió: «Pero mi rostro no podrás verlo; porque no puede verme el hombre y seguir viviendo.»"
+    },
+    {
+      "text": "Luego dijo Dios: «Mira, hay un lugar junto a mí; tú te colocarás sobre la peña."
+    },
+    {
+      "text": "Y al pasar mi gloria, te pondré en una hendidura de la peña y te cubriré con mi mano hasta que yo haya pasado."
+    },
+    {
+      "text": "Luego apartaré mi mano, para que veas mis espaldas; pero mi rostro no se puede ver.»"
+    }
+  ],
+  "34": [
+    {
+      "text": "Dijo Dios a Moisés. «Labra dos tablas de piedra como las primeras, sube donde mí, al monte y yo escribiré en las tablas las palabras que había en las primeras tablas que rompiste."
+    },
+    {
+      "text": "Prepárate para subir mañana temprano al monte Sinaí; allí en la cumbre del monte te presentarás a mí."
+    },
+    {
+      "text": "Que nadie suba contigo, ni aparezca nadie en todo el monte. Ni oveja ni buey paste en el monte.»"
+    },
+    {
+      "text": "Labró Moisés dos tablas de piedra como las primeras y, levantándose de mañana, subió al monte Sinaí como le había mandado Dios, llevando en su mano las dos tablas de piedra."
+    },
+    {
+      "text": "Descendió Dios en forma de nube y se puso allí junto a él. Moisés invocó el nombre de Dios."
+    },
+    {
+      "text": "Dios pasó por delante de él y exclamó: «Dios, Dios, Dios misericordioso y clemente, tardo a la cólera y rico en amor y fidelidad,"
+    },
+    {
+      "text": "que mantiene su amor por millares, que perdona la iniquidad, la rebeldía y el pecado, pero no los deja impunes; que castiga la iniquidad de los padres en los hijos y en los hijos de los hijos hasta la tercera y cuarta generación.»"
+    },
+    {
+      "text": "Al instante, Moisés cayó en tierra de rodillas y se postró,"
+    },
+    {
+      "text": "diciendo: «Si en verdad he hallado gracia a tus ojos, oh Señor, dígnese mi Señor venir en medio de nosotros, aunque sea un pueblo de dura cerviz; perdona nuestra iniquidad y nuestro pecado, y recíbenos por herencia tuya.»"
+    },
+    {
+      "text": "Respondió él: «Mira, voy a hacer una alianza; realizaré maravillas delante de todo tu pueblo, cono nunca se han hecho en toda la tierra ni en nación alguna; y todo el pueblo que te rodea verá la obra de Dios; porque he de hacer por medio de ti cosas que causen temor."
+    },
+    {
+      "text": "Observa bien lo que hoy te mando. He aquí que voy a expulsar delante de ti al amorreo, al cananeo, al hitita, al perizita, al jivita y al jebuseo."
+    },
+    {
+      "text": "Guárdate de hacer pacto con los habitantes del país en que vas a entrar, para que no sean un lazo en medio de ti."
+    },
+    {
+      "text": "Al contrario, destruiréis sus altares, destrozaréis sus estelas y romperéis sus cipos."
+    },
+    {
+      "text": "No te postrarás ante ningún otro dios, pues Dios se llama Celoso, es un Dios celoso."
+    },
+    {
+      "text": "No hagas pacto con los moradores de aquella tierra, no sea que cuando se prostituyan tras sus dioses y les ofrezcan sacrificios, te inviten a ti y tú comas de sus sacrificios;"
+    },
+    {
+      "text": "y no sea que tomes sus hijas para tus hijos, y que al prostituirse sus hijas tras sus dioses, hagan también que tus hijos se prostituyan tras los dioses de ellas."
+    },
+    {
+      "text": "No te harás dioses de fundición."
+    },
+    {
+      "text": "Guardarás la fiesta de los Azimos; siete días comerás ázimos como te he mandado, al tiempo señalado, esto es, en el mes de Abib, pues en el mes de Abib saliste de Egipto."
+    },
+    {
+      "text": "Todo lo que abre el seno es mío, todo primer nacido, macho, sea de vaca o de oveja, es mío."
+    },
+    {
+      "text": "El primer nacido de asno lo rescatarás con una oveja; y si no lo rescatas, lo desnucarás. Rescatarás todos los primogénitos de tus hijos, y nadie se presentará ante mí con las manos vacías."
+    },
+    {
+      "text": "Seis días trabajarás, mas en el séptimo descansarás; descansarás en tiempo de siembra y siega."
+    },
+    {
+      "text": "Celebrarás la fiesta de las Semanas: la de las primicias de la siega del trigo, y también la fiesta de la recolección al final del año."
+    },
+    {
+      "text": "Tres vecees al año se presentarán todos tus varones ante Dios, el Señor, el Dios de Israel."
+    },
+    {
+      "text": "Pues cuando yo expulse a los pueblos delante de ti y ensanche tus fronteras, nadie codiciará tu tierra cuando tres veces al año subas a presentarte ante Dios, tu Dios."
+    },
+    {
+      "text": "No inmolarás con pan fermentado la sangre de mi sacrificio, ni quedará hasta el día siguiente la víctima de la fiesta de Pascua."
+    },
+    {
+      "text": "Llevarás a la casa de Dios, tu Dios, lo mejor de las primicias de los frutos de tu suelo. No cocerás el cabrito en la leche de su madre.»"
+    },
+    {
+      "text": "Dijo Dios a Moisés: «Consigna por escrito estas palabras, pues a tenor de ellas hago alianza contigo y con Israel.»"
+    },
+    {
+      "text": "Moisés estuvo allí con Dios cuarenta días y cuarenta noches, sin comer pan ni beber agua. Y escribió en las tablas las palabras de la alianza, las diez palabras."
+    },
+    {
+      "text": "Luego, bajó Moisés del monte Sinaí y, cuando bajó del monte con las dos tablas del Testimonio en su mano, no sabía que la piel de su rostro se había vuelto radiante, por haber hablado con él."
+    },
+    {
+      "text": "Aarón y todos los israelitas miraron a Moisés, y al ver que la piel de su rostro irradiaba, temían acercarse a él."
+    },
+    {
+      "text": "Moisés los llamó. Aarón y todos los jefes de la comunidad se volvieron a él y Moisés habló con ellos."
+    },
+    {
+      "text": "Se acercaron a continuación todos los israelitas y él les conminó cuanto Dios le había dicho en el monte Sinaí."
+    },
+    {
+      "text": "Cuando Moisés acabó de hablar con ellos, se puso un velo sobre el rostro."
+    },
+    {
+      "text": "Siempre que Moisés se presentaba delante de Dios para hablar con él, se quitaba el velo hasta que salía, y al salir decía a los israelitas lo que Dios había ordenado."
+    },
+    {
+      "text": "Los israelitas veían entonces que el rostro de Moisés irradiaba, y Moisés cubría de nuevo su rostro hasta que entraba a hablar con Dios."
+    }
+  ],
+  "35": [
+    {
+      "text": "Moisés reunió a toda la comunidad de los israelitas y les dijo: «Esto es lo que Dios ha mandado hacer."
+    },
+    {
+      "text": "Durante seis días se trabajará, pero el día séptimo será sagrado para vosotros, día de descanso completo en honor de Dios. Cualquiera que trabaje en ese día, morirá."
+    },
+    {
+      "text": "En ninguna de vuestras moradas encenderéis fuego en día de sábado.»"
+    },
+    {
+      "text": "Moisés habló así a toda la comunidad de los israelitas: «Esta es la orden de Dios:"
+    },
+    {
+      "text": "Reservad de vuestros bienes una ofrenda para Dios. Que reserven ofrenda para Dios todos aquellos a quienes su corazón mueva: oro, plata y bronce,"
+    },
+    {
+      "text": "púrpura violeta y escarlata, carmesí, lino fino, pelo de cabra,"
+    },
+    {
+      "text": "pieles de carnero teñidas de rojo, cueros finos y maderas de acacia,"
+    },
+    {
+      "text": "aceite para el alumbrado, aromas para el óleo de la unción y para el incienso aromático,"
+    },
+    {
+      "text": "piedras de ónice y piedras de engaste para el efod y el pectoral."
+    },
+    {
+      "text": "Que vengan los artífices hábiles de entre vosotros a realizar cuanto Dios ha ordenado:"
+    },
+    {
+      "text": "la Morada, su Tienda y su toldo, sus broches, sus tableros, sus travesaños, sus postes y sus basas;"
+    },
+    {
+      "text": "el Arca y sus varales, el propiciatorio y el velo que lo cubre;"
+    },
+    {
+      "text": "la mesa con sus varales y todos sus utensilios, el pan de la Presencia,"
+    },
+    {
+      "text": "el candelabro para el alumbrado con sus utensilios, y sus lámparas, y el aceite del alumbrado;"
+    },
+    {
+      "text": "el altar del incienso con sus varales; el óleo de la unción, el incienso aromático, la cortina del vano de la entrada a la Morada,"
+    },
+    {
+      "text": "el altar de los holocaustos con su rejilla de bronce, sus varales y todos su utensilios; la pila con su base;"
+    },
+    {
+      "text": "los cortinajes del atrio con sus postes y sus basas; el tapiz de la entrada del atrio;"
+    },
+    {
+      "text": "la clavazón de la Morada y la clavazón del atrio y sus cuerdas;"
+    },
+    {
+      "text": "los ornamentos de ceremonia para oficiar en el Santuario; las vestiduras sagradas para el sacerdote Aarón y las vestiduras de sus hijos para sus funciones sacerdotales.»"
+    },
+    {
+      "text": "Entonces, toda la comunidad de los israelitas se retiró de la presencia de Moisés;"
+    },
+    {
+      "text": "todos aquellos a quienes impulsaba su corazón y movía su espíritu vinieron a traer la ofrenda reservada a Dios, para los trabajos de la Tienda del Encuentro, para todo su servicio y para las vestiduras sagradas."
+    },
+    {
+      "text": "Venían hombres y mujeres: todos los que eran movidos por su corazón traían zarcillos, pendientes, anillos de oro, el oro que cada uno presentaba como ofrenda mecida para Dios."
+    },
+    {
+      "text": "Cuantos poseían púrpura violeta y escarlata, y carmesí, lino fino, pelo de cabra, pieles de carnero teñidas de rojo y cueros finos, los traían también."
+    },
+    {
+      "text": "Cuantos pudieron reservar una ofrenda de plata o de bronce, la llevaron como ofrenda reservada a Dios. Lo mismo hicieron los que poseían madera de acacia, que sirviera para los trabajos de la obra."
+    },
+    {
+      "text": "Todas las mujeres hábiles en el oficio hilaron con sus manos y llevaron la púrpura violeta y escarlata, el carmesí y lino fino que habían hilado."
+    },
+    {
+      "text": "Todas las mujeres hábiles en hilar, hilaron pelo de cabra, movidas por su corazón."
+    },
+    {
+      "text": "Los jefes trajeron piedras de ónice y piedras de engaste para el efod y el pectoral;"
+    },
+    {
+      "text": "aromas y aceite para el alumbrado, para el óleo de la unción y para el incienso aromático."
+    },
+    {
+      "text": "Todos los israelitas, hombres y mujeres, cuyo corazón les había impulsado a llevar algo para cualquiera de los trabajos que Dios, por medio de Moisés, les había encomendado, presentaron sus ofrendas voluntarias a Dios."
+    },
+    {
+      "text": "Moisés dijo entonces a los israelitas: «Mirad, Dios ha designado a Besalel, hijo de Urí, hijo de Jur, de la tribu de Judá,"
+    },
+    {
+      "text": "y le ha llenado del espíritu de Dios, confiriéndole habilidad, pericia y experiencia en toda clase de trabajos,"
+    },
+    {
+      "text": "para concebir y realizar proyectos en oro, plata y bronce,"
+    },
+    {
+      "text": "para labrar piedras de engaste, tallar la madera y ejecutar cualquier otra labor de artesanía;"
+    },
+    {
+      "text": "a él y Oholiab, hijo de Ajisamak de la tribu de Dan, les ha puesto en el corazón el don de enseñar."
+    },
+    {
+      "text": "Les ha llenado de habilidad para toda clase de labores en talla y bordado, en recamado de púrpura violeta y escarlata, de carmesí y lino fino, y en labores de tejidos. Son capaces de ejecutar toda clase de trabajos y de idear proyectos.»"
+    }
+  ],
+  "36": [
+    {
+      "text": "Así, pues, Besalel, Oholiab y todos los hombres hábiles en quienes Dios había infundido habilidad y pericia para saber realizar todos los trabajos en servicio del Santuario, ejecutaron todo conforme había mandado Dios."
+    },
+    {
+      "text": "LLamó Moisés a Besalel y a Oholiab y a todos los hombres hábiles en cuyo corazón Dios había infundido habilidad, a todos los que su corazón movía a ponerse al trabajo para realizarlo."
+    },
+    {
+      "text": "Recibieron de Moisés todas las ofrendas que los israelitas habían reservado para la ejecución de la obra del Santuario. Entre tanto los israelitas seguían entregando a Moisés cada mañana ofrendas voluntarias."
+    },
+    {
+      "text": "Por eso, todos los artífices dedicados a los trabajos del Santuario dejaron cada cual su trabajo,"
+    },
+    {
+      "text": "y fueron a hablar con Moisés, diciendo: «El pueblo entrega más de lo que se precisa para la realización de las obras que Dios ha mandado hacer.»"
+    },
+    {
+      "text": "Entonces Moisés mandó correr la voz por el campamento: «Ni hombre ni mujer reserve ya más ofrendas para el Santuario.» Suspendió el pueblo su aportación,"
+    },
+    {
+      "text": "pues había material suficiente para ejecutar todos los trabajos; y aun sobraba."
+    },
+    {
+      "text": "Entonces los artífices más expertos de entre los que ejecutaban el trabajo hicieron la Morada. La hizo con diez tapices de lino fino torzal, de púrpura violeta y escarlata y de carmesí con querubines bordados."
+    },
+    {
+      "text": "La longitud de cada tapiz era de veintiocho codos y la anchura de cuatro. Todos los tapices tenían las mismas medias."
+    },
+    {
+      "text": "Unió cinco tapices entre sí y lo mismo los otros cinco."
+    },
+    {
+      "text": "Puso lazos de púrpura violeta en el borde del tapiz con que termina el primer conjunto; los puso también en el borde del tapiz con que termina el segundo conjunto."
+    },
+    {
+      "text": "Puso cincuenta lazos en el primer tapiz y otros cincuenta en el borde del último tapiz del segundo conjunto, correspondiéndose los lazos unos a otros."
+    },
+    {
+      "text": "Hizo también cincuenta broches de oro, y con los broches enlazó entre sí los tapices, de modo que la Morada vino a formar un espacio único."
+    },
+    {
+      "text": "Tejió también piezas de pelo de cabra para que, a modo de tienda, cubrieran la Morada. Tejió once de estas piezas."
+    },
+    {
+      "text": "La longitud de cada pieza era de treinta codos y de cuatro la anchura. Las once piezas tenían las mismas medidas."
+    },
+    {
+      "text": "Juntó cinco piezas en una parte y seis en la otra."
+    },
+    {
+      "text": "Hizo cincuenta lazos en el borde de la última pieza del primer conjunto, y cincuenta lazos en el borde de la última pieza del segundo conjunto."
+    },
+    {
+      "text": "Hizo cincuenta broches de bronce para unir la Tienda, formando un espacio único."
+    },
+    {
+      "text": "Hizo además para la Tienda un toldo de pieles de carnero teñidas de rojo, y encima otro toldo de cueros finos."
+    },
+    {
+      "text": "Para la Morada hizo los tableros de madera de acacia y los puso de pie."
+    },
+    {
+      "text": "Cada tablero tenía diez codos de largo, y codo y medio de ancho."
+    },
+    {
+      "text": "Tenía además dos espigas paralelas. Hizo lo mismo todos los tableros de la Morada."
+    },
+    {
+      "text": "Puso los tableros para la Morada: veinte para el flanco del Négueb, hacia el sur;"
+    },
+    {
+      "text": "hizo cuarenta basas de plata para colocarlas debajo de los veinte tableros: dos basas debajo de un tablero para sus dos espigas y dos basas debajo del otro tablero para sus dos espigas."
+    },
+    {
+      "text": "Para el segundo flanco de la Morada, la parte del norte, hizo otros veinte tableros,"
+    },
+    {
+      "text": "con sus cuarenta basas de plata; dos basas debajo de un tablero y dos basas debajo del otro tablero."
+    },
+    {
+      "text": "Para la parte posterior de la Morada, hacia el occidente, hizo seis tableros;"
+    },
+    {
+      "text": "para los ángulos de la Morada en su parte posterior, dos más,"
+    },
+    {
+      "text": "que estaban unidos desde abajo hasta arriba, hasta la primera anilla. Así lo hizo con los dos tableros destinados a los dos ángulos."
+    },
+    {
+      "text": "Eran, pues, ocho tableros con sus basas de plata; dieciséis basas, dos debajo de cada tablero."
+    },
+    {
+      "text": "Después hizo travesaños de madera de acacia: cinco travesaños para los tableros de un flanco de la Morada;"
+    },
+    {
+      "text": "y cinco travesaños para los tableros del otro flanco de la Morada; y otros cinco para los tableros de la parte posterior de la Morada hacia el occidente."
+    },
+    {
+      "text": "Hizo el travesaño central de tal suerte que pasase a media altura de los tableros, de un extremo al otro."
+    },
+    {
+      "text": "Revistió de oro los tableros; de oro hizo también sus anillas para pasar los travesaños, y los revistió igualmente de oro."
+    },
+    {
+      "text": "Hizo el velo de púrpura violeta y escarlata, de carmesí y lino fino torzal; bordó en él unos querubines."
+    },
+    {
+      "text": "Hizo para colgarlo cuatro postes de acacia, revestidos de oro y provistos de ganchos de oro; fundió para ellos cuatro basas de plata."
+    },
+    {
+      "text": "Hizo para la entrada de la Tienda una cortina de púrpura violeta y escarlata, de carmesí y lino fino torzal, labor de recamador,"
+    },
+    {
+      "text": "con sus cinco postes y sus ganchos. Revistió de oro sus capiteles y sus varillas y fundió en bronce sus cinco basas."
+    }
+  ],
+  "37": [
+    {
+      "text": "Besalel hizo el arca de madera de acacia, de dos codos y medio de largo, codo y medio de ancho, y codo y medio de alto."
+    },
+    {
+      "text": "La revistió de oro puro, por dentro y por fuera, y además puso en su derredor una moldura de oro."
+    },
+    {
+      "text": "Fundió cuatro anillas de oro para sus cuatro pies, dos anillas a un costado y dos anillas al otro."
+    },
+    {
+      "text": "Hizo también varales de madera de acacia, que revistió de oro;"
+    },
+    {
+      "text": "pasó los varales por las anillas de los costados del arca, para transportarla."
+    },
+    {
+      "text": "Después hizo un propiciatorio de oro puro, de dos codos y medio de largo, y de codo y medio de ancho."
+    },
+    {
+      "text": "Hizo igualmente dos querubines de oro macizo; los hizo en los dos extremos del propiciatorio;"
+    },
+    {
+      "text": "el primer querubín en un extremo y el segundo en el otro; hizo los querubines formando un cuerpo con el propiciatorio en sus dos extremos."
+    },
+    {
+      "text": "Estaban los querubines con las alas extendidas por encima, cubriendo con ellas el propiciatorio, uno frente al otro, con las caras vueltas hacia el propiciatorio."
+    },
+    {
+      "text": "Hizo, además, la mesa de madera de acacia, de dos codos de largo, un codo de ancho y codo y medio de alto."
+    },
+    {
+      "text": "La revistió de oro puro y le puso alrededor una moldura de oro."
+    },
+    {
+      "text": "Hizo además, en torno de ella, un reborde de una palma de ancho, con una moldura de oro alrededor del mismo."
+    },
+    {
+      "text": "Le hizo cuatro anillas de oro y puso las anillas en los cuatro ángulos, correspondientes a sus cuatro pies."
+    },
+    {
+      "text": "Junto al reborde se hallabam las anillas para pasar por ellas los varales y transportar la mesa."
+    },
+    {
+      "text": "Hizo los varales de madera de acacia y los revistió de oro."
+    },
+    {
+      "text": "Asimismo hizo de oro puro los utensilios que habían de estar sobre la mesa; sus fuentes, sus vasos, sus tazas y sus jarros con los que se hacían las libaciones."
+    },
+    {
+      "text": "Hizo el candelabro de oro puro. Hizo el candelabro de oro macizo, su pie y su tallo. Sus cálices - corolas y flores - formaban con él un cuerpo."
+    },
+    {
+      "text": "De sus lados salían seis brazos: tres brazos de un lado, y tres brazos de otro."
+    },
+    {
+      "text": "El primer brazo tenía tres cálices en forma de flor de almendro, con corola y flor; y así los seis brazos que salían del candelabro."
+    },
+    {
+      "text": "En el mismo candelabro había cuatro cálices, en forma de flor de almendro, con sus corolas y flores;"
+    },
+    {
+      "text": "una corola debajo de los dos primeros brazos que formaban cuerpo con él, una corola debajo de los siguientes, y una corola debajo de los dos últimos brazos; así con los seis brazos que salían del mismo."
+    },
+    {
+      "text": "Las corolas y los brazos formaban un cuerpo con el candelabro; todo ello formaba un cuerpo de oro puro macizo."
+    },
+    {
+      "text": "Hizo también de oro puro sus siete lámparas, sus despabiladeras y sus ceniceros."
+    },
+    {
+      "text": "Empleó un talento de oro puro para el candelabro y todos sus utensilios."
+    },
+    {
+      "text": "Hizo también de madera de acacia el altar del incienso, de un codo de largo y uno de ancho, cuadrado, y de dos codos de alto. Sus cuernos formaban un solo cuerpo con él."
+    },
+    {
+      "text": "Lo revistió de oro puro, por su parte superior, sus costados y también sus cuernos. Puso en su derredor una moldura de oro."
+    },
+    {
+      "text": "Y debajo de la moldura, a los costados, hizo dos anillas a sus dos lados, para meter por ellas los varales con que transportarlo."
+    },
+    {
+      "text": "Hizo los varales de madera de acacia y los revistió de oro."
+    },
+    {
+      "text": "Preparó también el óleo sagrado de la unción, y el incienso aromático puro, como lo prepara el perfumista."
+    }
+  ],
+  "38": [
+    {
+      "text": "Hizo el altar de los holocaustos de madera de acacia, de cinco codos de largo y cinco de ancho, cuadrado, y de tres codos de alto."
+    },
+    {
+      "text": "Hizo sobresalir de sus cuatro ángulos unos cuernos que formaban un cuerpo con él, y lo revistió de bronce."
+    },
+    {
+      "text": "Hizo, además, todos los utensilios del altar: Los ceniceros, los badiles, los acetres, los tenedores y los braseros. Fundió de bronce todos sus utensilios."
+    },
+    {
+      "text": "Fabricó para el altar una rejilla de bronce en forma de red, bajo la cornisa inferior, de modo que llegaba hasta la mitad del altar."
+    },
+    {
+      "text": "Fijó cuatro anillas para los cuatro extremos de la rejilla de bronce, para meter los varales."
+    },
+    {
+      "text": "Hizo los varales de madera de acacia, y los revistió de bronce,"
+    },
+    {
+      "text": "y pasó los varales por las anillas a los flancos del altar, para transportarlo así. Hizo el altar hueco, de paneles."
+    },
+    {
+      "text": "Hizo la pila y la basa de bronce, con los espejos de las mujeres que servían a la entrada de la Tienda del Encuentro."
+    },
+    {
+      "text": "Hizo también el atrio; por el lado del Négueb, hacia el sur, estaba el cortinaje del atrio, de lino fino torzal, de cien codos."
+    },
+    {
+      "text": "Sus postes eran veinte, y veintes sus basas de bronce; los ganchos de los postes y sus varillas eran de plata."
+    },
+    {
+      "text": "Por el lado septentrional había igualmente un cortinaje de cien codos. Sus postes eran veinte, y veinte sus basas de bronce; los ganchos de los postes y sus varillas eran de plata."
+    },
+    {
+      "text": "En el lado occidental había un cortinaje de cincuenta codos. Sus postes eran diez, y diez sus basas; los ganchos de los postes y sus varillas eran de plata."
+    },
+    {
+      "text": "En el lado Este, al oriente, colgaban también cincuenta codos de cortinaje."
+    },
+    {
+      "text": "El cortinaje era de quince codos, con tres columnas y tres basas, por un lado de la entrada;"
+    },
+    {
+      "text": "y por el otro lado - a ambos lados de la entrada del atrio - había un cortinaje de quince codos; sus postes eran tres, y tres sus basas."
+    },
+    {
+      "text": "Todos los cortinajes del recinto del atrio eran de lino fino torzal."
+    },
+    {
+      "text": "Las basas de los postes eran de bronce, sus ganchos y sus varillas de plata. También sus capiteles estaban revestidos de plata, y todos los postes del atrio llevaban varillas de plata."
+    },
+    {
+      "text": "El tapiz de la puerta del atrio era labor de recamador y estaba recamado de púrpura violeta y escarlata, de carmesí y lino fino torzal. Tenía veinte codos de largo; su altura - en el ancho - era de cinco codos, lo mismo que los cortinajes del atrio."
+    },
+    {
+      "text": "Sus cuatro postes y sus cuatro basas eran de bronce; sus ganchos de plata, como también el revestimiento de sus capiteles y sus varillas."
+    },
+    {
+      "text": "Toda la clavazón de la Morada y del atrio que la rodeaba era de bronce."
+    },
+    {
+      "text": "Este es el inventario de la Morada, de la Morada del testimonio, realizado por orden de Moisés, y hecho por los levitas bajo la dirección de Itamar, hijo del sacerdote Aarón."
+    },
+    {
+      "text": "Besalel, hijo de Urí, hijo de Jur, de la tribu de Judá, hizo todo cuanto Dios había mandado a Moisés,"
+    },
+    {
+      "text": "juntamente con Oholiab, hijo de Ajisamak, de la tribu de Dan, que era artífice, bordador y recamador en púrpura violeta y escarlata, en carmesí y lino fino."
+    },
+    {
+      "text": "El total del oro empleado en el trabajo, en todo el trabajo del Santuario, es decir, el oro de la ofrenda reservada, fue de veintinueve talentos y 730 siclos, en siclos del Santuario;"
+    },
+    {
+      "text": "la plata de los incluidos en el censo de la comunidad, cien talentos y 1.775 siclos, en siclos del Santuario:"
+    },
+    {
+      "text": "un becá por cabeza, o sea medio siclo, en siclos del Santuario, para cada hombre comprendido en el censo de los 603.550 hombres, de veinte años en adelante."
+    },
+    {
+      "text": "Los cien talentos de plata se emplearon en fundir las basas del Santuario y las basas del velo; cien basas correspondientes a los cien talentos, un talento por basa."
+    },
+    {
+      "text": "De los 1.775 siclos hizo ganchos para los postes, revistió sus capiteles y los unió con varillas."
+    },
+    {
+      "text": "El bronce de la ofrenda reservada fue de setenta talentos y 2.400 siclos."
+    },
+    {
+      "text": "Con él hizo las basas para la entrada de la Tienda del Encuentro, el altar de bronce con su rejilla de bronce y todos los utensilios del altar,"
+    },
+    {
+      "text": "las basas del recinto del atrio y las basas de la entrada del atrio, toda la clavazón de la Morada y toda la clavazón del atrio que la rodeaba."
+    }
+  ],
+  "39": [
+    {
+      "text": "Hicieron para el servicio del Santuario vestiduras de ceremonia de púrpura violeta y escarlata, de carmesí y lino fino. Hicieron también las vestiduras sagradas de Aarón, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Hicieron, pues, el efod, de oro, de púrpura violeta y escarlata, de carmesí y lino fino torzal."
+    },
+    {
+      "text": "Batieron oro en láminas y las cortaron en hilos para hacer bordado junto con la púrpura violeta y escarlata, con el carmesi y el lino fino."
+    },
+    {
+      "text": "Pusieron al efod hombreras y lo fijaron por sus dos extremos."
+    },
+    {
+      "text": "La cinta con que se ciñe el efod era de la misma hechura y formaba con él una sola pieza: era de oro, púrpura violeta y escarlata, carmesí y lino fino torzal, como Dios se lo había mandado a Moisés."
+    },
+    {
+      "text": "Prepararon igualmente las piedras de ónice engastadas en engastes de oro y grabadas como se graban los sellos, con los nombres de los hijos de Israel;"
+    },
+    {
+      "text": "las colocaron sobre las hombreras del efod, como piedras que sirvieran a Dios de recuerdo de los hijos de Israel, según Dios había ordenado a Moisés."
+    },
+    {
+      "text": "Bordaron también el pectoral, al estilo de la labor del efod, de oro, púrpura violeta y escarlata, carmesí y lino fino torzal."
+    },
+    {
+      "text": "El pectoral era cuadrado y lo hicieron doble; tenía un palmo de largo y otro de ancho; era doble."
+    },
+    {
+      "text": "Lo llenaron de cuatro filas de piedras. En la primera fila había un sardio, un topacio y una esmeralda;"
+    },
+    {
+      "text": "en la segunda fila: un rubí, un zafiro y un diamante;"
+    },
+    {
+      "text": "en la tercera fila: un ópalo, una ágata y una amatista;"
+    },
+    {
+      "text": "y en la cuarta: un crisólito, un ónice y un jaspe. Todas ellas estaban engastadas en engarces de oro."
+    },
+    {
+      "text": "Las piedras eran doce, correspondientes a los nombres de los hijos de Israel, grabadas con sus nombres como se graban los sellos, cada una con su nombre, conforme a las doce tribus."
+    },
+    {
+      "text": "Hicieron para el pectoral cadenillas de oro puro, trenzadas a manera de cordones."
+    },
+    {
+      "text": "Hicieron dos engastes de oro y dos anillas de oro; fijaron las dos anillas en los dos extremos del pectoral."
+    },
+    {
+      "text": "Pasaron después las dos cadenillas de oro por las dos anillas en los extremos del pectoral."
+    },
+    {
+      "text": "Unieron los otros dos extremos de las dos cadenillas a los dos engarces, que fijaron del efod."
+    },
+    {
+      "text": "Hicieron otras dos anillas de oro y las pusieron en los otros dos extremos del pectoral en el borde interior que mira hacia el efod."
+    },
+    {
+      "text": "E hicieron otras dos anillas de oro, que fijaron en la parte inferior de las dos hombreras del efod, por delante, cerca de su unión, encima de la cinta del efod."
+    },
+    {
+      "text": "Y por medio de sus anillas sujetaron el pectoral a las anillas del efod, con un cordón de púrpura violeta, para que quedase el pectoral sobre la cinta del efod y no se desprendiese del efod, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Tejieron el manto del efod, todo de púrpura violeta."
+    },
+    {
+      "text": "Había una abertura en el centro del manto, semejante al cuello de una cota, con una orla alrededor de la abertura para que no se rompiese."
+    },
+    {
+      "text": "En el ruedo inferior del manto hicieron granadas de púrpura violeta y escarlata, de carmesí y lino fino torzal."
+    },
+    {
+      "text": "Hicieron campanillas de oro puro, colocándolas entre las granadas, en todo el ruedo."
+    },
+    {
+      "text": "Una campanilla y una granada alternaban con otra campanilla y otra granada, en el ruedo inferior del manto. Servía para oficiar, como Dios había ordenado a Moisés."
+    },
+    {
+      "text": "Tejieron también las túnicas de lino fino para Aarón y sus hijos;"
+    },
+    {
+      "text": "la tiara de lino fino, los adornos de las mitras de lino fino y también los calzones de lino fino torzal,"
+    },
+    {
+      "text": "lo mismo que las fajas recamadas de lino fino torzal, de púrpura violeta y escarlata y de carmesí, tal como Dios había ordenado a Moisés."
+    },
+    {
+      "text": "E hicieron de oro puro una lámina, la diadema sagrada en la que grabaron, como se graban los sellos: «Consagrado a Dios.»"
+    },
+    {
+      "text": "Fijaron en ella un cordón de púrpura violeta para sujetarla en la parte superior de la tiara, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Así fue acabada toda la obra de la Morada y de la Tienda del Encuentro. Los israelitas hicieron toda la obra conforme a lo que Dios había mandado a Moisés. Así lo hicieron."
+    },
+    {
+      "text": "Presentaron a Moisés la Morada, la Tienda y todos sus utensilios; los broches, los tableros, los travesaños, los postes y las basas;"
+    },
+    {
+      "text": "el toldo de pieles de carnero teñidas de rojo, el toldo de cueros finos y el velo protector;"
+    },
+    {
+      "text": "el arca del Testimonio con sus varales y el propiciatorio;"
+    },
+    {
+      "text": "la mesa con todos sus utensilios y el pan de la Presencia;"
+    },
+    {
+      "text": "el candelabro de oro puro con sus lámparas - las lámparas que habían de colocarse en él -, todos sus utensilios y el aceite del alumbrado;"
+    },
+    {
+      "text": "el altar de oro, el óleo de la unción, el incienso aromático y la cortina para la entrada de la Tienda;"
+    },
+    {
+      "text": "el altar de bronce con su rejilla de bronce, sus varales y todos sus utensilios; la pila con su base;"
+    },
+    {
+      "text": "el cortinaje del atrio, los postes con sus basas, el tapiz para la entrada del atrio, sus cuerdas, su clavazón y todos los utensilios del servicio de la Morada para la Tienda del Encuentro;"
+    },
+    {
+      "text": "las vestiduras de ceremonia para el servicio en el Santuario: los ornamentos sagrados para el sacerdote Aarón y las vestiduras de sus hijos para ejercer el sacerdocio."
+    },
+    {
+      "text": "Conforme a cuanto Dios había ordenado a Moisés, así hicieron los hijos de Israel toda la obra."
+    },
+    {
+      "text": "Moisés vio todo el trabajo y comprobó que lo habían llevado a cabo; tal como había mandado Dios, así lo habían hecho. Y Moisés los bendijo."
+    }
+  ],
+  "40": [
+    {
+      "text": "Dios habló así a Moisés:"
+    },
+    {
+      "text": "«El día primero del primer mes alzarás la Morada de la Tienda del Encuentro."
+    },
+    {
+      "text": "Allí pondrás el arca del Testimonio y cubrirás el arca con el velo."
+    },
+    {
+      "text": "LLevarás la mesa y colocarás lo que hay que ordenar sobre ella; llevarás también el candelabro y pondrás encima las lámparas."
+    },
+    {
+      "text": "Colocarás el altar de oro para el incienso delante del arca del Testimonio y colgarás la cortina a la entrada de la Morada."
+    },
+    {
+      "text": "Colocarás el altar de los holocaustos ante la entrada de la Morada de la Tienda del Encuentro."
+    },
+    {
+      "text": "Pondrás la pila entre la Tienda del Encuentro y el altar, y echarás agua en ella."
+    },
+    {
+      "text": "En derredor levantarás el atrio y tenderás el tapiz a la entrada del atrio."
+    },
+    {
+      "text": "Entonces tomarás el óleo de la unción y ungirás la Morada y todo lo que contiene. La consagrarás con todo su mobiliario y será cosa sagrada."
+    },
+    {
+      "text": "Ungirás además el altar de los holocaustos con todos sus utensilios. Consagrarás el altar, y el altar será cosa sacratísima."
+    },
+    {
+      "text": "Asimismo ungirás la pila y su base, y la consagrarás."
+    },
+    {
+      "text": "Después mandarás que Aarón y sus hijos se acerquen a la entrada de la Tienda del Encuentro y los lavarás con agua."
+    },
+    {
+      "text": "Vestirás a Aarón con las vestiduras sagradas, le ungirás, y le consagrarás para que ejerza mi sacerdocio."
+    },
+    {
+      "text": "Mandarás también que se acerquen sus hijos; los vestirás con túnicas,"
+    },
+    {
+      "text": "los ungirás, como ungiste a su padre, para que ejerzan mi sacerdocio. Así se hará para que su unción les confiera un sacerdocio sempiterno de generación en generación.»"
+    },
+    {
+      "text": "Moisés hizo todo conforme a lo que Dios le había mandado. Así lo hizo."
+    },
+    {
+      "text": "En el primer mes del año segundo, el día primero del mes, fue alzada la Morada."
+    },
+    {
+      "text": "Moisés alzó la Morada, asentó las basas, colocó sus tableros, metió sus travesaños y erigió sus postes."
+    },
+    {
+      "text": "Después desplegó la Tienda por encima de la Morada y puso además por encima el toldo de la Tienda, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Luego tomó el Testimonio y lo puso en el arca; puso al arca los varales y sobre ella colocó el propiciatorio en la parte superior."
+    },
+    {
+      "text": "LLevó entonces el arca a la Morada, colgó el velo de protección y cubrió así el arca del Testimonio, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Colocó también la mesa en la Tienda del Encuentro, al lado septentrional de la Morada, fuera del velo."
+    },
+    {
+      "text": "Dipuso sobre ella las filas de los panes de la Presencia delante de Dios, como Dios había ordenado a Moisés."
+    },
+    {
+      "text": "Luego instaló el candelabro en la Tienda del Encuentro, frente a la mesa, en el lado meridional de la Morada,"
+    },
+    {
+      "text": "y colocó encima las lámparas delante de Dios, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Asimismo puso el altar de oro en la Tienda del Encuentro, delante del velo;"
+    },
+    {
+      "text": "y quemó sobre él incienso aromático como Dios había mandado a Moisés."
+    },
+    {
+      "text": "A la entrada de la Morada colocó la cortina,"
+    },
+    {
+      "text": "y en la misma entrada de la Morada de la Tienda del Encuentro colocó también el altar de los holocaustos, sobre el cual ofreció el holocausto y la oblación, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Situó la pila entre la Tienda del Encuentro y el altar, y echó en ella agua para las abluciones;"
+    },
+    {
+      "text": "Moisés, Aarón y sus hijos se lavaron en ella las manos y los pies."
+    },
+    {
+      "text": "Siempre que entraban en la Tienda del Encuentro y siempre que se acercaban al altar, se lavaban, como Dios había mandado a Moisés."
+    },
+    {
+      "text": "Por fin alzó el atrio que rodeaba la Morada y el altar, y colgó el tapiz a la entrada del atrio. Así acabó Moisés los trabajos."
+    },
+    {
+      "text": "La Nube cubrió entonces la Tienda del Encuentro y la gloria de Dios llenó la Morada."
+    },
+    {
+      "text": "Moisés no podía entrar en la Tienda del Encuentro, pues la Nube moraba sobre ella y la gloria de Dios llenaba la Morada."
+    },
+    {
+      "text": "En todas las marchas, cuando la Nube se elevaba de encima de la Morada, los israelitas levantaban el campamento."
+    },
+    {
+      "text": "Pero si la Nube no se elevaba, ellos no levantaban el campamento, en espera del día en que se elevara."
+    },
+    {
+      "text": "Porque durante el día la Nube de Dios estaba sobre la Morada y durante la noche había fuego a la vista de toda la casa de Israel. Así sucedía en todas sus marchas."
+    }
+  ]
 }
