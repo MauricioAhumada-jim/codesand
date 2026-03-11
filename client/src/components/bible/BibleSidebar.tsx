@@ -42,10 +42,10 @@ export function BibleSidebar({
       className={`${sidebarOpen ? 'w-80' : 'w-0'} fixed lg:relative inset-y-0 left-0 transition-all duration-300 overflow-hidden ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-amber-200'} border-r h-screen lg:h-auto top-0 z-40`}
       data-testid="sidebar"
     >
-      <div className="h-full w-80 overflow-y-auto lg:overflow-visible scrollbar-hide pt-16 lg:pt-0">
+      <div className="h-full w-80 overflow-y-auto lg:overflow-visible scrollbar-hide pt-0">
         <div className={`flex items-center justify-between p-4 border-b ${darkMode ? 'border-gray-700' : 'border-amber-200'}`}>
           <h2 className="text-lg font-bold text-amber-500">
-            {viewMode === 'bookmarks' ? 'Categorías' : 'Índice'}
+            {viewMode === 'bookmarks' ? 'Categorías' : 'Sagrada Biblia'}
           </h2>
           <div className="flex gap-2 items-center">
             {viewMode === 'bookmarks' ? (
@@ -70,7 +70,7 @@ export function BibleSidebar({
               >
                 <BookmarkIcon size={20} />
                 {bookmarksCount > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-amber-500 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center border-2 border-white dark:border-gray-900">
+                  <span className="absolute -top-1.5 -right-1.5 bg-amber-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center border-2 border-white dark:border-gray-900">
                     {bookmarksCount}
                   </span>
                 )}

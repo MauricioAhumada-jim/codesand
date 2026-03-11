@@ -292,17 +292,7 @@ export function BibleReader() {
               {/* Removed absolute left old hamburger */}
 
               <div className="absolute top-4 right-4 z-10 flex gap-2">
-                {/* Botón de Tema (Móvil) */}
-                <button
-                  onClick={toggleDarkMode}
-                  className={`p-2 rounded-lg shadow-md lg:hidden ${darkMode ? 'bg-gray-800 text-amber-500 border-gray-700 hover:bg-gray-700' : 'bg-white text-amber-500 border-amber-200 hover:bg-amber-50'} border`}
-                >
-                  {darkMode ? (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
-                  ) : (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></svg>
-                  )}
-                </button>
+                {/* Removed Mobile Theme Toggle directly from reader */}
               </div>
 
               <div className="mb-6 relative">
@@ -335,45 +325,47 @@ export function BibleReader() {
                 isPlaying={audioPlayer.isPlaying}
               />
 
-              <ChapterNavigation
-                darkMode={darkMode}
-                selectedChapter={selectedChapter}
-                currentBook={currentBook}
-                onPreviousChapter={() => {
-                  setLastClickedVerse(0);
-                  audioPlayer.stopPlayback();
-                  if (selectedChapter > 1) {
-                    setSelectedChapter(selectedChapter - 1);
-                  } else {
-                    const prevBook = getPreviousBook(selectedBook);
-                    if (prevBook) {
-                      setSelectedBook(prevBook.id);
-                      setSelectedChapter(prevBook.chapters);
-                    }
-                  }
-                }}
-                onNextChapter={() => {
-                  setLastClickedVerse(0);
-                  audioPlayer.stopPlayback();
-                  if (currentBook && selectedChapter < currentBook.chapters) {
-                    setSelectedChapter(selectedChapter + 1);
-                  } else {
-                    const nextBook = getNextBook(selectedBook);
-                    if (nextBook) {
-                      setSelectedBook(nextBook.id);
-                      setSelectedChapter(1);
-                    }
-                  }
-                }}
-                isPlaying={audioPlayer.isPlaying && audioPlayer.isChapterMode}
-                onPlayChapter={() => {
-                  if (audioPlayer.isPlaying && audioPlayer.isChapterMode) {
+              <div className={sidebarOpen ? "hidden lg:block" : ""}>
+                <ChapterNavigation
+                  darkMode={darkMode}
+                  selectedChapter={selectedChapter}
+                  currentBook={currentBook}
+                  onPreviousChapter={() => {
+                    setLastClickedVerse(0);
                     audioPlayer.stopPlayback();
-                  } else {
-                    audioPlayer.playChapterFromVerse(lastClickedVerse);
-                  }
-                }}
-              />
+                    if (selectedChapter > 1) {
+                      setSelectedChapter(selectedChapter - 1);
+                    } else {
+                      const prevBook = getPreviousBook(selectedBook);
+                      if (prevBook) {
+                        setSelectedBook(prevBook.id);
+                        setSelectedChapter(prevBook.chapters);
+                      }
+                    }
+                  }}
+                  onNextChapter={() => {
+                    setLastClickedVerse(0);
+                    audioPlayer.stopPlayback();
+                    if (currentBook && selectedChapter < currentBook.chapters) {
+                      setSelectedChapter(selectedChapter + 1);
+                    } else {
+                      const nextBook = getNextBook(selectedBook);
+                      if (nextBook) {
+                        setSelectedBook(nextBook.id);
+                        setSelectedChapter(1);
+                      }
+                    }
+                  }}
+                  isPlaying={audioPlayer.isPlaying && audioPlayer.isChapterMode}
+                  onPlayChapter={() => {
+                    if (audioPlayer.isPlaying && audioPlayer.isChapterMode) {
+                      audioPlayer.stopPlayback();
+                    } else {
+                      audioPlayer.playChapterFromVerse(lastClickedVerse);
+                    }
+                  }}
+                />
+              </div>
             </main>
           </>
         ) : (
