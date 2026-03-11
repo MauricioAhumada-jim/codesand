@@ -8,7 +8,6 @@ import { ChapterCarousel } from './ChapterCarousel';
 import { VerseDisplay } from './VerseDisplay';
 import { ChapterNavigation } from './ChapterNavigation';
 import { BookmarksView } from './BookmarksView';
-import { BookmarksSidebar } from './BookmarksSidebar';
 
 export function BibleReader() {
   const { darkMode, toggleDarkMode } = useBibleTheme();
@@ -272,6 +271,10 @@ export function BibleReader() {
             setViewMode('reader');
             if (window.innerWidth < 1024) setSidebarOpen(false);
           }}
+          isMusicEnabled={audioPlayer.isMusicEnabled}
+          musicVolume={audioPlayer.musicVolume}
+          onToggleMusic={audioPlayer.toggleMusicEnabled}
+          onVolumeChange={audioPlayer.setMusicVolume}
         />
 
         {viewMode === 'reader' ? (

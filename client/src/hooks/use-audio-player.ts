@@ -28,17 +28,62 @@ export function useAudioPlayer({
     isChapterMode: false
   });
 
+  const [isMusicEnabled, setIsMusicEnabled] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('bible-music-enabled');
+      return saved ? JSON.parse(saved) : false;
+    }
+    return false;
+  });
+
+  const [musicVolume, setMusicVolume] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('bible-music-volume');
+      return saved ? parseFloat(saved) : 0.3;
+    }
+    return 0.3;
+  });
+
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const backgroundAudioRef = useRef<HTMLAudioElement | null>(null);
   const currentBookRef = useRef(bookId);
   const currentChapterRef = useRef(chapter);
 
   currentBookRef.current = bookId;
   currentChapterRef.current = chapter;
 
+  useEffect(() => {
+    localStorage.setItem('bible-music-enabled', JSON.stringify(isMusicEnabled));
+    if (isMusicEnabled && state.isPlaying && backgroundAudioRef.current) {
+      backgroundAudioRef.current.play().catch(console.error);
+    } else if (!isMusicEnabled && backgroundAudioRef.current) {
+      backgroundAudioRef.current.pause();
+    }
+  }, [isMusicEnabled, state.isPlaying]);
+
+  useEffect(() => {
+    localStorage.setItem('bible-music-volume', musicVolume.toString());
+    if (backgroundAudioRef.current) {
+      backgroundAudioRef.current.volume = musicVolume;
+    }
+  }, [musicVolume]);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && !backgroundAudioRef.current) {
+      const audio = new Audio('/musica.mp3');
+      audio.loop = true;
+      audio.volume = musicVolume;
+      backgroundAudioRef.current = audio;
+    }
+  }, [musicVolume]);
+
   const stopPlayback = useCallback(() => {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+    }
+    if (backgroundAudioRef.current) {
+      backgroundAudioRef.current.pause();
     }
     setState({
       isPlaying: false,
@@ -183,12 +228,14 @@ export function useAudioPlayer({
   const togglePlayback = useCallback(() => {
     if (state.isPlaying && audioRef.current) {
       audioRef.current.pause();
+      if (backgroundAudioRef.current) backgroundAudioRef.current.pause();
       setState(prev => ({ ...prev, isPlaying: false }));
     } else if (audioRef.current && state.currentVerseIndex !== null) {
       audioRef.current.play().catch(console.error);
+      if (isMusicEnabled && backgroundAudioRef.current) backgroundAudioRef.current.play().catch(console.error);
       setState(prev => ({ ...prev, isPlaying: true }));
     }
-  }, [state.isPlaying, state.currentVerseIndex]);
+  }, [state.isPlaying, state.currentVerseIndex, isMusicEnabled]);
 
   const prevParamsRef = useRef({ bookId, chapter });
 
@@ -208,16 +255,28 @@ export function useAudioPlayer({
         audioRef.current.pause();
         audioRef.current = null;
       }
+      if (backgroundAudioRef.current) {
+        backgroundAudioRef.current.pause();
+        backgroundAudioRef.current = null;
+      }
     };
+  }, []);
+
+  const toggleMusicEnabled = useCallback(() => {
+    setIsMusicEnabled((prev: boolean) => !prev);
   }, []);
 
   return {
     isPlaying: state.isPlaying,
     currentVerseIndex: state.currentVerseIndex,
     isChapterMode: state.isChapterMode,
+    isMusicEnabled,
+    musicVolume,
     playSingleVerse,
     playChapterFromVerse,
     stopPlayback,
-    togglePlayback
+    togglePlayback,
+    toggleMusicEnabled,
+    setMusicVolume
   };
 }

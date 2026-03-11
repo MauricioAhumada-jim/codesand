@@ -149,6 +149,23 @@ export function VerseDisplay({
 
   return (
     <div className={`${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg p-4 sm:p-6 md:p-8 shadow-lg`}>
+      <style>{`
+        @keyframes soundWave {
+          0% { height: 3px; }
+          50% { height: 12px; }
+          100% { height: 3px; }
+        }
+        .audio-wave-bar {
+          width: 3px;
+          background-color: #f59e0b; /* amber-500 */
+          border-radius: 2px;
+          animation: soundWave 1s ease-in-out infinite;
+        }
+        .audio-wave-bar:nth-child(1) { animation-delay: 0.1s; }
+        .audio-wave-bar:nth-child(2) { animation-delay: 0.3s; }
+        .audio-wave-bar:nth-child(3) { animation-delay: 0.5s; height: 10px; animation-duration: 0.8s; }
+        .audio-wave-bar:nth-child(4) { animation-delay: 0.2s; }
+      `}</style>
       <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none" style={{
         fontFamily: 'Georgia, serif',
         lineHeight: '1.8',
@@ -164,6 +181,14 @@ export function VerseDisplay({
             >
               <span className="font-bold text-amber-500 mr-2 select-none">{idx + 1}</span>
               {verse}
+              {isPlaying && playingVerseIndex === idx && (
+                <span className="inline-flex items-center gap-[2px] ml-2 h-[12px]">
+                  <span className="audio-wave-bar"></span>
+                  <span className="audio-wave-bar"></span>
+                  <span className="audio-wave-bar"></span>
+                  <span className="audio-wave-bar"></span>
+                </span>
+              )}
             </p>
 
             {verseMenuOpen === idx && (

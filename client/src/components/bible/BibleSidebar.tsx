@@ -1,4 +1,4 @@
-import { Search, X, Heart, Bookmark as BookmarkIcon, LayoutList, Book as BookIcon } from 'lucide-react';
+import { Search, X, Heart, Bookmark as BookmarkIcon, LayoutList, Book as BookIcon, Music, Volume2, VolumeX } from 'lucide-react';
 import { Link } from 'wouter';
 import { bibleStructure, MOOD_COLORS } from '@/lib/bible-data';
 
@@ -18,6 +18,10 @@ interface BibleSidebarProps {
   selectedMood?: string | 'all';
   onMoodSelect?: (moodId: string | 'all') => void;
   onViewReader: () => void;
+  isMusicEnabled: boolean;
+  musicVolume: number;
+  onToggleMusic: () => void;
+  onVolumeChange: (volume: number) => void;
 }
 
 export function BibleSidebar({
@@ -35,14 +39,18 @@ export function BibleSidebar({
   viewMode,
   selectedMood,
   onMoodSelect,
-  onViewReader
+  onViewReader,
+  isMusicEnabled,
+  musicVolume,
+  onToggleMusic,
+  onVolumeChange
 }: BibleSidebarProps) {
   return (
     <aside
       className={`${sidebarOpen ? 'w-80' : 'w-0'} fixed lg:relative inset-y-0 left-0 transition-all duration-300 overflow-hidden ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-amber-200'} border-r h-screen lg:h-auto top-0 z-40`}
       data-testid="sidebar"
     >
-      <div className="h-full w-80 overflow-y-auto lg:overflow-visible scrollbar-hide pt-0">
+      <div className="h-full w-80 flex flex-col overflow-y-auto scrollbar-hide pt-0">
         <div className={`flex items-center justify-between p-4 border-b ${darkMode ? 'border-gray-700' : 'border-amber-200'}`}>
           <h2 className="text-lg font-bold text-amber-500">
             {viewMode === 'bookmarks' ? 'Categorías' : 'Sagrada Biblia'}
@@ -229,8 +237,37 @@ export function BibleSidebar({
           )}
         </div>
 
-        <div className={`p-4 mt-auto border-t ${darkMode ? 'border-gray-700' : 'border-amber-200'}`}>
-          <div className="text-center space-y-2">
+        <div className={`p-4 mt-auto border-t flex-shrink-0 ${darkMode ? 'border-gray-700 bg-gray-800' : 'border-amber-200 bg-amber-50/50'}`}>
+          <div className="mb-4">
+            <div className="flex items-center justify-between mb-2">
+              <span className={`text-sm font-medium flex items-center gap-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                <Music size={16} className="text-amber-500" /> Música de fondo
+              </span>
+              <button
+                onClick={onToggleMusic}
+                className={`w-11 h-6 rounded-full relative transition-colors ${isMusicEnabled ? 'bg-amber-500' : darkMode ? 'bg-gray-600' : 'bg-gray-300'}`}
+                aria-label="Alternar música de fondo"
+              >
+                <div className={`absolute top-1 w-4 h-4 rounded-full bg-white transition-transform ${isMusicEnabled ? 'left-[26px]' : 'left-1'}`} />
+              </button>
+            </div>
+            {isMusicEnabled && (
+              <div className="flex items-center gap-2 mt-3 mb-1 px-1">
+                <VolumeX size={16} className={darkMode ? 'text-gray-400' : 'text-gray-500'} />
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.05"
+                  value={musicVolume}
+                  onChange={(e) => onVolumeChange(parseFloat(e.target.value))}
+                  className="w-full h-1.5 bg-gray-300 rounded-lg appearance-none cursor-pointer accent-amber-500 dark:bg-gray-600"
+                />
+                <Volume2 size={16} className={darkMode ? 'text-gray-400' : 'text-gray-500'} />
+              </div>
+            )}
+          </div>
+          <div className="text-center space-y-2 border-t pt-3 border-amber-200/50 dark:border-gray-700">
             <Link href="/terminos" className="text-sm text-muted-foreground hover:text-foreground transition-colors block" data-testid="link-terms">
               Términos y Condiciones
             </Link>
