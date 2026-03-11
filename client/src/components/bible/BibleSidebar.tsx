@@ -1,4 +1,4 @@
-import { Search, X, Heart, Bookmark as BookmarkIcon, LayoutList, Book as BookIcon, Music, Volume2, VolumeX } from 'lucide-react';
+import { Search, X, Heart, Bookmark as BookmarkIcon, LayoutList, Book as BookIcon, Music, Volume2, VolumeX, Type } from 'lucide-react';
 import { Link } from 'wouter';
 import { bibleStructure, MOOD_COLORS } from '@/lib/bible-data';
 
@@ -22,6 +22,9 @@ interface BibleSidebarProps {
   musicVolume: number;
   onToggleMusic: () => void;
   onVolumeChange: (volume: number) => void;
+  fontSizeIndex: number;
+  onIncreaseFontSize: () => void;
+  onDecreaseFontSize: () => void;
 }
 
 export function BibleSidebar({
@@ -43,7 +46,10 @@ export function BibleSidebar({
   isMusicEnabled,
   musicVolume,
   onToggleMusic,
-  onVolumeChange
+  onVolumeChange,
+  fontSizeIndex,
+  onIncreaseFontSize,
+  onDecreaseFontSize
 }: BibleSidebarProps) {
   return (
     <aside
@@ -267,6 +273,41 @@ export function BibleSidebar({
               </div>
             )}
           </div>
+
+          <div className="mb-4 pt-3 border-t border-amber-200/50 dark:border-gray-700">
+            <span className={`text-sm font-medium flex items-center gap-2 mb-3 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+              <Type size={16} className="text-amber-500" /> Tamaño de texto
+            </span>
+            <div className={`flex items-center justify-between p-1 rounded-lg ${darkMode ? 'bg-gray-900 border border-gray-700' : 'bg-white border border-amber-200'}`}>
+              <button
+                onClick={onDecreaseFontSize}
+                disabled={fontSizeIndex === 0}
+                className={`px-3 py-1 rounded-md text-sm font-bold w-12 transition-colors ${fontSizeIndex === 0 ? 'opacity-50 cursor-not-allowed text-gray-400' : darkMode ? 'hover:bg-gray-700 text-gray-200' : 'hover:bg-amber-50 text-amber-700'}`}
+                aria-label="Disminuir tamaño de letra"
+              >
+                A-
+              </button>
+
+              <div className="flex gap-1">
+                {[0, 1, 2, 3, 4].map(idx => (
+                  <div
+                    key={idx}
+                    className={`h-1.5 rounded-full transition-all ${idx === fontSizeIndex ? 'w-4 bg-amber-500' : idx < fontSizeIndex ? 'w-1.5 bg-amber-500/50' : darkMode ? 'w-1.5 bg-gray-700' : 'w-1.5 bg-amber-100'}`}
+                  />
+                ))}
+              </div>
+
+              <button
+                onClick={onIncreaseFontSize}
+                disabled={fontSizeIndex === 4}
+                className={`px-3 py-1 rounded-md text-lg font-bold w-12 transition-colors ${fontSizeIndex === 4 ? 'opacity-50 cursor-not-allowed text-gray-400' : darkMode ? 'hover:bg-gray-700 text-gray-200' : 'hover:bg-amber-50 text-amber-700'}`}
+                aria-label="Aumentar tamaño de letra"
+              >
+                A+
+              </button>
+            </div>
+          </div>
+
           <div className="text-center space-y-2 border-t pt-3 border-amber-200/50 dark:border-gray-700">
             <Link href="/terminos" className="text-sm text-muted-foreground hover:text-foreground transition-colors block" data-testid="link-terms">
               Términos y Condiciones

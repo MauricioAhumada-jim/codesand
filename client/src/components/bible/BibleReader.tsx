@@ -34,6 +34,21 @@ export function BibleReader() {
   const [selectedMood, setSelectedMood] = useState<'all' | string>('all');
   const [selectedTestament, setSelectedTestament] = useState('Antiguo Testamento');
   const [lastClickedVerse, setLastClickedVerse] = useState<number>(0);
+  const [fontSizeIndex, setFontSizeIndex] = useState<number>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('bible-font-size');
+      return saved ? parseInt(saved, 10) : 0;
+    }
+    return 0;
+  });
+
+  const fontSizeClasses = [
+    'text-sm sm:text-base md:text-lg',   // 0: Normal
+    'text-base sm:text-lg md:text-xl',   // 1: Grande
+    'text-lg sm:text-xl md:text-2xl',    // 2: Muy Grande
+    'text-xl sm:text-2xl md:text-3xl',   // 3: Enorme
+    'text-2xl sm:text-3xl md:text-4xl'   // 4: Gigante
+  ];
 
   const currentBook = getBibleBook(selectedBook);
   const [bookContent, setBookContent] = useState<BibleContentChapter | null>(null);
@@ -76,6 +91,10 @@ export function BibleReader() {
   useEffect(() => {
     localStorage.setItem('bible-bookmarks', JSON.stringify(bookmarks));
   }, [bookmarks]);
+
+  useEffect(() => {
+    localStorage.setItem('bible-font-size', fontSizeIndex.toString());
+  }, [fontSizeIndex]);
 
   const addBookmark = () => {
     const newBookmark: BookmarkType = {
@@ -275,6 +294,9 @@ export function BibleReader() {
           musicVolume={audioPlayer.musicVolume}
           onToggleMusic={audioPlayer.toggleMusicEnabled}
           onVolumeChange={audioPlayer.setMusicVolume}
+          fontSizeIndex={fontSizeIndex}
+          onIncreaseFontSize={() => setFontSizeIndex(prev => Math.min(prev + 1, 4))}
+          onDecreaseFontSize={() => setFontSizeIndex(prev => Math.max(prev - 1, 0))}
         />
 
         {viewMode === 'reader' ? (
@@ -326,6 +348,7 @@ export function BibleReader() {
                 onPlayVerse={audioPlayer.playChapterFromVerse}
                 playingVerseIndex={audioPlayer.currentVerseIndex}
                 isPlaying={audioPlayer.isPlaying}
+                fontSizeClass={fontSizeClasses[fontSizeIndex]}
               />
 
               <div className={sidebarOpen ? "hidden lg:block" : ""}>

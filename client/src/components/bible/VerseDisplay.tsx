@@ -16,6 +16,7 @@ interface VerseDisplayProps {
   onPlayVerse?: (verseIndex: number) => void;
   playingVerseIndex?: number | null;
   isPlaying?: boolean;
+  fontSizeClass?: string;
 }
 
 export function VerseDisplay({
@@ -29,6 +30,7 @@ export function VerseDisplay({
   onPlayVerse,
   playingVerseIndex,
   isPlaying = false,
+  fontSizeClass = 'text-base md:text-lg',
 }: VerseDisplayProps) {
   const [hoveredVerse, setHoveredVerse] = useState<number | null>(null);
   const [verseMenuOpen, setVerseMenuOpen] = useState<number | null>(null);
@@ -173,7 +175,7 @@ export function VerseDisplay({
         {verses.map((verse, idx) => (
           <div key={idx} className="relative">
             <p
-              className={`verse-text mb-3 sm:mb-4 transition-all cursor-pointer relative ${getVerseBackgroundClass(idx)} rounded px-2 py-1 text-base md:text-lg ${darkMode ? 'text-gray-100' : 'text-gray-800'}`}
+              className={`verse-text mb-3 sm:mb-4 transition-all cursor-pointer relative ${getVerseBackgroundClass(idx)} rounded px-2 py-1 ${fontSizeClass} ${darkMode ? 'text-gray-100' : 'text-gray-800'}`}
               onMouseEnter={() => setHoveredVerse(idx)}
               onMouseLeave={() => setHoveredVerse(null)}
               onClick={(e) => handleVerseClick(idx, e)}
