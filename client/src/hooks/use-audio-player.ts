@@ -1,5 +1,5 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { getVerseAudioUrl, getNextBook, getBibleBook, type VerseContent } from '@/lib/bible-data';
+import { getVerseAudioUrl, getNextBook, getBibleBook, getMusicAudioUrl, type VerseContent } from '@/lib/bible-data';
 
 interface AudioPlayerState {
   isPlaying: boolean;
@@ -70,7 +70,7 @@ export function useAudioPlayer({
 
   useEffect(() => {
     if (typeof window !== 'undefined' && !backgroundAudioRef.current) {
-      const audio = new Audio('/musica.mp3');
+      const audio = new Audio(getMusicAudioUrl());
       audio.loop = true;
       audio.volume = musicVolume;
       backgroundAudioRef.current = audio;

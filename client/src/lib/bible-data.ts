@@ -185,6 +185,10 @@ export function getVerseAudioUrl(bookId: string, chapter: number, verseNumber: n
   return `https://firebasestorage.googleapis.com/v0/b/${FIREBASE_STORAGE_BUCKET}/o/${bookId}_${chapter}_${verseNumber}.mp3?alt=media`;
 }
 
+export function getMusicAudioUrl(): string {
+  return `https://firebasestorage.googleapis.com/v0/b/${FIREBASE_STORAGE_BUCKET}/o/musica.mp3?alt=media`;
+}
+
 export function getBibleBook(bookId: string): BibleBook | null {
   for (const testament in bibleStructure) {
     for (const category in bibleStructure[testament]) {
