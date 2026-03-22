@@ -8,9 +8,13 @@ import { ChapterCarousel } from './ChapterCarousel';
 import { VerseDisplay } from './VerseDisplay';
 import { ChapterNavigation } from './ChapterNavigation';
 import { BookmarksView } from './BookmarksView';
+import { AdBanner } from '@/components/monetization/AdBanner';
+import { usePremium } from '@/contexts/PremiumContext';
 
 export function BibleReader() {
   const { darkMode, toggleDarkMode } = useBibleTheme();
+  const { isPremium } = usePremium();
+  const [isAdVisible, setIsAdVisible] = useState(!isPremium);
   const [sidebarOpen, setSidebarOpen] = useState(() =>
     typeof window !== 'undefined' ? window.innerWidth >= 1024 : false
   );
@@ -301,7 +305,7 @@ export function BibleReader() {
 
         {viewMode === 'reader' ? (
           <>
-            <main className="flex-1 p-4 sm:p-6 md:p-8 pb-32 lg:pb-36 max-w-4xl mx-auto w-full relative pt-20 lg:pt-12">
+            <main className={`flex-1 p-4 sm:p-6 md:p-8 ${isAdVisible && !isPremium ? 'pb-40 lg:pb-48' : 'pb-32 lg:pb-36'} max-w-4xl mx-auto w-full relative pt-20 lg:pt-12 transition-all`}>
               {/* Controles Menú Superior (Solo Lector) */}
               {!sidebarOpen && (
                 <div className="absolute top-4 left-4 lg:-left-4 xl:-left-12 z-10 transition-all duration-300">
@@ -390,6 +394,7 @@ export function BibleReader() {
                       audioPlayer.playChapterFromVerse(lastClickedVerse);
                     }
                   }}
+                  isAdVisible={isAdVisible && !isPremium}
                 />
               </div>
             </main>
@@ -421,6 +426,7 @@ export function BibleReader() {
           </>
         )}
       </div>
+      <AdBanner isVisible={isAdVisible} onClose={() => setIsAdVisible(false)} />
     </div>
   );
 }

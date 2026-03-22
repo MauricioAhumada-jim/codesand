@@ -1,5 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { getVerseAudioUrl, getNextBook, getBibleBook, getMusicAudioUrl, type VerseContent } from '@/lib/bible-data';
+import { usePremium } from '@/contexts/PremiumContext';
 
 interface AudioPlayerState {
   isPlaying: boolean;
@@ -27,6 +28,8 @@ export function useAudioPlayer({
     currentVerseIndex: null,
     isChapterMode: false
   });
+  
+  const { isPremium, openPremiumModal } = usePremium();
 
   const [isMusicEnabled, setIsMusicEnabled] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -93,6 +96,13 @@ export function useAudioPlayer({
   }, []);
 
   const playVerseAtIndex = useCallback((verseIndex: number, isChapterMode: boolean) => {
+    // Premium Check - only allow Genesis for free users
+    if (bookId !== 'genesis' && !isPremium) {
+      stopPlayback();
+      setTimeout(openPremiumModal, 100);
+      return;
+    }
+
     const verseNumber = verseIndex + 1;
     const audioUrl = getVerseAudioUrl(bookId, chapter, verseNumber);
 
@@ -117,7 +127,7 @@ export function useAudioPlayer({
     });
 
     onVerseChange?.(verseIndex);
-  }, [verses, onVerseChange, stopPlayback, bookId, chapter]);
+  }, [verses, onVerseChange, stopPlayback, bookId, chapter, isPremium, openPremiumModal]);
 
   useEffect(() => {
     if (!audioRef.current) {
@@ -133,6 +143,18 @@ export function useAudioPlayer({
 
           if (nextVerseIndex < verses.length) {
             const nextVerseNumber = nextVerseIndex + 1;
+            
+            // Check premium before playing next chapter
+            if (currentBookRef.current !== 'genesis' && !isPremium) {
+                stopPlayback();
+                setTimeout(openPremiumModal, 100);
+                return {
+                  isPlaying: false,
+                  currentVerseIndex: null,
+                  isChapterMode: false
+                };
+            }
+
             const nextAudioUrl = getVerseAudioUrl(currentBookRef.current, currentChapterRef.current, nextVerseNumber);
 
             if (nextAudioUrl && audioRef.current) {
@@ -215,7 +237,7 @@ export function useAudioPlayer({
       audio.removeEventListener('ended', handleEnded);
       audio.removeEventListener('error', handleError);
     };
-  }, [verses, onBookChange, onVerseChange]);
+  }, [verses, onBookChange, onVerseChange, isPremium, openPremiumModal, stopPlayback]);
 
   const playSingleVerse = useCallback((verseIndex: number) => {
     playVerseAtIndex(verseIndex, false);
@@ -226,6 +248,12 @@ export function useAudioPlayer({
   }, [playVerseAtIndex]);
 
   const togglePlayback = useCallback(() => {
+    // Premium Check 
+    if (!state.isPlaying && bookId !== 'genesis' && !isPremium) {
+      setTimeout(openPremiumModal, 100);
+      return;
+    }
+
     if (state.isPlaying && audioRef.current) {
       audioRef.current.pause();
       if (backgroundAudioRef.current) backgroundAudioRef.current.pause();
@@ -235,7 +263,7 @@ export function useAudioPlayer({
       if (isMusicEnabled && backgroundAudioRef.current) backgroundAudioRef.current.play().catch(console.error);
       setState(prev => ({ ...prev, isPlaying: true }));
     }
-  }, [state.isPlaying, state.currentVerseIndex, isMusicEnabled]);
+  }, [state.isPlaying, state.currentVerseIndex, isMusicEnabled, bookId, isPremium, openPremiumModal]);
 
   const prevParamsRef = useRef({ bookId, chapter });
 

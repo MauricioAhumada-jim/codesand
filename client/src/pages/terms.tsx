@@ -53,13 +53,19 @@ export default function Terms() {
 
           <Card>
             <CardHeader>
-              <CardTitle>3. Contenido de Audio</CardTitle>
+              <CardTitle>3. Contenido de Audio y Versión Premium</CardTitle>
             </CardHeader>
             <CardContent className="text-muted-foreground">
+              <p className="mb-4">
+                La aplicación ofrece la reproducción de audio narrado. El acceso gratuito a los audios 
+                está limitado a ciertos libros (actualmente el libro del Génesis). Para desbloquear el 
+                acceso ilimitado a todos los audios de la Biblia y remover la publicidad visual, los usuarios 
+                pueden optar por adquirir la <strong>Versión Premium</strong> mediante un pago único.
+              </p>
               <p>
-                Los archivos de audio disponibles en esta aplicación son proporcionados por fuentes 
-                externas. No garantizamos la disponibilidad continua de estos recursos. El contenido 
-                de audio se proporciona únicamente para uso personal y no comercial.
+                Los pagos son procesados de forma segura a través de plataformas oficiales (como Google Play 
+                Billing en dispositivos Android). No garantizamos la disponibilidad continua e ininterrumpida de 
+                los servidores de audio.
               </p>
             </CardContent>
           </Card>
@@ -108,19 +114,45 @@ export default function Terms() {
 
           <Card>
             <CardHeader>
-              <CardTitle>7. Contacto</CardTitle>
+              <CardTitle>7. Enlaces y Sitios Web Externos</CardTitle>
+            </CardHeader>
+            <CardContent className="text-muted-foreground">
+              <p className="mb-4">
+                Para obtener más información sobre este proyecto, futuras actualizaciones, y conocer 
+                el desarrollador independiente detrás de la aplicación, puedes visitar la página web oficial de la app en:
+              </p>
+              <a 
+                href="https://biblia-catolica.onrender.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-amber-600 hover:text-amber-700 font-semibold transition-colors underline break-all block text-center p-3 bg-amber-50 dark:bg-amber-900/10 rounded-lg border border-amber-200"
+              >
+                https://biblia-catolica.onrender.com/
+              </a>
+              <p className="mt-4">
+                La aplicación también puede contener enlaces hacia <strong>Estampalos</strong> o hacia nuestra 
+                plataforma web. Al salir de la aplicación hacia sitios web externos, aceptas las 
+                políticas de privacidad y los términos de dichos sitios independientes.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>8. Contacto</CardTitle>
             </CardHeader>
             <CardContent className="text-muted-foreground">
               <p>
                 Si tiene preguntas sobre estos términos y condiciones, puede comunicarse con 
-                nosotros a través de los canales de contacto proporcionados en la aplicación.
+                nosotros a través de los canales de contacto proporcionados en nuestra página web 
+                oficial o desde las opciones de la aplicación.
               </p>
             </CardContent>
           </Card>
         </div>
 
         <p className="mt-8 text-center text-sm text-muted-foreground">
-          Última actualización: Enero 2026
+          Última actualización: Marzo 2026
         </p>
       </main>
     </div>

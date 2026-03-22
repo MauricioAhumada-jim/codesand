@@ -6,6 +6,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import Terms from "@/pages/terms";
 import NotFound from "@/pages/not-found";
+import { PremiumProvider } from "@/contexts/PremiumContext";
+import { PremiumModal } from "@/components/monetization/PremiumModal";
+import { InterstitialAd } from "@/components/monetization/InterstitialAd";
 
 function Router() {
   return (
@@ -20,10 +23,14 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Router />
-      </TooltipProvider>
+      <PremiumProvider>
+        <TooltipProvider>
+          <InterstitialAd />
+          <PremiumModal />
+          <Toaster />
+          <Router />
+        </TooltipProvider>
+      </PremiumProvider>
     </QueryClientProvider>
   );
 }

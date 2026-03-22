@@ -9,6 +9,7 @@ interface ChapterNavigationProps {
   onNextChapter: () => void;
   isPlaying?: boolean;
   onPlayChapter?: () => void;
+  isAdVisible?: boolean;
 }
 
 export function ChapterNavigation({
@@ -18,7 +19,8 @@ export function ChapterNavigation({
   onPreviousChapter,
   onNextChapter,
   isPlaying = false,
-  onPlayChapter
+  onPlayChapter,
+  isAdVisible = false
 }: ChapterNavigationProps) {
   const hasPreviousBook = currentBook ? getPreviousBook(currentBook.id) !== null : false;
   const hasNextBook = currentBook ? getNextBook(currentBook.id) !== null : false;
@@ -27,7 +29,7 @@ export function ChapterNavigation({
   const canGoNext = currentBook ? (selectedChapter < currentBook.chapters || hasNextBook) : false;
 
   return (
-    <div className="fixed bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 z-40 flex flex-row items-center gap-2 sm:gap-3 bg-amber-500 p-2 sm:p-3 rounded-full shadow-2xl border border-amber-400 backdrop-blur-md">
+    <div className={`fixed ${isAdVisible ? 'bottom-20 sm:bottom-24' : 'bottom-4 sm:bottom-8'} transition-all left-1/2 -translate-x-1/2 z-40 flex flex-row items-center gap-2 sm:gap-3 bg-amber-500 p-2 sm:p-3 rounded-full shadow-2xl border border-amber-400 backdrop-blur-md`}>
       <button
         onClick={onPreviousChapter}
         disabled={!canGoPrevious}
