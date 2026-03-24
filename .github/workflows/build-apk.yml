@@ -37,7 +37,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '17' # Android usually requires Java 17
+          java-version: '21' # Capacitor 8+ requires Java 21
 
       - name: Build APK (Debug)
         working-directory: ./android
