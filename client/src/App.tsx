@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
@@ -9,6 +10,7 @@ import NotFound from "@/pages/not-found";
 import { PremiumProvider } from "@/contexts/PremiumContext";
 import { PremiumModal } from "@/components/monetization/PremiumModal";
 import { InterstitialAd } from "@/components/monetization/InterstitialAd";
+import { initializeMonetization } from "./lib/monetization";
 
 function Router() {
   return (
@@ -21,6 +23,10 @@ function Router() {
 }
 
 function App() {
+  useEffect(() => {
+    initializeMonetization();
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <PremiumProvider>
