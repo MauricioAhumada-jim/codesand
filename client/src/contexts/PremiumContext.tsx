@@ -55,10 +55,16 @@ export function PremiumProvider({ children }: { children: ReactNode }) {
       try {
         await Purchases.setLogLevel({ level: LOG_LEVEL.DEBUG });
 
-        if (Capacitor.getPlatform() === 'ios') {
-          await Purchases.configure({ apiKey: import.meta.env.VITE_REVENUECAT_APPLE_KEY || '' });
-        } else if (Capacitor.getPlatform() === 'android') {
-          await Purchases.configure({ apiKey: import.meta.env.VITE_REVENUECAT_GOOGLE_KEY || '' });
+        const appleKey = import.meta.env.VITE_REVENUECAT_APPLE_KEY;
+        const googleKey = import.meta.env.VITE_REVENUECAT_GOOGLE_KEY;
+
+        if (Capacitor.getPlatform() === 'ios' && appleKey) {
+          await Purchases.configure({ apiKey: appleKey });
+        } else if (Capacitor.getPlatform() === 'android' && googleKey) {
+          await Purchases.configure({ apiKey: googleKey });
+        } else {
+          console.warn("⚠️ RevenueCat: Faltan las API keys en .env, saltando inicialización para evitar crash.");
+          return;
         }
 
         // Obtener el estado del cliente inicial
