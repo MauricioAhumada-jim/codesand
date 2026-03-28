@@ -55,8 +55,8 @@ export function PremiumProvider({ children }: { children: ReactNode }) {
       try {
         await Purchases.setLogLevel({ level: LOG_LEVEL.DEBUG });
 
-        const appleKey = import.meta.env.VITE_REVENUECAT_APPLE_KEY;
-        const googleKey = import.meta.env.VITE_REVENUECAT_GOOGLE_KEY;
+        const appleKey = "goog_SWoiDFxPPxmtrGVZnTqrbSAVsmG"; // Puedes cambiarla después si haces versión iOS
+        const googleKey = "goog_SWoiDFxPPxmtrGVZnTqrbSAVsmG";
 
         if (Capacitor.getPlatform() === 'ios' && appleKey) {
           await Purchases.configure({ apiKey: appleKey });

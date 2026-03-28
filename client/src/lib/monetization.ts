@@ -6,7 +6,7 @@ import { Purchases } from '@revenuecat/purchases-capacitor';
 // 1. REVENUECAT (GOOGLE PLAY BILLING) CONFIG
 // ==========================================
 // REEMPLAZA ESTE VALOR CON TU "PUBLIC API KEY" DE ANDROID EN REVENUECAT
-const REVENUECAT_PUBLIC_GOOGLE_API_KEY = "goog_COLOCA_TU_API_KEY_AQUI";
+const REVENUECAT_PUBLIC_GOOGLE_API_KEY: string = "goog_SWoiDFxPPxmtrGVZnTqrbSAVsmG";
 
 
 // ==========================================
