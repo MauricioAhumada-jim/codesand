@@ -42,21 +42,30 @@ jobs:
           distribution: 'zulu'
           java-version: '21' # Capacitor 8+ requires Java 21
 
-      - name: Build APK (Debug)
+      - name: Setup Keystore
+        working-directory: ./android/app
+        run: |
+          if [ ! -f "release.keystore" ]; then
+            echo "Generating new keystore..."
+            keytool -genkey -v -keystore release.keystore -alias upload -keyalg RSA -keysize 2048 -validity 10000 -storepass "codesand123" -keypass "codesand123" -dname "CN=Codesand, OU=Mobile, O=Codesand, L=City, ST=State, C=US"
+            git config --global user.name "GitHub Actions"
+            git config --global user.email "actions@github.com"
+            git add release.keystore
+            git commit -m "chore: add auto-generated release keystore [skip ci]"
+            git push origin ${{ github.ref_name }}
+          else
+            echo "Keystore already exists."
+          fi
+
+      - name: Build AAB (Release)
         working-directory: ./android
         run: |
           chmod +x ./gradlew
-          ./gradlew assembleDebug
+          ./gradlew bundleRelease
 
-      # Alternatively, for Release builds:
-      # - name: Build APK (Release)
-      #   working-directory: ./android
-      #   run: ./gradlew assembleRelease
-      # NOTE: For a release build, you must configure signing keys in build.gradle.
-
-      - name: Upload APK Artifact
+      - name: Upload AAB Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          name: app-release
+          path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 7

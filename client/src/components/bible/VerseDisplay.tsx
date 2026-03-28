@@ -224,7 +224,7 @@ export function VerseDisplay({
                       onClick={(e) => e.stopPropagation()}
                     >
                       <p className={`text-xs font-semibold mb-2 ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>Guardar con estado de ánimo:</p>
-                      <div className="grid grid-cols-5 gap-2 mb-3">
+                      <div className="flex flex-col gap-1 mb-3">
                         {MOOD_COLORS.map(mood => (
                           <button
                             key={mood.id}
@@ -233,11 +233,18 @@ export function VerseDisplay({
                               setBookmarkMenuOpen(false);
                               setVerseMenuOpen(null);
                             }}
-                            className={`w-8 h-8 rounded-full flex items-center justify-center border-2 hover:scale-110 transition-transform ${getVerseBookmark(idx)?.moodId === mood.id ? 'ring-2 ring-offset-2 ring-gray-400' : 'border-transparent'
+                            className={`flex items-center gap-3 w-full p-2 rounded-lg border hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${getVerseBookmark(idx)?.moodId === mood.id ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/20' : 'border-transparent'
                               }`}
-                            style={{ backgroundColor: mood.colorCode }}
                             title={mood.name}
-                          />
+                          >
+                            <span 
+                               className="w-4 h-4 rounded-full flex-shrink-0 shadow-sm" 
+                               style={{ backgroundColor: mood.colorCode }} 
+                            />
+                            <span className={`text-sm text-left ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>
+                               {mood.name}
+                            </span>
+                          </button>
                         ))}
                       </div>
 

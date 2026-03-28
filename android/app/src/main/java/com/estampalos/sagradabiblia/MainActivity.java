@@ -1,4 +1,4 @@
-package com.codesand.app;
+package com.estampalos.sagradabiblia;
 
 import com.getcapacitor.BridgeActivity;
 

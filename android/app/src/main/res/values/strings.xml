@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">codesand</string>
-    <string name="title_activity_main">codesand</string>
-    <string name="package_name">com.codesand.app</string>
-    <string name="custom_url_scheme">com.codesand.app</string>
+    <string name="app_name">Sagrada Biblia - AudioBiblia</string>
+    <string name="title_activity_main">Sagrada Biblia - AudioBiblia</string>
+    <string name="package_name">com.estampalos.sagradabiblia</string>
+    <string name="custom_url_scheme">com.estampalos.sagradabiblia</string>
 </resources>
