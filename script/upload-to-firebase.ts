@@ -60,25 +60,29 @@ async function uploadFiles() {
   let uploadedCount = 0;
   let skippedCount = 0;
 
-  console.log('\n☁️ Descargando inventario de Firebase Storage para no subir duplicados...');
-  // Esta función descarga en 1-2 segundos todos los nombres de archivo que ya tienes en la nube
-  const [cloudFiles] = await bucket.getFiles();
-  const cloudFilenames = new Set(cloudFiles.map(f => f.name));
-  
-  console.log(`✅ Actualmente tienes ${cloudFilenames.size} archivos alojados en tu Firebase.`);
+  console.log('\n☁️ Modo Cero Memoria Activado: Consultando estatus directo de a 1 por 1...');
   console.log('\n🚀 ¡Iniciando Inyección de Audios Faltantes!\n');
   
   for (const filePath of allFiles) {
     // Tomamos sólo el nombre limpio (ej. genesis_1_1.mp3) y evitamos las subcarpetas tal como pediste
     const fileName = path.basename(filePath);
 
-    if (cloudFilenames.has(fileName)) {
+    // Verificamos directamente en Firebase en lugar de descargar el catálogo a RAM
+    const fileRef = bucket.file(fileName);
+    const [exists] = await fileRef.exists();
+
+    if (exists) {
       skippedCount++;
-      // Solo mostramos algunos en pantalla para no trabar tu PC (si mostramos 30,000 seguidos se congela la pantallita)
+      // Solo mostramos algunos en pantalla para no ahogar la consola
       if (skippedCount <= 3) {
          console.log(`  ⏭️ Ya existe (protegido): ${fileName}`);
       } else if (skippedCount === 4) {
-         console.log(`  ⏭️ (Ocultando los mensajes de salto para no trabar tu pantalla...)`);
+         console.log(`  ⏭️ (Ocultando los mensajes iniciales para no trabar la terminal...)`);
+      } 
+      
+      // Imprimir solo de 500 en 500 para evidenciar el progreso real
+      if (skippedCount % 500 === 0) {
+         console.log(`  ... Progreso rápido: se validaron y saltaron ${skippedCount} audios ya existentes rápidamente.`);
       }
       continue;
     }
