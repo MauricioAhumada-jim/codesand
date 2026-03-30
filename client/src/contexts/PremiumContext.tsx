@@ -69,13 +69,13 @@ export function PremiumProvider({ children }: { children: ReactNode }) {
 
         // Obtener el estado del cliente inicial
         const info = await Purchases.getCustomerInfo();
-        if (typeof info.customerInfo.entitlements.active['Premium'] !== 'undefined') {
+        if (Object.keys(info.customerInfo.entitlements.active).length > 0) {
           setIsPremium(true);
         }
 
         // Escuchar cambios futuros
         Purchases.addCustomerInfoUpdateListener((customerInfo) => {
-          if (typeof customerInfo.entitlements.active['Premium'] !== 'undefined') {
+          if (Object.keys(customerInfo.entitlements.active).length > 0) {
             setIsPremium(true);
           } else {
             setIsPremium(false);
@@ -109,7 +109,7 @@ export function PremiumProvider({ children }: { children: ReactNode }) {
 
     try {
       const result = await Purchases.purchasePackage({ aPackage: packageToBuy });
-      if (typeof result.customerInfo.entitlements.active['Premium'] !== 'undefined') {
+      if (Object.keys(result.customerInfo.entitlements.active).length > 0) {
         setIsPremium(true);
         closePremiumModal();
       }
@@ -129,7 +129,7 @@ export function PremiumProvider({ children }: { children: ReactNode }) {
 
     try {
       const result = await Purchases.restorePurchases();
-      if (typeof result.customerInfo.entitlements.active['Premium'] !== 'undefined') {
+      if (Object.keys(result.customerInfo.entitlements.active).length > 0) {
         setIsPremium(true);
         alert('Tus compras han sido restauradas con éxito.');
         closePremiumModal();
