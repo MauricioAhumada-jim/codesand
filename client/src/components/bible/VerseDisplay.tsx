@@ -107,14 +107,14 @@ export function VerseDisplay({
     const verseText = verses[verseIndex];
     const baseText = `"${verseText}" - ${currentBook?.name} ${selectedChapter}:${verseIndex + 1}`;
     if (includeUrl) {
-      return `${baseText}\n${window.location.href}`;
+      return `${baseText}\nhttps://audiobiblia.netlify.app/`;
     }
     return baseText;
   };
 
   const shareOnFacebook = (verseIndex: number) => {
     const text = encodeURIComponent(getVerseShareText(verseIndex));
-    const url = encodeURIComponent(window.location.href);
+    const url = encodeURIComponent('https://audiobiblia.netlify.app/');
     window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${text}`, '_blank', 'width=600,height=400');
     setVerseMenuOpen(null);
     setVerseShareMenuOpen(false);
@@ -122,7 +122,7 @@ export function VerseDisplay({
 
   const shareOnTwitter = (verseIndex: number) => {
     const text = encodeURIComponent(getVerseShareText(verseIndex));
-    const url = encodeURIComponent(window.location.href);
+    const url = encodeURIComponent('https://audiobiblia.netlify.app/');
     window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank', 'width=600,height=400');
     setVerseMenuOpen(null);
     setVerseShareMenuOpen(false);
