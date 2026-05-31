@@ -11,6 +11,7 @@ import { PremiumProvider } from "@/contexts/PremiumContext";
 import { PremiumModal } from "@/components/monetization/PremiumModal";
 import { InterstitialAd } from "@/components/monetization/InterstitialAd";
 import { initializeMonetization } from "./lib/monetization";
+import { initializeNotifications } from "./lib/notifications";
 
 function Router() {
   return (
@@ -25,6 +26,7 @@ function Router() {
 function App() {
   useEffect(() => {
     initializeMonetization();
+    initializeNotifications();
   }, []);
 
   return (
