@@ -14,7 +14,7 @@ export function AdBanner({ isVisible, onClose }: AdBannerProps) {
   if (isPremium || !isVisible) return null;
 
   return (
-    <div className={`fixed bottom-0 left-0 right-0 z-[60] w-full border-t shadow-[0_-4px_20px_rgba(0,0,0,0.1)] transition-all ${
+    <div className={`fixed bottom-0 left-0 right-0 z-[60] w-full border-t shadow-[0_-4px_20px_rgba(0,0,0,0.1)] transition-all ad-banner-container ${
       darkMode ? 'bg-gray-900 border-gray-800' : 'bg-white border-amber-100'
     }`}>
       <div className="max-w-4xl mx-auto flex items-center p-2 sm:p-3 relative">

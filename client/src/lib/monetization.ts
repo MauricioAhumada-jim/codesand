@@ -16,8 +16,8 @@ const REVENUECAT_PUBLIC_GOOGLE_API_KEY: string = "goog_SWoiDFxPPxmtrGVZnTqrbSAVs
 
 // ESTOS SON IDs DE PRUEBA OFICIALES DE GOOGLE. 
 // ¡Cámbialos a los tuyos antes de publicar en la Play Store!
-const BANNER_AD_UNIT_ID = "ca-app-pub-3940256099942544/6300978111"; 
-const INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712"; 
+const BANNER_AD_UNIT_ID = "ca-app-pub-3034050578955042/8610143094"; 
+const INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-3034050578955042/1328607698"; 
 
 
 /**
@@ -59,7 +59,7 @@ export async function showBannerAd() {
       adSize: BannerAdSize.ADAPTIVE_BANNER,
       position: BannerAdPosition.BOTTOM_CENTER,
       margin: 0,
-      isTesting: true // Pon en falso cuando vayas a producción
+      isTesting: false // Pon en falso cuando vayas a producción
     });
     console.log("✅ AdMob: Banner mostrado");
   } catch (error) {
@@ -88,7 +88,7 @@ export async function showInterstitialAd() {
   try {
     await AdMob.prepareInterstitial({
       adId: INTERSTITIAL_AD_UNIT_ID,
-      isTesting: true // Pon en falso cuando vayas a producción
+      isTesting: false // Pon en falso cuando vayas a producción
     });
     await AdMob.showInterstitial();
     console.log("✅ AdMob: Intersticial mostrado");

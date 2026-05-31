@@ -305,10 +305,10 @@ export function BibleReader() {
 
         {viewMode === 'reader' ? (
           <>
-            <main className={`flex-1 p-4 sm:p-6 md:p-8 ${isAdVisible && !isPremium ? 'pb-40 lg:pb-48' : 'pb-32 lg:pb-36'} max-w-4xl mx-auto w-full relative pt-20 lg:pt-12 transition-all`}>
+            <main className={`flex-1 p-4 sm:p-6 md:p-8 ${isAdVisible && !isPremium ? 'pb-40 lg:pb-48' : 'pb-32 lg:pb-36'} max-w-4xl mx-auto w-full relative bible-reader-main transition-all`}>
               {/* Controles Menú Superior (Solo Lector) */}
               {!sidebarOpen && (
-                <div className="absolute top-4 left-4 lg:-left-4 xl:-left-12 z-10 transition-all duration-300">
+                <div className="absolute safe-hamburger left-4 lg:-left-4 xl:-left-12 z-10 transition-all duration-300">
                   <button
                     onClick={() => setSidebarOpen(true)}
                     className={`p-2 rounded-lg shadow-md ${darkMode ? 'bg-gray-800 text-amber-500 border-gray-700 hover:bg-gray-700' : 'bg-white text-amber-500 border-amber-200 hover:bg-amber-50'} border transition-opacity`}
@@ -401,10 +401,10 @@ export function BibleReader() {
           </>
         ) : (
           <>
-            <div className="flex-1 relative pt-20 lg:pt-12">
+            <div className="flex-1 relative bible-reader-main">
               {/* Controles Menú Superior (Solo Lector) */}
               {!sidebarOpen && (
-                <div className="absolute top-4 left-4 lg:-left-4 xl:-left-12 z-10 transition-all duration-300">
+                <div className="absolute safe-hamburger left-4 lg:-left-4 xl:-left-12 z-10 transition-all duration-300">
                   <button
                     onClick={() => setSidebarOpen(true)}
                     className={`p-2 rounded-lg shadow-md ${darkMode ? 'bg-gray-800 text-amber-500 border-gray-700 hover:bg-gray-700' : 'bg-white text-amber-500 border-amber-200 hover:bg-amber-50'} border transition-opacity`}

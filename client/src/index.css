@@ -289,4 +289,37 @@
   .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
     inset: -1px;
   }
+
+  /* Safe Area Utilities */
+  .bible-reader-main {
+    padding-top: calc(5rem + env(safe-area-inset-top));
+  }
+  @media (min-width: 1024px) {
+    .bible-reader-main {
+      padding-top: 3rem;
+    }
+  }
+
+  .safe-hamburger {
+    top: calc(1rem + env(safe-area-inset-top)) !important;
+  }
+
+  .chapter-nav-container {
+    bottom: calc(1rem + env(safe-area-inset-bottom)) !important;
+  }
+  .chapter-nav-container.ad-visible {
+    bottom: calc(5rem + env(safe-area-inset-bottom)) !important;
+  }
+  @media (min-width: 640px) {
+    .chapter-nav-container {
+      bottom: calc(2rem + env(safe-area-inset-bottom)) !important;
+    }
+    .chapter-nav-container.ad-visible {
+      bottom: calc(6rem + env(safe-area-inset-bottom)) !important;
+    }
+  }
+
+  .ad-banner-container {
+    padding-bottom: env(safe-area-inset-bottom) !important;
+  }
 }

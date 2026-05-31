@@ -54,6 +54,10 @@ export function BibleSidebar({
   return (
     <aside
       className={`${sidebarOpen ? 'w-80' : 'w-0'} fixed lg:relative inset-y-0 left-0 transition-all duration-300 overflow-hidden ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-amber-200'} border-r h-screen lg:h-auto top-0 z-40`}
+      style={{
+        paddingTop: 'env(safe-area-inset-top)',
+        paddingBottom: 'env(safe-area-inset-bottom)'
+      }}
       data-testid="sidebar"
     >
       <div className="h-full w-80 flex flex-col overflow-y-auto scrollbar-hide pt-0">
