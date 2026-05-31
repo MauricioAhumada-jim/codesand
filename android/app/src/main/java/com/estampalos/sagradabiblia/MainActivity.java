@@ -12,7 +12,7 @@ public class MainActivity extends BridgeActivity {
     }
 
     @Override
-    protected void onStart() {
+    public void onStart() {
         super.onStart();
         // Obtener la WebView del puente de Capacitor y deshabilitar el requisito de interacción del usuario para reproducir audio
         if (this.bridge != null && this.bridge.getWebView() != null) {
