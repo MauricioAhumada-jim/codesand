@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { X, ExternalLink } from 'lucide-react';
 import { usePremium } from '@/contexts/PremiumContext';
 import { useBibleTheme } from '@/hooks/use-bible-theme';
+import { showInterstitialAd } from '@/lib/monetization';
+import { Capacitor } from '@capacitor/core';
 
 export function InterstitialAd() {
   const { isPremium, hasSeenInterstitial, markInterstitialAsSeen, openPremiumModal } = usePremium();
@@ -15,7 +17,13 @@ export function InterstitialAd() {
     // Add a small delay so it doesn't pop immediately on load
     if (!isPremium && !hasSeenInterstitial) {
       const timer = setTimeout(() => {
-        setIsVisible(true);
+        if (Capacitor.isNativePlatform()) {
+          // Mostrar anuncio real de AdMob
+          showInterstitialAd();
+        } else {
+          // Mostrar simulación web
+          setIsVisible(true);
+        }
         markInterstitialAsSeen();
       }, 2000);
       return () => clearTimeout(timer);

@@ -1,6 +1,9 @@
+import { useEffect } from 'react';
 import { X } from 'lucide-react';
 import { usePremium } from '@/contexts/PremiumContext';
 import { useBibleTheme } from '@/hooks/use-bible-theme';
+import { showBannerAd, hideBannerAd } from '@/lib/monetization';
+import { Capacitor } from '@capacitor/core';
 
 interface AdBannerProps {
   isVisible: boolean;
@@ -10,6 +13,29 @@ interface AdBannerProps {
 export function AdBanner({ isVisible, onClose }: AdBannerProps) {
   const { isPremium, openPremiumModal } = usePremium();
   const { darkMode } = useBibleTheme();
+
+  useEffect(() => {
+    if (Capacitor.isNativePlatform()) {
+      if (isVisible && !isPremium) {
+        showBannerAd();
+      } else {
+        hideBannerAd();
+      }
+    }
+
+    // Cleanup: esconder banner al desmontar el componente
+    return () => {
+      if (Capacitor.isNativePlatform()) {
+        hideBannerAd();
+      }
+    };
+  }, [isVisible, isPremium]);
+
+  if (Capacitor.isNativePlatform()) {
+    // El banner nativo de AdMob se renderiza a nivel de OS encima de la webview,
+    // por lo que no es necesario dibujar el contenedor HTML simulado.
+    return null;
+  }
 
   if (isPremium || !isVisible) return null;
 
