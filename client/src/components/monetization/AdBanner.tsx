@@ -32,9 +32,22 @@ export function AdBanner({ isVisible, onClose }: AdBannerProps) {
   }, [isVisible, isPremium]);
 
   if (Capacitor.isNativePlatform()) {
-    // El banner nativo de AdMob se renderiza a nivel de OS encima de la webview,
-    // por lo que no es necesario dibujar el contenedor HTML simulado.
-    return null;
+    if (isPremium || !isVisible) return null;
+
+    return (
+      <button
+        onClick={onClose}
+        style={{ bottom: 'calc(56px + env(safe-area-inset-bottom))' }}
+        className={`fixed right-3 p-1.5 rounded-full z-[100] shadow-lg transition-colors border ${
+          darkMode 
+            ? 'bg-gray-900/95 text-gray-400 hover:text-white border-gray-700' 
+            : 'bg-white/95 text-gray-500 hover:text-gray-900 border-amber-200'
+        }`}
+        aria-label="Cerrar anuncio"
+      >
+        <X size={14} />
+      </button>
+    );
   }
 
   if (isPremium || !isVisible) return null;

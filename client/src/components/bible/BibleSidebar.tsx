@@ -1,6 +1,7 @@
-import { Search, X, Heart, Bookmark as BookmarkIcon, LayoutList, Book as BookIcon, Music, Volume2, VolumeX, Type } from 'lucide-react';
+import { Search, X, Heart, Bookmark as BookmarkIcon, LayoutList, Book as BookIcon, Music, Volume2, VolumeX, Type, Sparkles } from 'lucide-react';
 import { Link } from 'wouter';
 import { bibleStructure, MOOD_COLORS } from '@/lib/bible-data';
+import { usePremium } from '@/contexts/PremiumContext';
 
 interface BibleSidebarProps {
   darkMode: boolean;
@@ -51,6 +52,7 @@ export function BibleSidebar({
   onIncreaseFontSize,
   onDecreaseFontSize
 }: BibleSidebarProps) {
+  const { isPremium, openPremiumModal } = usePremium();
   return (
     <aside
       className={`${sidebarOpen ? 'w-80' : 'w-0'} fixed lg:relative inset-y-0 left-0 transition-all duration-300 overflow-hidden ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-amber-200'} border-r h-screen lg:h-auto top-0 z-40`}
@@ -119,6 +121,32 @@ export function BibleSidebar({
         </div>
 
         <div className="p-4">
+          {/* Banner Premium */}
+          {!isPremium && (
+            <div 
+              onClick={openPremiumModal}
+              className={`mb-4 p-3 rounded-lg border cursor-pointer transition-all hover:scale-[1.01] active:scale-[0.99] shadow-sm flex items-center gap-3 group ${
+                darkMode 
+                  ? 'bg-gradient-to-r from-amber-950/40 to-yellow-950/40 border-amber-900/50 hover:border-amber-800' 
+                  : 'bg-gradient-to-r from-amber-50 to-yellow-50/50 border-amber-200 hover:border-amber-300'
+              }`}
+            >
+              <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${
+                darkMode ? 'bg-amber-500/20 text-amber-400' : 'bg-amber-100 text-amber-600'
+              }`}>
+                <Sparkles size={16} className="animate-pulse" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <h4 className={`text-xs font-bold ${darkMode ? 'text-amber-400' : 'text-amber-800'}`}>
+                  Hazte Premium
+                </h4>
+                <p className={`text-[10px] truncate ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+                  Escucha sin límites y sin anuncios.
+                </p>
+              </div>
+            </div>
+          )}
+
           {viewMode === 'reader' ? (
             <>
               <div className="mb-4">

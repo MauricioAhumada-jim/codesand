@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'wouter';
 import { useBibleTheme } from '@/hooks/use-bible-theme';
 import { useAudioPlayer } from '@/hooks/use-audio-player';
@@ -15,6 +15,26 @@ export function BibleReader() {
   const { darkMode, toggleDarkMode } = useBibleTheme();
   const { isPremium } = usePremium();
   const [isAdVisible, setIsAdVisible] = useState(!isPremium);
+  const adTimeoutRef = useRef<any>(null);
+
+  useEffect(() => {
+    return () => {
+      if (adTimeoutRef.current) {
+        clearTimeout(adTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  const handleCloseAd = () => {
+    setIsAdVisible(false);
+    if (adTimeoutRef.current) {
+      clearTimeout(adTimeoutRef.current);
+    }
+    // Volver a mostrar el anuncio después de 3 minutos (180000 ms)
+    adTimeoutRef.current = setTimeout(() => {
+      setIsAdVisible(true);
+    }, 180000);
+  };
   const [sidebarOpen, setSidebarOpen] = useState(() =>
     typeof window !== 'undefined' ? window.innerWidth >= 1024 : false
   );
@@ -426,7 +446,7 @@ export function BibleReader() {
           </>
         )}
       </div>
-      <AdBanner isVisible={isAdVisible} onClose={() => setIsAdVisible(false)} />
+      <AdBanner isVisible={isAdVisible} onClose={handleCloseAd} />
     </div>
   );
 }
