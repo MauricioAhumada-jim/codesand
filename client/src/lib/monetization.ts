@@ -71,7 +71,7 @@ export async function showBannerAd() {
 }
 
 /**
- * Oculta el anuncio de Banner de la pantalla.
+ * Oculta y destruye el anuncio de Banner de la pantalla.
  */
 export async function hideBannerAd() {
   if (!Capacitor.isNativePlatform()) return;
@@ -79,13 +79,14 @@ export async function hideBannerAd() {
     // Asegurar que AdMob está completamente inicializado antes de ocultar
     await initializeMonetization();
     if (!isAdMobInitialized) {
-      console.warn("⚠️ AdMob no está inicializado. No se puede ocultar el banner.");
+      console.warn("⚠️ AdMob no está inicializado. No se puede remover el banner.");
       return;
     }
 
-    await AdMob.hideBanner();
+    await AdMob.removeBanner();
+    console.log("✅ AdMob: Banner removido y destruido");
   } catch (error) {
-    console.error("❌ Error ocultando banner AdMob:", error);
+    console.error("❌ Error removiendo banner AdMob:", error);
   }
 }
 
