@@ -97,8 +97,7 @@ export async function scheduleDailyBibleVerses() {
         title: "📖 Momento de reflexionar",
         body: `"${verse.text}" — ${verse.citation}. Tómate un momento hoy para leer la palabra de Dios.`,
         schedule: {
-          at: scheduleDate,
-          allowWhileIdle: true // Asegura que se active incluso en Doze/suspensión profunda de batería
+          at: scheduleDate
         },
         sound: undefined,
         attachments: [],
