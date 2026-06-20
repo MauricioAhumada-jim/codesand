@@ -46,7 +46,19 @@ export async function initializeNotifications() {
   }
 
   try {
-    // 1. Verificar y solicitar permisos de notificaciones de forma segura
+    // 1. Crear el canal de notificaciones con importancia alta (Banner + Sonido)
+    await LocalNotifications.createChannel({
+      id: 'daily-verses-v1',
+      name: 'Versículos Diarios',
+      description: 'Recordatorios con versículos de la Biblia por la mañana, tarde y noche',
+      importance: 5, // 5 = IMPORTANCE_MAX / IMPORTANCE_HIGH (muestra el banner)
+      visibility: 1, // 1 = VISIBILITY_PUBLIC (visible en pantalla de bloqueo)
+      vibration: true,
+      sound: 'default'
+    });
+    console.log("✅ Canal de notificaciones 'daily-verses-v1' creado correctamente.");
+
+    // 2. Verificar y solicitar permisos de notificaciones de forma segura
     let status = await LocalNotifications.checkPermissions();
     if (status.display !== 'granted') {
       status = await LocalNotifications.requestPermissions();
@@ -65,7 +77,7 @@ export async function initializeNotifications() {
 
 export async function scheduleDailyBibleVerses() {
   try {
-    // 1. Cancelar las notificaciones programadas anteriores para evitar duplicados y desorden
+    // 1. Cancelar las notificaciones programadas anteriores para evitar duplicados
     const pending = await LocalNotifications.getPending();
     if (pending.notifications.length > 0) {
       await LocalNotifications.cancel({
@@ -76,37 +88,90 @@ export async function scheduleDailyBibleVerses() {
 
     const notifications = [];
     const chosenIndices = new Set<number>();
+    const now = new Date();
 
-    // 2. Programar 14 días de notificaciones (las próximas dos semanas)
-    for (let i = 1; i <= 14; i++) {
-      // Obtener un versículo aleatorio sin repetir en la misma tanda si es posible
-      let randomIndex = Math.floor(Math.random() * BIBLE_VERSES.length);
-      while (chosenIndices.size < BIBLE_VERSES.length && chosenIndices.has(randomIndex)) {
-        randomIndex = Math.floor(Math.random() * BIBLE_VERSES.length);
+    const timeConfigs = {
+      8: {
+        titles: [
+          "✨ Un nuevo día en su Palabra",
+          "☀️ Tu bendición de la mañana",
+          "🕊️ Comienza tu día con fe"
+        ],
+        suffix: "Que la palabra de Dios guíe hoy tus pasos. Toca para abrir."
+      },
+      14: {
+        titles: [
+          "📖 Un respiro para tu alma",
+          "🌱 Renueva tus fuerzas hoy",
+          "⚡ Tu pausa de fe y paz"
+        ],
+        suffix: "Tómate un breve momento para reconectar con Dios. Toca para leer."
+      },
+      20: {
+        titles: [
+          "🌙 Paz para tu descanso",
+          "🌌 Termina tu día en su amor",
+          "🙏 Descansa confiado en el Señor"
+        ],
+        suffix: "Entrega tu noche a Dios y descansa en paz. Toca aquí."
       }
-      chosenIndices.add(randomIndex);
-      const verse = BIBLE_VERSES[randomIndex];
+    };
 
-      // Definir la fecha del recordatorio para las 9:00 AM del día 'i'
-      const scheduleDate = new Date();
-      scheduleDate.setDate(scheduleDate.getDate() + i);
-      scheduleDate.setHours(9, 0, 0, 0);
+    // 2. Programar para los próximos 10 días, 3 veces al día
+    for (let dayOffset = 0; dayOffset < 10; dayOffset++) {
+      const times = [
+        { hour: 8, label: "Mañana" },
+        { hour: 14, label: "Tarde" },
+        { hour: 20, label: "Noche" }
+      ];
 
-      notifications.push({
-        id: 1000 + i, // IDs únicos del 1001 al 1014
-        title: "📖 Momento de reflexionar",
-        body: `"${verse.text}" — ${verse.citation}. Tómate un momento hoy para leer la palabra de Dios.`,
-        schedule: {
-          at: scheduleDate
-        },
-        sound: undefined,
-        attachments: [],
-        extra: null
-      });
+      for (const timeObj of times) {
+        const scheduleDate = new Date();
+        scheduleDate.setDate(scheduleDate.getDate() + dayOffset);
+        scheduleDate.setHours(timeObj.hour, 0, 0, 0);
+
+        // Si la hora programada ya pasó, saltar esta iteración
+        if (scheduleDate.getTime() <= now.getTime()) {
+          continue;
+        }
+
+        // Obtener un versículo aleatorio sin repetir en la misma tanda si es posible
+        let randomIndex = Math.floor(Math.random() * BIBLE_VERSES.length);
+        while (chosenIndices.size < BIBLE_VERSES.length && chosenIndices.has(randomIndex)) {
+          randomIndex = Math.floor(Math.random() * BIBLE_VERSES.length);
+        }
+        chosenIndices.add(randomIndex);
+        if (chosenIndices.size === BIBLE_VERSES.length) {
+          chosenIndices.clear(); // Resetear si agotamos los versículos
+        }
+        const verse = BIBLE_VERSES[randomIndex];
+
+        const config = timeConfigs[timeObj.hour as 8 | 14 | 20];
+        const randomTitleIndex = Math.floor(Math.random() * config.titles.length);
+        const title = config.titles[randomTitleIndex];
+        const body = `"${verse.text}" — ${verse.citation}. ${config.suffix}`;
+
+        notifications.push({
+          id: 2000 + dayOffset * 3 + (timeObj.hour === 8 ? 0 : timeObj.hour === 14 ? 1 : 2),
+          title: title,
+          body: body,
+          channelId: 'daily-verses-v1', // Canal de alta prioridad para banner emergente
+          schedule: {
+            at: scheduleDate
+          },
+          sound: undefined,
+          attachments: [],
+          extra: null
+        });
+      }
     }
 
-    await LocalNotifications.schedule({ notifications });
-    console.log("📅 14 días de versículos diarios programados con éxito.");
+    if (notifications.length > 0) {
+      await LocalNotifications.schedule({ notifications });
+      console.log(`📅 ${notifications.length} notificaciones de versículos programadas con éxito (3 veces al día).`);
+    } else {
+      console.log("ℹ️ No se programaron nuevas notificaciones porque todas las horas asignadas para hoy ya pasaron.");
+    }
   } catch (error) {
     console.error("❌ Error programando versículos diarios:", error);
   }
